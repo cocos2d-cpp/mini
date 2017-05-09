@@ -28,7 +28,6 @@
 #include "platform/CCGLView.h"
 #include "base/CCDirector.h"
 #include "platform/CCFileUtils.h"
-#include "ui/UIWebViewImpl-tizen.h"
 
 namespace cocos2d {
 namespace experimental{

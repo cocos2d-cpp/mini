@@ -434,8 +434,6 @@ protected:
     #include "platform/desktop/CCGLViewImpl-desktop.h"
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
 	#include "platform/winrt/CCGLViewImpl-winrt.h"
-#elif (CC_TARGET_PLATFORM == CC_PLATFORM_TIZEN)
-	#include "platform/tizen/CCGLViewImpl-tizen.h"
 #else
     #error Unsupported platform
 #endif

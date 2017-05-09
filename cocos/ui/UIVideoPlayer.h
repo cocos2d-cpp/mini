@@ -27,8 +27,8 @@
 
 #include "platform/CCPlatformConfig.h"
 
-#if (CC_TARGET_PLATFORM != CC_PLATFORM_ANDROID && CC_TARGET_PLATFORM != CC_PLATFORM_IOS && CC_TARGET_PLATFORM != CC_PLATFORM_TIZEN)
-#   error Unsupported platform. Only Android, iOS, Tizen are supported
+#if (CC_TARGET_PLATFORM != CC_PLATFORM_ANDROID && CC_TARGET_PLATFORM != CC_PLATFORM_IOS)
+#   error Unsupported platform. Only Android, iOS are supported
 #endif
 
 #include "ui/UIWidget.h"

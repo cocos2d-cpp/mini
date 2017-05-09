@@ -49,7 +49,6 @@ THE SOFTWARE.
 #define CC_PLATFORM_MAC                8
 #define CC_PLATFORM_NACL               9
 #define CC_PLATFORM_EMSCRIPTEN        10
-#define CC_PLATFORM_TIZEN             11
 #define CC_PLATFORM_QT5               12
 #define CC_PLATFORM_WINRT             13
 
@@ -116,12 +115,6 @@ THE SOFTWARE.
     #define CC_TARGET_PLATFORM     CC_PLATFORM_EMSCRIPTEN
 #endif
 
-// tizen
-#if defined(TIZEN)
-    #undef  CC_TARGET_PLATFORM
-    #define CC_TARGET_PLATFORM     CC_PLATFORM_TIZEN
-#endif
-
 // qt5
 #if defined(CC_TARGET_QT5)
     #undef  CC_TARGET_PLATFORM
@@ -149,7 +142,7 @@ THE SOFTWARE.
 #endif
 #endif  // CC_PLATFORM_WIN32
 
-#if ((CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID) || (CC_TARGET_PLATFORM == CC_PLATFORM_IOS) || (CC_TARGET_PLATFORM == CC_PLATFORM_TIZEN))
+#if ((CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID) || (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     #define CC_PLATFORM_MOBILE
 #else
     #define CC_PLATFORM_PC

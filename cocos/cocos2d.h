@@ -235,13 +235,6 @@ THE SOFTWARE.
 	#include "platform/winrt/CCStdC.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_WINRT
 
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_TIZEN)
-	#include "platform/tizen/CCApplication-tizen.h"
-	#include "platform/tizen/CCGLViewImpl-tizen.h"
-	#include "platform/tizen/CCGL-tizen.h"
-	#include "platform/tizen/CCStdC-tizen.h"
-#endif
-
 // sprite_nodes
 #include "2d/CCAnimation.h"
 #include "2d/CCAnimationCache.h"

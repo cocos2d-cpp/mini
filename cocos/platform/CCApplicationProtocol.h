@@ -54,7 +54,6 @@ public:
         OS_BLACKBERRY,  /**< BlackBerry */
         OS_NACL,        /**< Native Client in Chrome */
         OS_EMSCRIPTEN,  /**< Emscripten */
-        OS_TIZEN,       /**< Tizen */
         OS_WINRT,       /**< Windows Runtime Applications */
         OS_WP8          /**< Windows Phone 8 Applications */
     };
