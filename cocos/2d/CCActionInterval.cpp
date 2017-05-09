@@ -605,20 +605,8 @@ void RotateTo::step(float time)
     }
     else
     {
-#if CC_USE_PHYSICS
-        if (_startAngle.x == _startAngle.y && _diffAngle.x == _diffAngle.y)
-        {
-            getTarget()->setRotation(_startAngle.x + _diffAngle.x * time);
-        }
-        else
-        {
-            getTarget()->setRotationSkewX(_startAngle.x + _diffAngle.x * time);
-            getTarget()->setRotationSkewY(_startAngle.y + _diffAngle.y * time);
-        }
-#else
         getTarget()->setRotationSkewX(_startAngle.x + _diffAngle.x * time);
         getTarget()->setRotationSkewY(_startAngle.y + _diffAngle.y * time);
-#endif // CC_USE_PHYSICS
     }
 }
 

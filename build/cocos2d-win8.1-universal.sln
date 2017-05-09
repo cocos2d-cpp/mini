@@ -21,14 +21,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-tests.WindowsPhone", ".
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{85630454-74EA-4B5B-9B62-0E459B4476CB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libbox2d", "libbox2d", "{B3D1A3D5-9F54-43AF-9322-230B53242B78}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbox2d.Shared", "..\external\Box2D\proj.win8.1-universal\libbox2d.Shared\libbox2d.Shared.vcxitems", "{4A3C6BA8-C227-498B-AA21-40BDA27B461F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbox2d.Windows", "..\external\Box2D\proj.win8.1-universal\libbox2d.Windows\libbox2d.Windows.vcxproj", "{3B26A12D-3A44-47EA-82D2-282660FC844D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbox2d.WindowsPhone", "..\external\Box2D\proj.win8.1-universal\libbox2d.WindowsPhone\libbox2d.WindowsPhone.vcxproj", "{22F798D8-BFFF-4754-996F-A5395343D5EC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libSpine", "libSpine", "{6FEB795C-C98C-4C8C-A88B-A35DEE205348}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libSpine.Shared", "..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems", "{ADAFD00D-A0D6-46EF-9F0B-EA2880BFE1DE}"
@@ -44,14 +36,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloCpp.Windows", "..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.Windows\HelloCpp.Windows.vcxproj", "{79A8FCDA-4B12-4DD1-B676-FF148D651638}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloCpp.WindowsPhone", "..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.WindowsPhone\HelloCpp.WindowsPhone.vcxproj", "{396FE85E-BB05-4B92-BCCB-F89AED4EA41A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libbullet", "libbullet", "{0500043C-7E95-4351-97D6-0382A8C92DD3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbullet.Shared", "..\external\bullet\proj.win8.1-universal\libbullet.Shared\libbullet.Shared.vcxitems", "{16AF311F-74CA-45A3-A82D-6334200FB124}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbullet.Windows", "..\external\bullet\proj.win8.1-universal\libbullet.Windows\libbullet.Windows.vcxproj", "{EC2B1292-2D8C-4FEB-A84B-2550B32C1AE7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbullet.WindowsPhone", "..\external\bullet\proj.win8.1-universal\libbullet.WindowsPhone\libbullet.WindowsPhone.vcxproj", "{E35634BD-B91B-4A6D-B957-96F56DD065F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "librecast", "librecast", "{F07894BD-4919-4C5F-9CCD-1B8168466573}"
 EndProject
@@ -87,21 +71,15 @@ Global
 		..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.Shared\HelloCpp.Shared.vcxitems*{a3ad93e4-0b2f-4c58-9181-69bed2e42e3e}*SharedItemsImports = 9
 		..\tests\js-tests\project\proj.win8.1-universal\App.Shared\js-tests.Shared.vcxitems*{70914fc8-7709-4cd6-b86b-c63fde5478db}*SharedItemsImports = 4
 		..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems*{cc1da216-a80d-4be4-b309-acb6af313aff}*SharedItemsImports = 4
-		..\external\Box2D\proj.win8.1-universal\libbox2d.Shared\libbox2d.Shared.vcxitems*{4a3c6ba8-c227-498b-aa21-40bda27b461f}*SharedItemsImports = 9
 		..\external\recast\proj.win8.1-universal\librecast.Shared\librecast.Shared.vcxitems*{f39a11fb-0d36-4b0a-91f1-345f1f0c9aa9}*SharedItemsImports = 9
-		..\external\bullet\proj.win8.1-universal\libbullet.Shared\libbullet.Shared.vcxitems*{e35634bd-b91b-4a6d-b957-96f56dd065f9}*SharedItemsImports = 4
 		..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.Shared\HelloCpp.Shared.vcxitems*{79a8fcda-4b12-4dd1-b676-ff148d651638}*SharedItemsImports = 4
-		..\external\bullet\proj.win8.1-universal\libbullet.Shared\libbullet.Shared.vcxitems*{ec2b1292-2d8c-4feb-a84b-2550b32c1ae7}*SharedItemsImports = 4
 		..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems*{adafd00d-a0d6-46ef-9f0b-ea2880bfe1de}*SharedItemsImports = 9
 		..\tests\cpp-tests\proj.win8.1-universal\cpp-tests.Shared\cpp-tests.Shared.vcxitems*{be3a1791-5bce-4cea-92cd-0e2d86dde27a}*SharedItemsImports = 9
-		..\external\bullet\proj.win8.1-universal\libbullet.Shared\libbullet.Shared.vcxitems*{16af311f-74ca-45a3-a82d-6334200fb124}*SharedItemsImports = 9
 		..\cocos\scripting\js-bindings\proj.win8.1-universal\libjscocos2d\libjscocos2d.Shared\libjscocos2d.Shared.vcxitems*{ca082ec4-17ce-430b-8207-d1e947a5d1e9}*SharedItemsImports = 4
 		..\cocos\2d\libcocos2d_8_1\libcocos2d_8_1\libcocos2d_8_1.Shared\libcocos2d_8_1.Shared.vcxitems*{5d6f020f-7e72-4494-90a0-2df11d235df9}*SharedItemsImports = 9
 		..\cocos\scripting\js-bindings\proj.win8.1-universal\libjscocos2d\libjscocos2d.Shared\libjscocos2d.Shared.vcxitems*{bea66276-51dd-4c53-92a8-f3d1fea50892}*SharedItemsImports = 9
 		..\cocos\scripting\js-bindings\proj.win8.1-universal\libjscocos2d\libjscocos2d.Shared\libjscocos2d.Shared.vcxitems*{bcf5546d-66a0-4998-afd6-c5514f618930}*SharedItemsImports = 4
-		..\external\Box2D\proj.win8.1-universal\libbox2d.Shared\libbox2d.Shared.vcxitems*{3b26a12d-3a44-47ea-82d2-282660fc844d}*SharedItemsImports = 4
 		..\cocos\2d\libcocos2d_8_1\libcocos2d_8_1\libcocos2d_8_1.Shared\libcocos2d_8_1.Shared.vcxitems*{22f3b9df-1209-4574-8331-003966f562bf}*SharedItemsImports = 4
-		..\external\Box2D\proj.win8.1-universal\libbox2d.Shared\libbox2d.Shared.vcxitems*{22f798d8-bfff-4754-996f-a5395343d5ec}*SharedItemsImports = 4
 		..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems*{f3550fe0-c795-44f6-8feb-093eb68143ae}*SharedItemsImports = 4
 		..\tests\cpp-tests\proj.win8.1-universal\cpp-tests.Shared\cpp-tests.Shared.vcxitems*{f2bae06b-caae-43ee-b21b-57fa48db04fa}*SharedItemsImports = 4
 		..\external\recast\proj.win8.1-universal\librecast.Shared\librecast.Shared.vcxitems*{d3bcfc1a-94bd-43b7-9c15-3f48ac6a9fac}*SharedItemsImports = 4

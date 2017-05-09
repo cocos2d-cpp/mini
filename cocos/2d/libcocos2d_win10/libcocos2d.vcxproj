@@ -198,8 +198,6 @@
     <ClCompile Include="..\..\..\extensions\Particle3D\PU\CCPUVertexEmitter.cpp" />
     <ClCompile Include="..\..\..\extensions\Particle3D\PU\CCPUVortexAffector.cpp" />
     <ClCompile Include="..\..\..\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp" />
-    <ClCompile Include="..\..\..\extensions\physics-nodes\CCPhysicsDebugNode.cpp" />
-    <ClCompile Include="..\..\..\extensions\physics-nodes\CCPhysicsSprite.cpp" />
     <ClCompile Include="..\..\..\external\clipper\clipper.cpp" />
     <ClCompile Include="..\..\..\external\ConvertUTF\ConvertUTF.c">
       <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsWinRT>
@@ -456,19 +454,6 @@
     <ClCompile Include="..\..\network\HttpCookie.cpp" />
     <ClCompile Include="..\..\network\SocketIO.cpp" />
     <ClCompile Include="..\..\network\WebSocket.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3D.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3DComponent.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3DConstraint.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3DDebugDrawer.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3DObject.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3DShape.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysics3DWorld.cpp" />
-    <ClCompile Include="..\..\physics3d\CCPhysicsSprite3D.cpp" />
-    <ClCompile Include="..\..\physics\CCPhysicsBody.cpp" />
-    <ClCompile Include="..\..\physics\CCPhysicsContact.cpp" />
-    <ClCompile Include="..\..\physics\CCPhysicsJoint.cpp" />
-    <ClCompile Include="..\..\physics\CCPhysicsShape.cpp" />
-    <ClCompile Include="..\..\physics\CCPhysicsWorld.cpp" />
     <ClCompile Include="..\..\platform\CCFileUtils.cpp" />
     <ClCompile Include="..\..\platform\CCGLView.cpp" />
     <ClCompile Include="..\..\platform\CCImage.cpp" />
@@ -804,8 +789,6 @@
     <ClInclude Include="..\..\..\extensions\Particle3D\PU\CCPUVertexEmitter.h" />
     <ClInclude Include="..\..\..\extensions\Particle3D\PU\CCPUVortexAffector.h" />
     <ClInclude Include="..\..\..\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.h" />
-    <ClInclude Include="..\..\..\extensions\physics-nodes\CCPhysicsDebugNode.h" />
-    <ClInclude Include="..\..\..\extensions\physics-nodes\CCPhysicsSprite.h" />
     <ClInclude Include="..\..\..\external\clipper\clipper.hpp" />
     <ClInclude Include="..\..\..\external\ConvertUTF\ConvertUTF.h" />
     <ClInclude Include="..\..\..\external\edtaa3func\edtaa3func.h" />
@@ -949,20 +932,6 @@
     <ClInclude Include="..\..\network\HttpResponse.h" />
     <ClInclude Include="..\..\network\SocketIO.h" />
     <ClInclude Include="..\..\network\WebSocket.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3D.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3DComponent.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3DConstraint.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3DDebugDrawer.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3DObject.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3DShape.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysics3DWorld.h" />
-    <ClInclude Include="..\..\physics3d\CCPhysicsSprite3D.h" />
-    <ClInclude Include="..\..\physics\CCPhysicsBody.h" />
-    <ClInclude Include="..\..\physics\CCPhysicsContact.h" />
-    <ClInclude Include="..\..\physics\CCPhysicsHelper.h" />
-    <ClInclude Include="..\..\physics\CCPhysicsJoint.h" />
-    <ClInclude Include="..\..\physics\CCPhysicsShape.h" />
-    <ClInclude Include="..\..\physics\CCPhysicsWorld.h" />
     <ClInclude Include="..\..\platform\CCApplication.h" />
     <ClInclude Include="..\..\platform\CCApplicationProtocol.h" />
     <ClInclude Include="..\..\platform\CCCommon.h" />
@@ -1182,12 +1151,6 @@
     <None Include="..\cocos2d.def" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\external\Box2D\proj-win10\libbox2d.vcxproj">
-      <Project>{0c32d479-46d5-46c3-9aa9-0a8ff8320516}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\external\bullet\proj.win10\libbullet.vcxproj">
-      <Project>{ecee1119-ce2e-4f7e-83a8-1932ea48e893}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\external\recast\proj.win10\librecast.vcxproj">
       <Project>{f551524d-8a70-4b2f-a7c2-28ae61150022}</Project>
     </ProjectReference>
@@ -1316,7 +1279,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <CompileAsWinRT>true</CompileAsWinRT>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>4458;4459;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\winrt;$(EngineRoot)external\win10-specific\zlib\include;$(EngineRoot)external\freetype2\include\win10\freetype2;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;$(EngineRoot)external\win10-specific\OggDecoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1335,7 +1298,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <CompileAsWinRT>true</CompileAsWinRT>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>4458;4459;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\winrt;$(EngineRoot)external\win10-specific\zlib\include;$(EngineRoot)external\freetype2\include\win10\freetype2;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;$(EngineRoot)external\win10-specific\OggDecoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1355,7 +1318,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <CompileAsWinRT>true</CompileAsWinRT>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>4458;4459;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\winrt;$(EngineRoot)external\win10-specific\zlib\include;$(EngineRoot)external\freetype2\include\win10\freetype2;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;$(EngineRoot)external\win10-specific\OggDecoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1374,7 +1337,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <CompileAsWinRT>true</CompileAsWinRT>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>4458;4459;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\winrt;$(EngineRoot)external\win10-specific\zlib\include;$(EngineRoot)external\freetype2\include\win10\freetype2;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;$(EngineRoot)external\win10-specific\OggDecoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1394,7 +1357,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <CompileAsWinRT>true</CompileAsWinRT>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>4458;4459;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\winrt;$(EngineRoot)external\win10-specific\zlib\include;$(EngineRoot)external\freetype2\include\win10\freetype2;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;$(EngineRoot)external\win10-specific\OggDecoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1413,7 +1376,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <CompileAsWinRT>true</CompileAsWinRT>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>4458;4459;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\winrt;$(EngineRoot)external\win10-specific\zlib\include;$(EngineRoot)external\freetype2\include\win10\freetype2;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;$(EngineRoot)external\win10-specific\OggDecoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

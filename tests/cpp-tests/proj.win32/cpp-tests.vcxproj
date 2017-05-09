@@ -71,8 +71,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\Classes;$(EngineRoot);$(EngineRoot)cocos;$(EngineRoot)cocos\editor-support;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include;$(EngineRoot)external\curl\include\win32;$(EngineRoot)external\websockets\win32\include;$(EngineRoot)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;COCOS2DXWIN32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Classes;$(EngineRoot);$(EngineRoot)cocos;$(EngineRoot)cocos\editor-support;$(EngineRoot)external$(EngineRoot)external\curl\include\win32;$(EngineRoot)external\websockets\win32\include;$(EngineRoot)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;COCOS2DXWIN32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>
@@ -110,8 +110,8 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>..\Classes;$(EngineRoot);$(EngineRoot)cocos;$(EngineRoot)cocos\editor-support;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include;$(EngineRoot)external\curl\include\win32;$(EngineRoot)external\websockets\win32\include;$(EngineRoot)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Classes;$(EngineRoot);$(EngineRoot)cocos;$(EngineRoot)cocos\editor-support;$(EngineRoot)external;$(EngineRoot)external\curl\include\win32;$(EngineRoot)external\websockets\win32\include;$(EngineRoot)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
@@ -158,7 +158,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClCompile Include="..\Classes\BugsTest\Bug-CCDrawNode.cpp" />
     <ClCompile Include="..\Classes\BugsTest\Bug-Child.cpp" />
     <ClCompile Include="..\Classes\Camera3DTest\Camera3DTest.cpp" />
-    <ClCompile Include="..\Classes\ChipmunkTest\ChipmunkTest.cpp" />
     <ClCompile Include="..\Classes\ClippingNodeTest\ClippingNodeTest.cpp" />
     <ClCompile Include="..\Classes\ConfigurationTest\ConfigurationTest.cpp" />
     <ClCompile Include="..\Classes\ConsoleTest\ConsoleTest.cpp" />
@@ -181,8 +180,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClCompile Include="..\Classes\NewEventDispatcherTest\NewEventDispatcherTest.cpp" />
     <ClCompile Include="..\Classes\NewRendererTest\NewRendererTest.cpp" />
     <ClCompile Include="..\Classes\Particle3DTest\Particle3DTest.cpp" />
-    <ClCompile Include="..\Classes\Physics3DTest\Physics3DTest.cpp" />
-    <ClCompile Include="..\Classes\PhysicsTest\PhysicsTest.cpp" />
     <ClCompile Include="..\Classes\ReleasePoolTest\ReleasePoolTest.cpp" />
     <ClCompile Include="..\Classes\Scene3DTest\Scene3DTest.cpp" />
     <ClCompile Include="..\Classes\ShaderTest\ShaderTest2.cpp" />
@@ -257,11 +254,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClCompile Include="..\Classes\ExtensionsTest\ControlExtensionTest\CCControlSwitchTest\CCControlSwitchTest.cpp" />
     <ClCompile Include="..\Classes\NodeTest\NodeTest.cpp" />
     <ClCompile Include="..\Classes\ActionsProgressTest\ActionsProgressTest.cpp" />
-    <ClCompile Include="..\Classes\Box2DTest\Box2dTest.cpp" />
-    <ClCompile Include="..\Classes\Box2DTestBed\Box2dView.cpp" />
-    <ClCompile Include="..\Classes\Box2DTestBed\GLES-Render.cpp" />
-    <ClCompile Include="..\Classes\Box2DTestBed\Test.cpp" />
-    <ClCompile Include="..\Classes\Box2DTestBed\TestEntries.cpp" />
     <ClCompile Include="..\Classes\MutiTouchTest\MutiTouchTest.cpp" />
     <ClCompile Include="..\Classes\SpriteFrameCacheTest\SpriteFrameCacheTest.cpp" />
   </ItemGroup>
@@ -269,11 +261,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClInclude Include="..\Classes\AllocatorTest\AllocatorTest.h" />
     <ClInclude Include="..\Classes\BaseTest.h" />
     <ClInclude Include="..\Classes\BillBoardTest\BillBoardTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\ConvexHull.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\ConveyorBelt.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Mobile.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\MobileBalanced.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\MotorJoint.h" />
     <ClInclude Include="..\Classes\BugsTest\Bug-12847.h" />
     <ClInclude Include="..\Classes\BugsTest\Bug-15594.h" />
     <ClInclude Include="..\Classes\BugsTest\Bug-15776.h" />
@@ -281,7 +268,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClInclude Include="..\Classes\BugsTest\Bug-CCDrawNode.h" />
     <ClInclude Include="..\Classes\BugsTest\Bug-Child.h" />
     <ClInclude Include="..\Classes\Camera3DTest\Camera3DTest.h" />
-    <ClInclude Include="..\Classes\ChipmunkTest\ChipmunkTest.h" />
     <ClInclude Include="..\Classes\ClippingNodeTest\ClippingNodeTest.h" />
     <ClInclude Include="..\Classes\ConfigurationTest\ConfigurationTest.h" />
     <ClInclude Include="..\Classes\ConsoleTest\ConsoleTest.h" />
@@ -304,8 +290,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClInclude Include="..\Classes\NewEventDispatcherTest\NewEventDispatcherTest.h" />
     <ClInclude Include="..\Classes\NewRendererTest\NewRendererTest.h" />
     <ClInclude Include="..\Classes\Particle3DTest\Particle3DTest.h" />
-    <ClInclude Include="..\Classes\Physics3DTest\Physics3DTest.h" />
-    <ClInclude Include="..\Classes\PhysicsTest\PhysicsTest.h" />
     <ClInclude Include="..\Classes\ReleasePoolTest\ReleasePoolTest.h" />
     <ClInclude Include="..\Classes\Scene3DTest\Scene3DTest.h" />
     <ClInclude Include="..\Classes\ShaderTest\ShaderTest2.h" />
@@ -382,55 +366,6 @@ xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
     <ClInclude Include="..\Classes\ExtensionsTest\ControlExtensionTest\CCControlSwitchTest\CCControlSwitchTest.h" />
     <ClInclude Include="..\Classes\NodeTest\NodeTest.h" />
     <ClInclude Include="..\Classes\ActionsProgressTest\ActionsProgressTest.h" />
-    <ClInclude Include="..\Classes\Box2DTest\Box2dTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Box2dView.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\GLES-Render.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Test.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\AddPair.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\ApplyForce.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\BodyTypes.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Breakable.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Bridge.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\BulletTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Cantilever.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Car.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Chain.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\CharacterCollision.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\CollisionFiltering.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\CollisionProcessing.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\CompoundShapes.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Confined.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\ContinuousTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\DistanceTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Dominos.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\DumpShell.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\DynamicTreeTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\EdgeShapes.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\EdgeTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Gears.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\OneSidedPlatform.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Pinball.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\PolyCollision.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\PolyShapes.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Prismatic.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Pulleys.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Pyramid.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\RayCast.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Revolute.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Rope.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\RopeJoint.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\SensorTest.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\ShapeEditing.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\SliderCrank.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\SphereStack.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\TheoJansen.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Tiles.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\TimeOfImpact.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Tumbler.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\VaryingFriction.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\VaryingRestitution.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\VerticalStack.h" />
-    <ClInclude Include="..\Classes\Box2DTestBed\Tests\Web.h" />
     <ClInclude Include="..\Classes\MutiTouchTest\MutiTouchTest.h" />
     <ClInclude Include="..\Classes\SpriteFrameCacheTest\SpriteFrameCacheTest.h" />
   </ItemGroup>

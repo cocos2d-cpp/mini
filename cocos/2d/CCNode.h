@@ -37,10 +37,6 @@
 #include "2d/CCComponentContainer.h"
 #include "2d/CCComponent.h"
 
-#if CC_USE_PHYSICS
-#include "physics/CCPhysicsBody.h"
-#endif
-
 #include <vector>
 #include <algorithm> // stable_sort
 
@@ -61,7 +57,6 @@ class GLProgram;
 class GLProgramState;
 class Material;
 class Camera;
-class PhysicsBody;
 
 /**
  * @addtogroup _2d
@@ -1735,24 +1730,6 @@ protected:
     std::function<void()> _onExitCallback;
     std::function<void()> _onEnterTransitionDidFinishCallback;
     std::function<void()> _onExitTransitionDidStartCallback;
-
-//Physics:remaining backwardly compatible  
-#if CC_USE_PHYSICS
-    PhysicsBody* _physicsBody;
-public:
-    void setPhysicsBody(PhysicsBody* physicsBody)
-    {
-        if (_physicsBody != nullptr)
-        {
-            removeComponent(_physicsBody);
-        }
-
-        addComponent(physicsBody);
-    }
-    PhysicsBody* getPhysicsBody() const { return _physicsBody; }
-
-    friend class PhysicsBody;
-#endif
 
 private:
     Node(const Node &) = delete;

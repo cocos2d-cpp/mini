@@ -129,10 +129,6 @@
 		1AC35B2A18CECF0C00F37B72 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593418CECF0A00F37B72 /* AppDelegate.cpp */; };
 		1AC35B2B18CECF0C00F37B72 /* BaseTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593618CECF0A00F37B72 /* BaseTest.cpp */; };
 		1AC35B2C18CECF0C00F37B72 /* BaseTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593618CECF0A00F37B72 /* BaseTest.cpp */; };
-		1AC35B2D18CECF0C00F37B72 /* Box2dTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593918CECF0A00F37B72 /* Box2dTest.cpp */; };
-		1AC35B2E18CECF0C00F37B72 /* Box2dTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593918CECF0A00F37B72 /* Box2dTest.cpp */; };
-		1AC35B2F18CECF0C00F37B72 /* Box2dView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593C18CECF0A00F37B72 /* Box2dView.cpp */; };
-		1AC35B3018CECF0C00F37B72 /* Box2dView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593C18CECF0A00F37B72 /* Box2dView.cpp */; };
 		1AC35B3118CECF0C00F37B72 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593E18CECF0A00F37B72 /* GLES-Render.cpp */; };
 		1AC35B3218CECF0C00F37B72 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593E18CECF0A00F37B72 /* GLES-Render.cpp */; };
 		1AC35B3318CECF0C00F37B72 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3594018CECF0A00F37B72 /* Test.cpp */; };
@@ -161,8 +157,6 @@
 		1AC35B4A18CECF0C00F37B72 /* Bug-914.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598A18CECF0B00F37B72 /* Bug-914.cpp */; };
 		1AC35B4B18CECF0C00F37B72 /* BugsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598C18CECF0B00F37B72 /* BugsTest.cpp */; };
 		1AC35B4C18CECF0C00F37B72 /* BugsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598C18CECF0B00F37B72 /* BugsTest.cpp */; };
-		1AC35B4D18CECF0C00F37B72 /* ChipmunkTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598F18CECF0B00F37B72 /* ChipmunkTest.cpp */; };
-		1AC35B4E18CECF0C00F37B72 /* ChipmunkTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598F18CECF0B00F37B72 /* ChipmunkTest.cpp */; };
 		1AC35B4F18CECF0C00F37B72 /* ClickAndMoveTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3599218CECF0B00F37B72 /* ClickAndMoveTest.cpp */; };
 		1AC35B5018CECF0C00F37B72 /* ClickAndMoveTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3599218CECF0B00F37B72 /* ClickAndMoveTest.cpp */; };
 		1AC35B5118CECF0C00F37B72 /* ClippingNodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3599518CECF0B00F37B72 /* ClippingNodeTest.cpp */; };
@@ -243,8 +237,6 @@
 		1AC35C2218CECF0C00F37B72 /* ParallaxTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ABC18CECF0C00F37B72 /* ParallaxTest.cpp */; };
 		1AC35C2318CECF0C00F37B72 /* ParticleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ABF18CECF0C00F37B72 /* ParticleTest.cpp */; };
 		1AC35C2418CECF0C00F37B72 /* ParticleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ABF18CECF0C00F37B72 /* ParticleTest.cpp */; };
-		1AC35C3D18CECF0C00F37B72 /* PhysicsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ADB18CECF0C00F37B72 /* PhysicsTest.cpp */; };
-		1AC35C3E18CECF0C00F37B72 /* PhysicsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ADB18CECF0C00F37B72 /* PhysicsTest.cpp */; };
 		1AC35C3F18CECF0C00F37B72 /* ReleasePoolTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ADE18CECF0C00F37B72 /* ReleasePoolTest.cpp */; };
 		1AC35C4018CECF0C00F37B72 /* ReleasePoolTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ADE18CECF0C00F37B72 /* ReleasePoolTest.cpp */; };
 		1AC35C4118CECF0C00F37B72 /* RenderTextureTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AE118CECF0C00F37B72 /* RenderTextureTest.cpp */; };
@@ -499,7 +491,6 @@
 		507B41401C31BEA60067B53E /* CCControlButtonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A6318CECF0B00F37B72 /* CCControlButtonTest.cpp */; };
 		507B41411C31BEA60067B53E /* CCControlSliderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A7018CECF0B00F37B72 /* CCControlSliderTest.cpp */; };
 		507B41431C31BEA60067B53E /* SpineTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF218CECF0C00F37B72 /* SpineTest.cpp */; };
-		507B41441C31BEA60067B53E /* Physics3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB54C1AF9AA6C00B9B856 /* Physics3DTest.cpp */; };
 		507B41451C31BEA60067B53E /* NewRendererTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AB618CECF0C00F37B72 /* NewRendererTest.cpp */; };
 		507B41461C31BEA60067B53E /* DrawNode3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEECAE1995247000429821 /* DrawNode3D.cpp */; };
 		507B414A1C31BEA60067B53E /* WebSocketTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A8218CECF0B00F37B72 /* WebSocketTest.cpp */; };
@@ -558,9 +549,7 @@
 		507B41A31C31BEA60067B53E /* ExtensionsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A7B18CECF0B00F37B72 /* ExtensionsTest.cpp */; };
 		507B41A41C31BEA60067B53E /* TestEntries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3594218CECF0A00F37B72 /* TestEntries.cpp */; };
 		507B41A51C31BEA60067B53E /* AssetsManagerExTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B3709619EE5DBA00ABE682 /* AssetsManagerExTest.cpp */; };
-		507B41A61C31BEA60067B53E /* Box2dTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593918CECF0A00F37B72 /* Box2dTest.cpp */; };
 		507B41A81C31BEA60067B53E /* LabelTestNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AA418CECF0C00F37B72 /* LabelTestNew.cpp */; };
-		507B41A91C31BEA60067B53E /* ChipmunkTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598F18CECF0B00F37B72 /* ChipmunkTest.cpp */; };
 		507B41AB1C31BEA60067B53E /* ConsoleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3599E18CECF0B00F37B72 /* ConsoleTest.cpp */; };
 		507B41AC1C31BEA60067B53E /* IntervalTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A9918CECF0B00F37B72 /* IntervalTest.cpp */; };
 		507B41AE1C31BEA60067B53E /* CCControlStepperTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A7318CECF0B00F37B72 /* CCControlStepperTest.cpp */; };
@@ -579,9 +568,7 @@
 		507B41C41C31BEA60067B53E /* ActionsProgressTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3592F18CECF0A00F37B72 /* ActionsProgressTest.cpp */; };
 		507B41C51C31BEA60067B53E /* EffectsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC359B218CECF0B00F37B72 /* EffectsTest.cpp */; };
 		507B41C71C31BEA60067B53E /* ActionManagerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3592918CECF0A00F37B72 /* ActionManagerTest.cpp */; };
-		507B41C91C31BEA60067B53E /* PhysicsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35ADB18CECF0C00F37B72 /* PhysicsTest.cpp */; };
 		507B41CF1C31BEA60067B53E /* MaterialSystemTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5046AB481AF2A8D80060550B /* MaterialSystemTest.cpp */; };
-		507B41D01C31BEA60067B53E /* Box2dView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3593C18CECF0A00F37B72 /* Box2dView.cpp */; };
 		507B41D21C31BEA60067B53E /* LabelTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AA218CECF0C00F37B72 /* LabelTest.cpp */; };
 		507B41D31C31BEA60067B53E /* Bug-12847.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 850F8A221B5F3A4F00780603 /* Bug-12847.cpp */; };
 		507B41D41C31BEA60067B53E /* Bug-Child.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59620E8D1921E5CF002021B6 /* Bug-Child.cpp */; };
@@ -732,8 +719,6 @@
 		B63993321A49359F00B07923 /* Particle3D in Resources */ = {isa = PBXBuildFile; fileRef = B63993301A49359F00B07923 /* Particle3D */; };
 		B6C039D919C95D83007207DC /* LightTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C039D719C95D83007207DC /* LightTest.cpp */; };
 		B6C039DA19C95D83007207DC /* LightTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C039D719C95D83007207DC /* LightTest.cpp */; };
-		B6CAB54E1AF9AA6C00B9B856 /* Physics3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB54C1AF9AA6C00B9B856 /* Physics3DTest.cpp */; };
-		B6CAB54F1AF9AA6C00B9B856 /* Physics3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB54C1AF9AA6C00B9B856 /* Physics3DTest.cpp */; };
 		B6DD2FFC1B04979C00E47F5F /* NavMeshTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */; };
 		B6DD2FFD1B04979C00E47F5F /* NavMeshTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */; };
 		C04F935A1941B05400E9FEAB /* TileMapTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C04F93581941B05400E9FEAB /* TileMapTest2.cpp */; };
@@ -1087,10 +1072,6 @@
 		1AC3593518CECF0A00F37B72 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AC3593618CECF0A00F37B72 /* BaseTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTest.cpp; sourceTree = "<group>"; };
 		1AC3593718CECF0A00F37B72 /* BaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTest.h; sourceTree = "<group>"; };
-		1AC3593918CECF0A00F37B72 /* Box2dTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box2dTest.cpp; sourceTree = "<group>"; };
-		1AC3593A18CECF0A00F37B72 /* Box2dTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2dTest.h; sourceTree = "<group>"; };
-		1AC3593C18CECF0A00F37B72 /* Box2dView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box2dView.cpp; sourceTree = "<group>"; };
-		1AC3593D18CECF0A00F37B72 /* Box2dView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2dView.h; sourceTree = "<group>"; };
 		1AC3593E18CECF0A00F37B72 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GLES-Render.cpp"; sourceTree = "<group>"; };
 		1AC3593F18CECF0A00F37B72 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		1AC3594018CECF0A00F37B72 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
@@ -1101,7 +1082,6 @@
 		1AC3594618CECF0B00F37B72 /* BodyTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyTypes.h; sourceTree = "<group>"; };
 		1AC3594718CECF0B00F37B72 /* Breakable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Breakable.h; sourceTree = "<group>"; };
 		1AC3594818CECF0B00F37B72 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
-		1AC3594918CECF0B00F37B72 /* BulletTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletTest.h; sourceTree = "<group>"; };
 		1AC3594A18CECF0B00F37B72 /* Cantilever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cantilever.h; sourceTree = "<group>"; };
 		1AC3594B18CECF0B00F37B72 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		1AC3594C18CECF0B00F37B72 /* Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain.h; sourceTree = "<group>"; };
@@ -1168,8 +1148,6 @@
 		1AC3598B18CECF0B00F37B72 /* Bug-914.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bug-914.h"; sourceTree = "<group>"; };
 		1AC3598C18CECF0B00F37B72 /* BugsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BugsTest.cpp; sourceTree = "<group>"; };
 		1AC3598D18CECF0B00F37B72 /* BugsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsTest.h; sourceTree = "<group>"; };
-		1AC3598F18CECF0B00F37B72 /* ChipmunkTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChipmunkTest.cpp; sourceTree = "<group>"; };
-		1AC3599018CECF0B00F37B72 /* ChipmunkTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkTest.h; sourceTree = "<group>"; };
 		1AC3599218CECF0B00F37B72 /* ClickAndMoveTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClickAndMoveTest.cpp; sourceTree = "<group>"; };
 		1AC3599318CECF0B00F37B72 /* ClickAndMoveTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickAndMoveTest.h; sourceTree = "<group>"; };
 		1AC3599518CECF0B00F37B72 /* ClippingNodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ClippingNodeTest.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
@@ -1250,8 +1228,6 @@
 		1AC35ABD18CECF0C00F37B72 /* ParallaxTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxTest.h; sourceTree = "<group>"; };
 		1AC35ABF18CECF0C00F37B72 /* ParticleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleTest.cpp; sourceTree = "<group>"; };
 		1AC35AC018CECF0C00F37B72 /* ParticleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleTest.h; sourceTree = "<group>"; };
-		1AC35ADB18CECF0C00F37B72 /* PhysicsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicsTest.cpp; sourceTree = "<group>"; };
-		1AC35ADC18CECF0C00F37B72 /* PhysicsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsTest.h; sourceTree = "<group>"; };
 		1AC35ADE18CECF0C00F37B72 /* ReleasePoolTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReleasePoolTest.cpp; sourceTree = "<group>"; };
 		1AC35ADF18CECF0C00F37B72 /* ReleasePoolTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleasePoolTest.h; sourceTree = "<group>"; };
 		1AC35AE118CECF0C00F37B72 /* RenderTextureTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderTextureTest.cpp; sourceTree = "<group>"; };
@@ -1473,8 +1449,6 @@
 		B63993301A49359F00B07923 /* Particle3D */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particle3D; path = "../tests/cpp-tests/Resources/Particle3D"; sourceTree = "<group>"; };
 		B6C039D719C95D83007207DC /* LightTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightTest.cpp; path = LightTest/LightTest.cpp; sourceTree = "<group>"; };
 		B6C039D819C95D83007207DC /* LightTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightTest.h; path = LightTest/LightTest.h; sourceTree = "<group>"; };
-		B6CAB54C1AF9AA6C00B9B856 /* Physics3DTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Physics3DTest.cpp; path = Physics3DTest/Physics3DTest.cpp; sourceTree = "<group>"; };
-		B6CAB54D1AF9AA6C00B9B856 /* Physics3DTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Physics3DTest.h; path = Physics3DTest/Physics3DTest.h; sourceTree = "<group>"; };
 		B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NavMeshTest.cpp; path = NavMeshTest/NavMeshTest.cpp; sourceTree = "<group>"; };
 		B6DD2FFB1B04979C00E47F5F /* NavMeshTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavMeshTest.h; path = NavMeshTest/NavMeshTest.h; sourceTree = "<group>"; };
 		C04F93581941B05400E9FEAB /* TileMapTest2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileMapTest2.cpp; sourceTree = "<group>"; };
@@ -1519,8 +1493,6 @@
 		FA94B2051B8EF8430074B261 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA94B2061B8EF8430074B261 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA94B2071B8EF8430074B261 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		FA94B2211B8EF9C50074B261 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseNormal.png; path = "../tests/performance-tests/Resources/CloseNormal.png"; sourceTree = "<group>"; };
-		FA94B2221B8EF9C50074B261 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseSelected.png; path = "../tests/performance-tests/Resources/CloseSelected.png"; sourceTree = "<group>"; };
 		FA94B2331B8F02880074B261 /* Profile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Profile.cpp; sourceTree = "<group>"; };
 		FA94B2341B8F02880074B261 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		FA94B2381B9045160074B261 /* PerformanceAllocTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceAllocTest.cpp; sourceTree = "<group>"; };
@@ -1533,16 +1505,12 @@
 		FA94B2481B904E290074B261 /* tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tests.h; sourceTree = "<group>"; };
 		FA94B2491B9059540074B261 /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleRect.cpp; sourceTree = "<group>"; };
 		FA94B24A1B9059540074B261 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRect.h; sourceTree = "<group>"; };
-		FA94B24D1B93EF7B0074B261 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = "../tests/performance-tests/Resources/Images"; sourceTree = "<group>"; };
-		FADE786A1B942DE30061590D /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "../tests/performance-tests/Resources/fonts"; sourceTree = "<group>"; };
 		FADE786D1B9451540061590D /* PerformanceNodeChildrenTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceNodeChildrenTest.cpp; sourceTree = "<group>"; };
 		FADE786E1B9451540061590D /* PerformanceNodeChildrenTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceNodeChildrenTest.h; sourceTree = "<group>"; };
 		FADE78711B9572990061590D /* PerformanceParticleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceParticleTest.cpp; sourceTree = "<group>"; };
 		FADE78721B9572990061590D /* PerformanceParticleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceParticleTest.h; sourceTree = "<group>"; };
-		FADE78751B95740D0061590D /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = "../tests/performance-tests/Resources/fps_images.png"; sourceTree = "<group>"; };
 		FADE78841B96C4780061590D /* PerformanceParticle3DTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceParticle3DTest.cpp; sourceTree = "<group>"; };
 		FADE78851B96C4780061590D /* PerformanceParticle3DTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceParticle3DTest.h; sourceTree = "<group>"; };
-		FADE78881B96C51C0061590D /* Particle3D */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particle3D; path = "../tests/performance-tests/Resources/Particle3D"; sourceTree = "<group>"; };
 		FADE788B1B96D0710061590D /* PerformanceSpriteTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceSpriteTest.cpp; sourceTree = "<group>"; };
 		FADE788C1B96D0710061590D /* PerformanceSpriteTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceSpriteTest.h; sourceTree = "<group>"; };
 		FADE788F1B9C363D0061590D /* PerformanceTextureTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceTextureTest.cpp; sourceTree = "<group>"; };
@@ -1553,8 +1521,6 @@
 		FADE78981B9D5C640061590D /* PerformanceEventDispatcherTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceEventDispatcherTest.h; sourceTree = "<group>"; };
 		FADE78A41B9E86100061590D /* PerformanceScenarioTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceScenarioTest.cpp; sourceTree = "<group>"; };
 		FADE78A51B9E86100061590D /* PerformanceScenarioTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceScenarioTest.h; sourceTree = "<group>"; };
-		FADE78AB1B9E88420061590D /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particles; path = "../tests/performance-tests/Resources/Particles"; sourceTree = "<group>"; };
-		FADE78AC1B9E88420061590D /* TileMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TileMaps; path = "../tests/performance-tests/Resources/TileMaps"; sourceTree = "<group>"; };
 		FADE78B11B9EC0290061590D /* PerformanceCallbackTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceCallbackTest.cpp; sourceTree = "<group>"; };
 		FADE78B21B9EC0290061590D /* PerformanceCallbackTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceCallbackTest.h; sourceTree = "<group>"; };
 		FADE78B51B9EC6160061590D /* PerformanceMathTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerformanceMathTest.cpp; sourceTree = "<group>"; };
@@ -1908,7 +1874,6 @@
 				504C94991D1C51BE00E4E9B3 /* VRTest */,
 				50921EAC1B746D5F00C085CC /* DownloaderTest */,
 				B6DD2FF91B04972B00E47F5F /* NavMeshTest */,
-				B6CAB54B1AF9AA4B00B9B856 /* Physics3DTest */,
 				5046AB471AF2A8D80060550B /* MaterialSystemTest */,
 				6886696E1AE8E8A000C2CFD9 /* SpritePolygonTest */,
 				B603F1AC1AC8EA2E00A9579C /* TerrainTest */,
@@ -1926,10 +1891,7 @@
 				1AC3593518CECF0A00F37B72 /* AppDelegate.h */,
 				1AC3593618CECF0A00F37B72 /* BaseTest.cpp */,
 				1AC3593718CECF0A00F37B72 /* BaseTest.h */,
-				1AC3593818CECF0A00F37B72 /* Box2DTest */,
-				1AC3593B18CECF0A00F37B72 /* Box2DTestBed */,
 				1AC3597618CECF0B00F37B72 /* BugsTest */,
-				1AC3598E18CECF0B00F37B72 /* ChipmunkTest */,
 				1AC3599118CECF0B00F37B72 /* ClickAndMoveTest */,
 				1AC3599418CECF0B00F37B72 /* ClippingNodeTest */,
 				1AC3599718CECF0B00F37B72 /* CocosDenshionTest */,
@@ -1957,7 +1919,6 @@
 				1AC35AB818CECF0C00F37B72 /* NodeTest */,
 				1AC35ABB18CECF0C00F37B72 /* ParallaxTest */,
 				1AC35ABE18CECF0C00F37B72 /* ParticleTest */,
-				1AC35ADA18CECF0C00F37B72 /* PhysicsTest */,
 				1AC35ADD18CECF0C00F37B72 /* ReleasePoolTest */,
 				1AC35AE018CECF0C00F37B72 /* RenderTextureTest */,
 				1AC35AE318CECF0C00F37B72 /* RotateWorldTest */,
@@ -2028,30 +1989,6 @@
 			path = ActionsTest;
 			sourceTree = "<group>";
 		};
-		1AC3593818CECF0A00F37B72 /* Box2DTest */ = {
-			isa = PBXGroup;
-			children = (
-				1AC3593918CECF0A00F37B72 /* Box2dTest.cpp */,
-				1AC3593A18CECF0A00F37B72 /* Box2dTest.h */,
-			);
-			path = Box2DTest;
-			sourceTree = "<group>";
-		};
-		1AC3593B18CECF0A00F37B72 /* Box2DTestBed */ = {
-			isa = PBXGroup;
-			children = (
-				1AC3593C18CECF0A00F37B72 /* Box2dView.cpp */,
-				1AC3593D18CECF0A00F37B72 /* Box2dView.h */,
-				1AC3593E18CECF0A00F37B72 /* GLES-Render.cpp */,
-				1AC3593F18CECF0A00F37B72 /* GLES-Render.h */,
-				1AC3594018CECF0A00F37B72 /* Test.cpp */,
-				1AC3594118CECF0A00F37B72 /* Test.h */,
-				1AC3594218CECF0A00F37B72 /* TestEntries.cpp */,
-				1AC3594318CECF0A00F37B72 /* Tests */,
-			);
-			path = Box2DTestBed;
-			sourceTree = "<group>";
-		};
 		1AC3594318CECF0A00F37B72 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -2060,7 +1997,6 @@
 				1AC3594618CECF0B00F37B72 /* BodyTypes.h */,
 				1AC3594718CECF0B00F37B72 /* Breakable.h */,
 				1AC3594818CECF0B00F37B72 /* Bridge.h */,
-				1AC3594918CECF0B00F37B72 /* BulletTest.h */,
 				1AC3594A18CECF0B00F37B72 /* Cantilever.h */,
 				1AC3594B18CECF0B00F37B72 /* Car.h */,
 				1AC3594C18CECF0B00F37B72 /* Chain.h */,
@@ -2156,15 +2092,6 @@
 				1AC3598318CECF0B00F37B72 /* QuestionContainerSprite.h */,
 			);
 			path = "Bug-458";
-			sourceTree = "<group>";
-		};
-		1AC3598E18CECF0B00F37B72 /* ChipmunkTest */ = {
-			isa = PBXGroup;
-			children = (
-				1AC3598F18CECF0B00F37B72 /* ChipmunkTest.cpp */,
-				1AC3599018CECF0B00F37B72 /* ChipmunkTest.h */,
-			);
-			path = ChipmunkTest;
 			sourceTree = "<group>";
 		};
 		1AC3599118CECF0B00F37B72 /* ClickAndMoveTest */ = {
@@ -2493,15 +2420,6 @@
 			path = ParticleTest;
 			sourceTree = "<group>";
 		};
-		1AC35ADA18CECF0C00F37B72 /* PhysicsTest */ = {
-			isa = PBXGroup;
-			children = (
-				1AC35ADB18CECF0C00F37B72 /* PhysicsTest.cpp */,
-				1AC35ADC18CECF0C00F37B72 /* PhysicsTest.h */,
-			);
-			path = PhysicsTest;
-			sourceTree = "<group>";
-		};
 		1AC35ADD18CECF0C00F37B72 /* ReleasePoolTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -2782,10 +2700,8 @@
 		1AC35E0318CEE78300F37B72 /* tests */ = {
 			isa = PBXGroup;
 			children = (
-				3E6176B51960FA6300DE83F5 /* game-controller-test */,
 				1AC358B618CEC19F00F37B72 /* cpp-empty-test */,
 				1AC3592118CECEFF00F37B72 /* cpp-tests */,
-				FA94B0B81B8EF73D0074B261 /* performance-tests */,
 			);
 			name = tests;
 			sourceTree = "<group>";
@@ -3092,15 +3008,6 @@
 			name = LightTest;
 			sourceTree = "<group>";
 		};
-		B6CAB54B1AF9AA4B00B9B856 /* Physics3DTest */ = {
-			isa = PBXGroup;
-			children = (
-				B6CAB54C1AF9AA6C00B9B856 /* Physics3DTest.cpp */,
-				B6CAB54D1AF9AA6C00B9B856 /* Physics3DTest.h */,
-			);
-			name = Physics3DTest;
-			sourceTree = "<group>";
-		};
 		B6DD2FF91B04972B00E47F5F /* NavMeshTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -3117,75 +3024,6 @@
 				D0FD03631A3B546400825BB5 /* AllocatorTest.h */,
 			);
 			name = AllocatorTest;
-			sourceTree = "<group>";
-		};
-		FA94B0B81B8EF73D0074B261 /* performance-tests */ = {
-			isa = PBXGroup;
-			children = (
-				FA94B2201B8EF9A90074B261 /* Resources */,
-				FA94B2031B8EF8430074B261 /* proj.mac */,
-				FA94B1D31B8EF8250074B261 /* proj.ios */,
-				FA94B1C91B8EF7BB0074B261 /* Classes */,
-			);
-			name = "performance-tests";
-			sourceTree = "<group>";
-		};
-		FA94B1C91B8EF7BB0074B261 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FA94B2371B9045160074B261 /* tests */,
-				FA94B2331B8F02880074B261 /* Profile.cpp */,
-				FA94B2341B8F02880074B261 /* Profile.h */,
-				FA94B1CA1B8EF7BB0074B261 /* AppDelegate.cpp */,
-				FA94B1CB1B8EF7BB0074B261 /* AppDelegate.h */,
-			);
-			name = Classes;
-			path = "../tests/performance-tests/Classes";
-			sourceTree = "<group>";
-		};
-		FA94B1D31B8EF8250074B261 /* proj.ios */ = {
-			isa = PBXGroup;
-			children = (
-				FA94B1D41B8EF8250074B261 /* AppController.h */,
-				FA94B1D51B8EF8250074B261 /* AppController.mm */,
-				FA94B1D61B8EF8250074B261 /* Default-568h@2x.png */,
-				FA94B1D71B8EF8250074B261 /* Default-667h@2x.png */,
-				FA94B1D81B8EF8250074B261 /* Default-736h@3x.png */,
-				FA94B1D91B8EF8250074B261 /* Default.png */,
-				FA94B1DA1B8EF8250074B261 /* Default@2x.png */,
-				FA94B1DB1B8EF8250074B261 /* Icon-100.png */,
-				FA94B1DC1B8EF8250074B261 /* Icon-114.png */,
-				FA94B1DD1B8EF8250074B261 /* Icon-120.png */,
-				FA94B1DE1B8EF8250074B261 /* Icon-144.png */,
-				FA94B1DF1B8EF8250074B261 /* Icon-152.png */,
-				FA94B1E01B8EF8250074B261 /* Icon-29.png */,
-				FA94B1E11B8EF8250074B261 /* Icon-40.png */,
-				FA94B1E21B8EF8250074B261 /* Icon-50.png */,
-				FA94B1E31B8EF8250074B261 /* Icon-57.png */,
-				FA94B1E41B8EF8250074B261 /* Icon-58.png */,
-				FA94B1E51B8EF8250074B261 /* Icon-72.png */,
-				FA94B1E61B8EF8250074B261 /* Icon-76.png */,
-				FA94B1E71B8EF8250074B261 /* Icon-80.png */,
-				FA94B1E81B8EF8250074B261 /* Info.plist */,
-				FA94B1E91B8EF8250074B261 /* main.m */,
-				FA94B1EA1B8EF8250074B261 /* Prefix.pch */,
-				FA94B1EB1B8EF8250074B261 /* RootViewController.h */,
-				FA94B1EC1B8EF8250074B261 /* RootViewController.mm */,
-			);
-			name = proj.ios;
-			path = "../tests/performance-tests/proj.ios";
-			sourceTree = "<group>";
-		};
-		FA94B2031B8EF8430074B261 /* proj.mac */ = {
-			isa = PBXGroup;
-			children = (
-				FA94B2041B8EF8430074B261 /* Icon.icns */,
-				FA94B2051B8EF8430074B261 /* Info.plist */,
-				FA94B2061B8EF8430074B261 /* main.cpp */,
-				FA94B2071B8EF8430074B261 /* Prefix.pch */,
-			);
-			name = proj.mac;
-			path = "../tests/performance-tests/proj.mac";
 			sourceTree = "<group>";
 		};
 		FA94B2201B8EF9A90074B261 /* Resources */ = {
@@ -3895,7 +3733,6 @@
 				B603F1AF1AC8EA4E00A9579C /* TerrainTest.cpp in Sources */,
 				1AC35B4918CECF0C00F37B72 /* Bug-914.cpp in Sources */,
 				1AC35B6318CECF0C00F37B72 /* EffectsAdvancedTest.cpp in Sources */,
-				B6CAB54E1AF9AA6C00B9B856 /* Physics3DTest.cpp in Sources */,
 				B639932E1A490EC700B07923 /* Particle3DTest.cpp in Sources */,
 				1AC35C5F18CECF0C00F37B72 /* Paddle.cpp in Sources */,
 				1AC35B4B18CECF0C00F37B72 /* BugsTest.cpp in Sources */,
@@ -3931,9 +3768,7 @@
 				1AC35C5D18CECF0C00F37B72 /* Ball.cpp in Sources */,
 				1AC35BF318CECF0C00F37B72 /* ExtensionsTest.cpp in Sources */,
 				1AC35B3518CECF0C00F37B72 /* TestEntries.cpp in Sources */,
-				1AC35B2D18CECF0C00F37B72 /* Box2dTest.cpp in Sources */,
 				1AC35C1118CECF0C00F37B72 /* LabelTestNew.cpp in Sources */,
-				1AC35B4D18CECF0C00F37B72 /* ChipmunkTest.cpp in Sources */,
 				1AC35B5718CECF0C00F37B72 /* ConsoleTest.cpp in Sources */,
 				1AC35C0918CECF0C00F37B72 /* IntervalTest.cpp in Sources */,
 				A0BD49FE1AFAFEE50046CCE3 /* Scene3DTest.cpp in Sources */,
@@ -3955,8 +3790,6 @@
 				1AC35B6518CECF0C00F37B72 /* EffectsTest.cpp in Sources */,
 				94D793D91B4B7A3600F60F10 /* Bug-CCDrawNode.cpp in Sources */,
 				1AC35B2118CECF0C00F37B72 /* ActionManagerTest.cpp in Sources */,
-				1AC35C3D18CECF0C00F37B72 /* PhysicsTest.cpp in Sources */,
-				1AC35B2F18CECF0C00F37B72 /* Box2dView.cpp in Sources */,
 				463D7E7E1D227CA400EA6BD1 /* Bug-15776.cpp in Sources */,
 				1AC35C0F18CECF0C00F37B72 /* LabelTest.cpp in Sources */,
 				1AC35C6918CECF0C00F37B72 /* VisibleRect.cpp in Sources */,
@@ -4003,7 +3836,6 @@
 				507B41401C31BEA60067B53E /* CCControlButtonTest.cpp in Sources */,
 				507B41411C31BEA60067B53E /* CCControlSliderTest.cpp in Sources */,
 				507B41431C31BEA60067B53E /* SpineTest.cpp in Sources */,
-				507B41441C31BEA60067B53E /* Physics3DTest.cpp in Sources */,
 				507B41451C31BEA60067B53E /* NewRendererTest.cpp in Sources */,
 				507B41461C31BEA60067B53E /* DrawNode3D.cpp in Sources */,
 				507B414A1C31BEA60067B53E /* WebSocketTest.cpp in Sources */,
@@ -4064,9 +3896,7 @@
 				507B41A31C31BEA60067B53E /* ExtensionsTest.cpp in Sources */,
 				507B41A41C31BEA60067B53E /* TestEntries.cpp in Sources */,
 				507B41A51C31BEA60067B53E /* AssetsManagerExTest.cpp in Sources */,
-				507B41A61C31BEA60067B53E /* Box2dTest.cpp in Sources */,
 				507B41A81C31BEA60067B53E /* LabelTestNew.cpp in Sources */,
-				507B41A91C31BEA60067B53E /* ChipmunkTest.cpp in Sources */,
 				507B41AB1C31BEA60067B53E /* ConsoleTest.cpp in Sources */,
 				507B41AC1C31BEA60067B53E /* IntervalTest.cpp in Sources */,
 				507B41AE1C31BEA60067B53E /* CCControlStepperTest.cpp in Sources */,
@@ -4085,9 +3915,7 @@
 				507B41C41C31BEA60067B53E /* ActionsProgressTest.cpp in Sources */,
 				507B41C51C31BEA60067B53E /* EffectsTest.cpp in Sources */,
 				507B41C71C31BEA60067B53E /* ActionManagerTest.cpp in Sources */,
-				507B41C91C31BEA60067B53E /* PhysicsTest.cpp in Sources */,
 				507B41CF1C31BEA60067B53E /* MaterialSystemTest.cpp in Sources */,
-				507B41D01C31BEA60067B53E /* Box2dView.cpp in Sources */,
 				507B41D21C31BEA60067B53E /* LabelTest.cpp in Sources */,
 				507B41D31C31BEA60067B53E /* Bug-12847.cpp in Sources */,
 				507B41D41C31BEA60067B53E /* Bug-Child.cpp in Sources */,
@@ -4146,7 +3974,6 @@
 				1AC35BE218CECF0C00F37B72 /* CCControlButtonTest.cpp in Sources */,
 				1AC35BEC18CECF0C00F37B72 /* CCControlSliderTest.cpp in Sources */,
 				1AC35C4E18CECF0C00F37B72 /* SpineTest.cpp in Sources */,
-				B6CAB54F1AF9AA6C00B9B856 /* Physics3DTest.cpp in Sources */,
 				1AC35C1E18CECF0C00F37B72 /* NewRendererTest.cpp in Sources */,
 				463D7E7D1D227C6A00EA6BD1 /* Bug-14327.cpp in Sources */,
 				463D7E7F1D227CAB00EA6BD1 /* Bug-15776.cpp in Sources */,
@@ -4208,9 +4035,7 @@
 				1AC35BF418CECF0C00F37B72 /* ExtensionsTest.cpp in Sources */,
 				1AC35B3618CECF0C00F37B72 /* TestEntries.cpp in Sources */,
 				15B3709919EE5DBA00ABE682 /* AssetsManagerExTest.cpp in Sources */,
-				1AC35B2E18CECF0C00F37B72 /* Box2dTest.cpp in Sources */,
 				1AC35C1218CECF0C00F37B72 /* LabelTestNew.cpp in Sources */,
-				1AC35B4E18CECF0C00F37B72 /* ChipmunkTest.cpp in Sources */,
 				1AC35B5818CECF0C00F37B72 /* ConsoleTest.cpp in Sources */,
 				1AC35C0A18CECF0C00F37B72 /* IntervalTest.cpp in Sources */,
 				1AC35BEE18CECF0C00F37B72 /* CCControlStepperTest.cpp in Sources */,
@@ -4230,9 +4055,7 @@
 				1AC35B6618CECF0C00F37B72 /* EffectsTest.cpp in Sources */,
 				50D6E2511D1D1782000974D4 /* VRTest.cpp in Sources */,
 				1AC35B2218CECF0C00F37B72 /* ActionManagerTest.cpp in Sources */,
-				1AC35C3E18CECF0C00F37B72 /* PhysicsTest.cpp in Sources */,
 				5046AB4B1AF2A8D80060550B /* MaterialSystemTest.cpp in Sources */,
-				1AC35B3018CECF0C00F37B72 /* Box2dView.cpp in Sources */,
 				1AC35C1018CECF0C00F37B72 /* LabelTest.cpp in Sources */,
 				850F8A251B5F3A4F00780603 /* Bug-12847.cpp in Sources */,
 				59620E901921E5CF002021B6 /* Bug-Child.cpp in Sources */,
@@ -4828,7 +4651,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"COCOS2D_DEBUG=1",
 					USE_FILE32API,
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -4840,7 +4662,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocos2d-x.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../extensions $(SRCROOT)/../external $(SRCROOT)/../external/chipmunk/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../extensions $(SRCROOT)/../external";
 			};
 			name = Debug;
 		};
@@ -4856,7 +4678,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					USE_FILE32API,
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -4867,7 +4688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocos2d-x.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../extensions $(SRCROOT)/../external $(SRCROOT)/../external/chipmunk/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../extensions $(SRCROOT)/../external";
 			};
 			name = Release;
 		};
@@ -4884,7 +4705,6 @@
 					CC_TARGET_OS_IPHONE,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/../tests/performance-tests/proj.ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4912,7 +4732,6 @@
 					CC_TARGET_OS_IPHONE,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/../tests/performance-tests/proj.ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4938,7 +4757,6 @@
 					CC_TARGET_OS_MAC,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/../tests/performance-tests/proj.mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../external/glfw3/include/mac";
 			};
@@ -4954,7 +4772,6 @@
 					CC_TARGET_OS_MAC,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/../tests/performance-tests/proj.mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../external/glfw3/include/mac";
 				VALIDATE_PRODUCT = YES;

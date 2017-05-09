@@ -37,12 +37,6 @@ class BaseLight;
 class Renderer;
 class EventListenerCustom;
 class EventCustom;
-#if CC_USE_PHYSICS
-class PhysicsWorld;
-#endif
-#if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
-class Physics3DWorld;
-#endif
 #if CC_USE_NAVMESH
 class NavMesh;
 #endif

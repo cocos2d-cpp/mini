@@ -57,7 +57,6 @@ set(TESTS_SRC
   Classes/BugsTest/Bug-Child.cpp
   Classes/BugsTest/BugsTest.cpp
   Classes/Camera3DTest/Camera3DTest.cpp
-  Classes/ChipmunkTest/ChipmunkTest.cpp
   Classes/ClickAndMoveTest/ClickAndMoveTest.cpp
   Classes/ClippingNodeTest/ClippingNodeTest.cpp
   Classes/CocosDenshionTest/CocosDenshionTest.cpp
@@ -103,7 +102,6 @@ set(TESTS_SRC
   Classes/ParallaxTest/ParallaxTest.cpp
   Classes/Particle3DTest/Particle3DTest.cpp
   Classes/ParticleTest/ParticleTest.cpp
-  Classes/PhysicsTest/PhysicsTest.cpp
   Classes/ReleasePoolTest/ReleasePoolTest.cpp
   Classes/RenderTextureTest/RenderTextureTest.cpp
   Classes/RotateWorldTest/RotateWorldTest.cpp
@@ -144,26 +142,6 @@ set(TESTS_SRC
 if(WIN32 OR MACOSX OR LINUX)
   list(APPEND TESTS_SRC
     Classes/WindowTest/WindowTest.cpp
-    )
-endif()
-
-if(USE_CHIPMUNK)
-  include_directories(${CHIPMUNK_INCLUDE_DIRS})
-endif()
-
-if(USE_BOX2D)
-  list(APPEND TESTS_SRC
-    Classes/Box2DTest/Box2dTest.cpp
-    Classes/Box2DTestBed/Box2dView.cpp
-    Classes/Box2DTestBed/GLES-Render.cpp
-    Classes/Box2DTestBed/Test.cpp
-    Classes/Box2DTestBed/TestEntries.cpp
-    )
-endif()
-
-if(USE_BULLET)
-  list(APPEND TESTS_SRC
-    Classes/Physics3DTest/Physics3DTest.cpp
     )
 endif()
 

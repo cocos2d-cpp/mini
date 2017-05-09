@@ -32,9 +32,6 @@
     <Filter Include="network">
       <UniqueIdentifier>{a2141e87-a561-433e-905b-63ff5c4e0e6e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="physics">
-      <UniqueIdentifier>{661c905d-7ec2-4161-8b09-1c22ddefb830}</UniqueIdentifier>
-    </Filter>
     <Filter Include="platform">
       <UniqueIdentifier>{6b13d475-62b0-4d73-8cee-52f077aa3fe7}</UniqueIdentifier>
     </Filter>
@@ -64,9 +61,6 @@
     </Filter>
     <Filter Include="extension\Particle3D">
       <UniqueIdentifier>{b666aa35-1920-44d0-8311-86e80b7a010a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="extension\physics_nodes">
-      <UniqueIdentifier>{21d16309-93ee-4b38-a10a-de87be25dcc9}</UniqueIdentifier>
     </Filter>
     <Filter Include="extension\GUI\CCControlExtensions">
       <UniqueIdentifier>{939431be-589b-461b-a4dd-791ad66e9611}</UniqueIdentifier>
@@ -124,9 +118,6 @@
     </Filter>
     <Filter Include="audioengine">
       <UniqueIdentifier>{5937896e-882c-429a-ada7-72c799c06920}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="physics3d">
-      <UniqueIdentifier>{f68e83b4-2fa3-4f47-9864-e7dfd90c16a6}</UniqueIdentifier>
     </Filter>
     <Filter Include="navmesh">
       <UniqueIdentifier>{cc4f6ca9-4231-479d-8e19-ede4dff3382e}</UniqueIdentifier>
@@ -990,12 +981,6 @@
     <ClCompile Include="..\..\..\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp">
       <Filter>extension\Particle3D\PU</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\extensions\physics-nodes\CCPhysicsDebugNode.cpp">
-      <Filter>extension\physics_nodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\extensions\physics-nodes\CCPhysicsSprite.cpp">
-      <Filter>extension\physics_nodes</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\extensions\ExtensionDeprecated.cpp">
       <Filter>extension</Filter>
     </ClCompile>
@@ -1359,45 +1344,6 @@
     </ClCompile>
     <ClCompile Include="..\..\renderer\CCTextureCube.cpp">
       <Filter>renderer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics\CCPhysicsBody.cpp">
-      <Filter>physics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics\CCPhysicsContact.cpp">
-      <Filter>physics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics\CCPhysicsJoint.cpp">
-      <Filter>physics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics\CCPhysicsShape.cpp">
-      <Filter>physics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics\CCPhysicsWorld.cpp">
-      <Filter>physics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3D.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3DComponent.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3DConstraint.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3DDebugDrawer.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3DObject.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3DShape.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysics3DWorld.cpp">
-      <Filter>physics3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\physics3d\CCPhysicsSprite3D.cpp">
-      <Filter>physics3d</Filter>
     </ClCompile>
     <ClCompile Include="..\..\3d\CCAABB.cpp">
       <Filter>3d</Filter>
@@ -2399,12 +2345,6 @@
     <ClInclude Include="..\..\..\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.h">
       <Filter>extension\Particle3D\PU</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\extensions\physics-nodes\CCPhysicsDebugNode.h">
-      <Filter>extension\physics_nodes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\extensions\physics-nodes\CCPhysicsSprite.h">
-      <Filter>extension\physics_nodes</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\extensions\cocos-ext.h">
       <Filter>extension</Filter>
     </ClInclude>
@@ -2818,48 +2758,6 @@
     </ClInclude>
     <ClInclude Include="..\..\renderer\CCTextureCube.h">
       <Filter>renderer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics\CCPhysicsBody.h">
-      <Filter>physics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics\CCPhysicsContact.h">
-      <Filter>physics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics\CCPhysicsHelper.h">
-      <Filter>physics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics\CCPhysicsJoint.h">
-      <Filter>physics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics\CCPhysicsShape.h">
-      <Filter>physics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics\CCPhysicsWorld.h">
-      <Filter>physics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3D.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3DComponent.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3DConstraint.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3DDebugDrawer.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3DObject.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3DShape.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysics3DWorld.h">
-      <Filter>physics3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\physics3d\CCPhysicsSprite3D.h">
-      <Filter>physics3d</Filter>
     </ClInclude>
     <ClInclude Include="..\..\3d\CCAABB.h">
       <Filter>3d</Filter>

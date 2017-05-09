@@ -17,11 +17,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../Classes/AppDelegate.cpp \
 ../../Classes/BaseTest.cpp \
 ../../Classes/BillBoardTest/BillBoardTest.cpp \
-../../Classes/Box2DTest/Box2dTest.cpp \
-../../Classes/Box2DTestBed/Box2dView.cpp \
-../../Classes/Box2DTestBed/GLES-Render.cpp \
-../../Classes/Box2DTestBed/Test.cpp \
-../../Classes/Box2DTestBed/TestEntries.cpp \
 ../../Classes/BugsTest/Bug-CCDrawNode.cpp \
 ../../Classes/BugsTest/Bug-1159.cpp \
 ../../Classes/BugsTest/Bug-1174.cpp \
@@ -39,7 +34,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../Classes/BugsTest/Bug-Child.cpp \
 ../../Classes/BugsTest/BugsTest.cpp \
 ../../Classes/Camera3DTest/Camera3DTest.cpp \
-../../Classes/ChipmunkTest/ChipmunkTest.cpp \
 ../../Classes/ClickAndMoveTest/ClickAndMoveTest.cpp \
 ../../Classes/ClippingNodeTest/ClippingNodeTest.cpp \
 ../../Classes/CocosDenshionTest/CocosDenshionTest.cpp \
@@ -88,8 +82,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../Classes/ParallaxTest/ParallaxTest.cpp \
 ../../Classes/Particle3DTest/Particle3DTest.cpp \
 ../../Classes/ParticleTest/ParticleTest.cpp \
-../../Classes/PhysicsTest/PhysicsTest.cpp \
-../../Classes/Physics3DTest/Physics3DTest.cpp \
 ../../Classes/ReleasePoolTest/ReleasePoolTest.cpp \
 ../../Classes/RenderTextureTest/RenderTextureTest.cpp \
 ../../Classes/RotateWorldTest/RotateWorldTest.cpp \

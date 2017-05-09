@@ -27,8 +27,6 @@ GUI/CCControlExtension/CCInvocation.cpp \
 GUI/CCScrollView/CCScrollView.cpp \
 GUI/CCScrollView/CCTableView.cpp \
 GUI/CCScrollView/CCTableViewCell.cpp \
-physics-nodes/CCPhysicsDebugNode.cpp \
-physics-nodes/CCPhysicsSprite.cpp \
 Particle3D/CCParticle3DAffector.cpp \
 Particle3D/CCParticle3DEmitter.cpp \
 Particle3D/CCParticle3DRender.cpp \
@@ -182,8 +180,6 @@ Particle3D/PU/CCPUSlaveBehaviour.cpp \
 Particle3D/PU/CCPUSlaveBehaviourTranslator.cpp
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_internal_static
-LOCAL_STATIC_LIBRARIES += box2d_static
-LOCAL_STATIC_LIBRARIES += bullet_static
 LOCAL_STATIC_LIBRARIES += cocos_network_static
 
 LOCAL_CXXFLAGS += -fexceptions

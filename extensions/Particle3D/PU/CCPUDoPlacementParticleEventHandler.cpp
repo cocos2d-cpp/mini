@@ -127,19 +127,7 @@ void PUDoPlacementParticleEventHandler::particleEmitted(PUParticleSystem3D* /*pa
     {
         if (_inheritPosition)
         {
-#ifdef PU_PHYSICS
-            // Do not assume that the contact point is always used if a physics engine is used.
-            if (!_alwaysUsePosition && particle->physicsActor)
-            {
-                particle->position = _baseParticle->physicsActor->contactPoint; // Store the contact point to spawn new particles on that position.
-            }
-            else
-            {
-                particle->position = _baseParticle->position; // Store the particles' position to spawn new particles on that position.
-            }
-#else
             particle->position = _baseParticle->position; // Store the particles' position to spawn new particles on that position.
-#endif // PU_PHYSICS
             particle->originalPosition = particle->position;
         }
         if (_inheritDirection)

@@ -31,10 +31,9 @@
 #include "2d/CCMenuItem.h"
 #include "3d/CCAnimate3D.h"
 #include "3d/CCBundle3D.h"
+#include "3d/CCSprite3D.h"
 #include "base/CCDirector.h"
 #include "base/CCEventDispatcher.h"
-#include "physics3d/CCPhysics3DWorld.h"
-#include "physics3d/CCPhysics3D.h"
 
 using namespace cocos2d::extension;
 using namespace cocos2d;
@@ -88,28 +87,6 @@ bool NavMeshBaseTestDemo::init()
 {
     if (!TestCase::init()) return false;
 
-    if (initWithPhysics()){
-
-        _angle = 0.0f;
-
-        Size size = Director::getInstance()->getWinSize();
-        _camera = Camera::createPerspective(30.0f, size.width / size.height, 1.0f, 1000.0f);
-        _camera->setPosition3D(Vec3(0.0f, 50.0f, 100.0f));
-        _camera->lookAt(Vec3(0.0f, 0.0f, 0.0f), Vec3(0.0f, 1.0f, 0.0f));
-        _camera->setCameraFlag(CameraFlag::USER1);
-        this->addChild(_camera);
-
-        auto listener = EventListenerTouchAllAtOnce::create();
-        listener->onTouchesBegan = CC_CALLBACK_2(NavMeshBaseTestDemo::onTouchesBegan, this);
-        listener->onTouchesMoved = CC_CALLBACK_2(NavMeshBaseTestDemo::onTouchesMoved, this);
-        listener->onTouchesEnded = CC_CALLBACK_2(NavMeshBaseTestDemo::onTouchesEnded, this);
-        _director->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
-
-        initScene();
-        Director::getInstance()->getScheduler().schedule(UpdateJob(this).paused(isPaused()));
-    }
-
-
     return true;
 }
 
@@ -145,20 +122,12 @@ void NavMeshBaseTestDemo::onTouchesEnded(const std::vector<cocos2d::Touch*>& tou
 
 void NavMeshBaseTestDemo::initScene()
 {
-    getPhysics3DWorld()->setDebugDrawEnable(false);
     //create mesh
     std::vector<Vec3> trianglesList = Bundle3D::getTrianglesList("NavMesh/scene.obj");
 
-    Physics3DRigidBodyDes rbDes;
-    rbDes.mass = 0.0f;
-    rbDes.shape = Physics3DShape::createMesh(&trianglesList[0], (int)trianglesList.size() / 3);
-    auto rigidBody = Physics3DRigidBody::create(&rbDes);
-    auto component = Physics3DComponent::create(rigidBody);
     auto sprite = Sprite3D::create("NavMesh/scene.obj");
-    sprite->addComponent(component);
     sprite->setCameraMask((unsigned short)CameraFlag::USER1);
     this->addChild(sprite);
-    setPhysics3DDebugCamera(_camera);
 
     std::unique_ptr<NavMesh> navMesh(new NavMesh("NavMesh/all_tiles_tilecache.bin", "NavMesh/geomset.txt"));
     navMesh->setDebugDrawEnable(true);
@@ -299,10 +268,6 @@ void NavMeshBasicTestDemo::touchesEnded(const std::vector<cocos2d::Touch*>& touc
         auto size = Director::getInstance()->getWinSize();
         _camera->unproject(size, &nearP, &nearP);
         _camera->unproject(size, &farP, &farP);
-
-        Physics3DWorld::HitResult result;
-        getPhysics3DWorld()->rayCast(nearP, farP, &result);
-        moveAgents(result.hitPosition);
     }
 }
 
@@ -335,10 +300,6 @@ bool NavMeshBasicTestDemo::init()
 void NavMeshBasicTestDemo::onEnter()
 {
     NavMeshBaseTestDemo::onEnter();
-    
-    Physics3DWorld::HitResult result;
-    getPhysics3DWorld()->rayCast(Vec3(0.0f, 50.0f, 0.0f), Vec3(0.0f, -50.0f, 0.0f), &result);
-    createAgent(result.hitPosition);
 }
 
 NavMeshAdvanceTestDemo::NavMeshAdvanceTestDemo(void)
@@ -363,23 +324,11 @@ bool NavMeshAdvanceTestDemo::init()
     _debugLabel = Label::createWithTTF(ttfConfig, "Debug Draw ON");
     _debugLabel->retain();
 
-    auto menuItem0 = MenuItemLabel::create(_obstacleLabel, [=](Ref*){
-        float x = cocos2d::random(-50.0f, 50.0f);
-        float z = cocos2d::random(-50.0f, 50.0f);
-        Physics3DWorld::HitResult result;
-        getPhysics3DWorld()->rayCast(Vec3(x, 50.0f, z), Vec3(x, -50.0f, z), &result);
-        createObstacle(result.hitPosition);
-    });
+    auto menuItem0 = MenuItemLabel::create(_obstacleLabel, [=](Ref*){});
     menuItem0->setAnchorPoint(Vec2::ANCHOR_TOP_LEFT);
     menuItem0->setPosition(Vec2(VisibleRect::left().x, VisibleRect::top().y - 50));
 
-    auto menuItem1 = MenuItemLabel::create(_agentLabel, [=](Ref*){
-        float x = cocos2d::random(-50.0f, 50.0f);
-        float z = cocos2d::random(-50.0f, 50.0f);
-        Physics3DWorld::HitResult result;
-        getPhysics3DWorld()->rayCast(Vec3(x, 50.0f, z), Vec3(x, -50.0f, z), &result);
-        createAgent(result.hitPosition);
-    });
+    auto menuItem1 = MenuItemLabel::create(_agentLabel, [=](Ref*){});
     menuItem1->setAnchorPoint(Vec2::ANCHOR_TOP_LEFT);
     menuItem1->setPosition(Vec2(VisibleRect::left().x, VisibleRect::top().y - 100));
 
@@ -406,10 +355,6 @@ bool NavMeshAdvanceTestDemo::init()
 void NavMeshAdvanceTestDemo::onEnter()
 {
     NavMeshBaseTestDemo::onEnter();
-    
-    Physics3DWorld::HitResult result;
-    getPhysics3DWorld()->rayCast(Vec3(0.0f, 50.0f, 0.0f), Vec3(0.0f, -50.0f, 0.0f), &result);
-    createAgent(result.hitPosition);
 }
 
 std::string NavMeshAdvanceTestDemo::title() const
@@ -433,10 +378,6 @@ void NavMeshAdvanceTestDemo::touchesEnded(const std::vector<cocos2d::Touch*>& to
         auto size = Director::getInstance()->getWinSize();
         _camera->unproject(size, &nearP, &nearP);
         _camera->unproject(size, &farP, &farP);
-
-        Physics3DWorld::HitResult result;
-        getPhysics3DWorld()->rayCast(nearP, farP, &result);
-        moveAgents(result.hitPosition);
     }
 }
 

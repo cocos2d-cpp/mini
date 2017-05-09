@@ -26,20 +26,11 @@
     <Filter Include="Classes\BillBoardTest">
       <UniqueIdentifier>{ff2c6e21-2e15-47ba-8e8a-d32db4c4bd7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Box2DTest">
-      <UniqueIdentifier>{bddbff12-4011-4071-86c3-d2d4b01d9f07}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Box2DTestBed">
-      <UniqueIdentifier>{142a60f8-f519-453f-9641-13c42af61fbc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\BugsTest">
       <UniqueIdentifier>{0a14dee6-42c3-4144-a086-30bcae298e81}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\Camera3DTest">
       <UniqueIdentifier>{36c8d894-0028-4d9a-b9c1-3d2b121630da}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\ChipmunkTest">
-      <UniqueIdentifier>{ef5441af-f919-4af7-b130-f69ad71bf475}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\ClickAndMoveTest">
       <UniqueIdentifier>{1a800ef0-fbc5-47ad-903d-48cb2e6e884a}</UniqueIdentifier>

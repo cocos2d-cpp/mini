@@ -36,168 +36,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\BillBoardTest\BillBoardTest.h">
       <Filter>Classes\BillBoardTest</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTest\Box2dTest.h">
-      <Filter>Classes\Box2DTest</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\AddPair.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\ApplyForce.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\BodyTypes.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Breakable.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Bridge.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\BulletTest.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Cantilever.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Car.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Chain.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\CharacterCollision.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\CollisionFiltering.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\CollisionProcessing.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\CompoundShapes.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Confined.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\ContinuousTest.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\ConvexHull.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\ConveyorBelt.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\DistanceTest.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Dominos.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\DumpShell.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\DynamicTreeTest.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\EdgeShapes.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\EdgeTest.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Gears.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Mobile.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\MobileBalanced.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\MotorJoint.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\OneSidedPlatform.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Pinball.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\PolyCollision.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\PolyShapes.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Prismatic.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Pulleys.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Pyramid.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\RayCast.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Revolute.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Rope.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\RopeJoint.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\SensorTest.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\ShapeEditing.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\SliderCrank.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\SphereStack.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\TheoJansen.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Tiles.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\TimeOfImpact.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Tumbler.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\VaryingFriction.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\VaryingRestitution.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\VerticalStack.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Tests\Web.h">
-      <Filter>Classes\Box2DTestBed\Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Box2dView.h">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\GLES-Render.h">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Test.h">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\BugsTest\Bug-350.h">
       <Filter>Classes\BugsTest</Filter>
     </ClInclude>
@@ -236,9 +74,6 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Camera3DTest\Camera3DTest.h">
       <Filter>Classes\Camera3DTest</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ChipmunkTest\ChipmunkTest.h">
-      <Filter>Classes\ChipmunkTest</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ClickAndMoveTest\ClickAndMoveTest.h">
       <Filter>Classes\ClickAndMoveTest</Filter>
@@ -363,9 +198,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ParticleTest\ParticleTest.h">
       <Filter>Classes\ParticleTest</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\PhysicsTest\PhysicsTest.h">
-      <Filter>Classes\PhysicsTest</Filter>
-    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ReleasePoolTest\ReleasePoolTest.h">
       <Filter>Classes\ReleasePoolTest</Filter>
     </ClInclude>
@@ -469,9 +301,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\MaterialSystemTest\MaterialSystemTest.cpp">
       <Filter>Classes\MaterialSystemTest</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Physics3DTest\Physics3DTest.cpp">
-      <Filter>Classes\Physics3DTest</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\NewAudioEngineTest\NewAudioEngineTest.cpp">
       <Filter>Classes\NewAudioEngineTest</Filter>
     </ClCompile>
@@ -532,21 +361,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\BillBoardTest\BillBoardTest.cpp">
       <Filter>Classes\BillBoardTest</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTest\Box2dTest.cpp">
-      <Filter>Classes\Box2DTest</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Box2dView.cpp">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\GLES-Render.cpp">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\Test.cpp">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Box2DTestBed\TestEntries.cpp">
-      <Filter>Classes\Box2DTestBed</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\BugsTest\Bug-350.cpp">
       <Filter>Classes\BugsTest</Filter>
     </ClCompile>
@@ -585,9 +399,6 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Camera3DTest\Camera3DTest.cpp">
       <Filter>Classes\Camera3DTest</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ChipmunkTest\ChipmunkTest.cpp">
-      <Filter>Classes\ChipmunkTest</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ClickAndMoveTest\ClickAndMoveTest.cpp">
       <Filter>Classes\ClickAndMoveTest</Filter>
@@ -712,9 +523,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ParticleTest\ParticleTest.cpp">
       <Filter>Classes\ParticleTest</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\PhysicsTest\PhysicsTest.cpp">
-      <Filter>Classes\PhysicsTest</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ReleasePoolTest\ReleasePoolTest.cpp">
       <Filter>Classes\ReleasePoolTest</Filter>
     </ClCompile>
@@ -820,15 +628,6 @@
     <Filter Include="Classes\BillBoardTest">
       <UniqueIdentifier>{814ade2d-f829-4c47-aaca-e42973c1db3d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Box2DTest">
-      <UniqueIdentifier>{efe9c39a-90f7-41ab-b8db-f1fd1aa778d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Box2DTestBed">
-      <UniqueIdentifier>{73532d98-203d-4bd9-817f-4ea53c517734}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Box2DTestBed\Tests">
-      <UniqueIdentifier>{837f9d86-c5a5-4a6d-8146-ef1fc7bf4486}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\BugsTest">
       <UniqueIdentifier>{bef7f2ae-5316-4969-9bca-671bec69d657}</UniqueIdentifier>
     </Filter>
@@ -837,9 +636,6 @@
     </Filter>
     <Filter Include="Classes\Camera3DTest">
       <UniqueIdentifier>{5f90fcaa-d833-4e8e-a495-a5fb2bd055f3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\ChipmunkTest">
-      <UniqueIdentifier>{7d85d710-211a-4900-bedf-f6960cbffad2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\ClickAndMoveTest">
       <UniqueIdentifier>{83c5f16c-a381-4baf-8e50-074983fae35c}</UniqueIdentifier>
@@ -949,9 +745,6 @@
     <Filter Include="Classes\ParticleTest">
       <UniqueIdentifier>{82efd737-e8e7-4086-85e8-fb4229430d52}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\PhysicsTest">
-      <UniqueIdentifier>{baa5d22b-c453-4aba-a286-86a79614ee79}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\ReleasePoolTest">
       <UniqueIdentifier>{8e9d7d79-3cb4-4309-99f8-c6fe619df99e}</UniqueIdentifier>
     </Filter>
@@ -1036,9 +829,6 @@
     <Filter Include="Classes\MaterialSystemTest">
       <UniqueIdentifier>{9113774a-5e49-433b-b851-11533bc178ec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Physics3DTest">
-      <UniqueIdentifier>{dbeed6f6-158b-4f99-8196-61616f724ae1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Scene3DTest">
       <UniqueIdentifier>{77f319c0-fd62-4505-b872-a2fd52375636}</UniqueIdentifier>
     </Filter>
@@ -1071,9 +861,6 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\MaterialSystemTest\MaterialSystemTest.h">
       <Filter>Classes\MaterialSystemTest</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Physics3DTest\Physics3DTest.h">
-      <Filter>Classes\Physics3DTest</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\NewAudioEngineTest\NewAudioEngineTest.h">
       <Filter>Classes\NewAudioEngineTest</Filter>
