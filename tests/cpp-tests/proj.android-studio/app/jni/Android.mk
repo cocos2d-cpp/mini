@@ -76,7 +76,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../../Classes/NewAudioEngineTest/NewAudioEngineTest.cpp \
 ../../../Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp \
 ../../../Classes/NewRendererTest/NewRendererTest.cpp \
-../../../Classes/NavMeshTest/NavMeshTest.cpp \
 ../../../Classes/NodeTest/NodeTest.cpp \
 ../../../Classes/OpenURLTest/OpenURLTest.cpp \
 ../../../Classes/ParallaxTest/ParallaxTest.cpp \

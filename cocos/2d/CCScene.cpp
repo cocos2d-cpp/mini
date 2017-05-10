@@ -33,17 +33,10 @@ THE SOFTWARE.
 #include "renderer/CCRenderer.h"
 #include "renderer/CCFrameBuffer.h"
 
-#if CC_USE_NAVMESH
-#include "navmesh/CCNavMesh.h"
-#endif
-
 namespace cocos2d {
 
 Scene::Scene()
 {
-#if CC_USE_NAVMESH
-    _navMeshDebugCamera = nullptr;
-#endif
     _ignoreAnchorPointForPosition = true;
     setAnchorPoint(Vec2(0.5f, 0.5f));
     
@@ -63,13 +56,6 @@ Scene::~Scene()
     Director::getInstance()->getEventDispatcher()->removeEventListener(_event);
     CC_SAFE_RELEASE(_event);
 }
-
-#if CC_USE_NAVMESH
-void Scene::setNavMesh(std::unique_ptr<NavMesh> navMesh)
-{
-    _navMesh = std::move( navMesh );
-}
-#endif
 
 bool Scene::init()
 {
@@ -189,12 +175,6 @@ void Scene::render(Renderer* renderer, const Mat4* eyeTransforms, const Mat4* ey
         camera->clearBackground();
         //visit the scene
         visit(renderer, transform, 0);
-#if CC_USE_NAVMESH
-        if (_navMesh && _navMeshDebugCamera == camera)
-        {
-            _navMesh->debugDraw(renderer);
-        }
-#endif
 
         renderer->render();
         camera->restore();
@@ -222,15 +202,5 @@ void Scene::removeAllChildren()
         _defaultCameraId = addChild( std::move(defaultCamera) );
     }
 }
-
-#if CC_USE_NAVMESH
-void Scene::setNavMeshDebugCamera(Camera *camera)
-{
-    CC_SAFE_RETAIN(camera);
-    CC_SAFE_RELEASE(_navMeshDebugCamera);
-    _navMeshDebugCamera = camera;
-}
-
-#endif
 
 } // namespace cocos2d

@@ -233,9 +233,6 @@
     <Filter Include="Classes\Physics3DTest">
       <UniqueIdentifier>{a34bc185-d0fa-4e93-b289-954abaedcaae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\NavMeshTest">
-      <UniqueIdentifier>{a49e5dee-6eab-4a2a-9769-9f84ff6a5610}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\DownloaderTest">
       <UniqueIdentifier>{a6b76076-ceeb-43e6-9005-1656c65778b6}</UniqueIdentifier>
     </Filter>
@@ -563,9 +560,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Physics3DTest\Physics3DTest.cpp">
       <Filter>Classes\Physics3DTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\NavMeshTest\NavMeshTest.cpp">
-      <Filter>Classes\NavMeshTest</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\BugsTest\Bug-12847.cpp">
       <Filter>Classes\BugsTest</Filter>
@@ -1066,9 +1060,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Physics3DTest\Physics3DTest.h">
       <Filter>Classes\Physics3DTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\NavMeshTest\NavMeshTest.h">
-      <Filter>Classes\NavMeshTest</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\BugsTest\Bug-12847.h">
       <Filter>Classes\BugsTest</Filter>

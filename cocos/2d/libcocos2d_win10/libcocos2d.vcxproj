@@ -442,11 +442,6 @@
     <ClCompile Include="..\..\math\Vec2.cpp" />
     <ClCompile Include="..\..\math\Vec3.cpp" />
     <ClCompile Include="..\..\math\Vec4.cpp" />
-    <ClCompile Include="..\..\navmesh\CCNavMesh.cpp" />
-    <ClCompile Include="..\..\navmesh\CCNavMeshAgent.cpp" />
-    <ClCompile Include="..\..\navmesh\CCNavMeshDebugDraw.cpp" />
-    <ClCompile Include="..\..\navmesh\CCNavMeshObstacle.cpp" />
-    <ClCompile Include="..\..\navmesh\CCNavMeshUtils.cpp" />
     <ClCompile Include="..\..\network\CCDownloader-curl.cpp" />
     <ClCompile Include="..\..\network\CCDownloader.cpp" />
     <ClCompile Include="..\..\network\HttpClient-winrt.cpp" />
@@ -917,11 +912,6 @@
     <ClInclude Include="..\..\math\Vec2.h" />
     <ClInclude Include="..\..\math\Vec3.h" />
     <ClInclude Include="..\..\math\Vec4.h" />
-    <ClInclude Include="..\..\navmesh\CCNavMesh.h" />
-    <ClInclude Include="..\..\navmesh\CCNavMeshAgent.h" />
-    <ClInclude Include="..\..\navmesh\CCNavMeshDebugDraw.h" />
-    <ClInclude Include="..\..\navmesh\CCNavMeshObstacle.h" />
-    <ClInclude Include="..\..\navmesh\CCNavMeshUtils.h" />
     <ClInclude Include="..\..\network\CCDownloader-curl.h" />
     <ClInclude Include="..\..\network\CCDownloader.h" />
     <ClInclude Include="..\..\network\CCIDownloaderImpl.h" />
@@ -1151,9 +1141,6 @@
     <None Include="..\cocos2d.def" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\external\recast\proj.win10\librecast.vcxproj">
-      <Project>{f551524d-8a70-4b2f-a7c2-28ae61150022}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\editor-support\spine\proj.win10\libSpine.vcxproj">
       <Project>{4b3ba10a-941f-4e08-8a50-8a7fcb822bb8}</Project>
     </ProjectReference>

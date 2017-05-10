@@ -186,11 +186,6 @@ vr/CCVRDistortion.cpp \
 vr/CCVRDistortionMesh.cpp \
 vr/CCVRGenericRenderer.cpp \
 vr/CCVRGenericHeadTracker.cpp \
-navmesh/CCNavMesh.cpp \
-navmesh/CCNavMeshAgent.cpp \
-navmesh/CCNavMeshDebugDraw.cpp \
-navmesh/CCNavMeshObstacle.cpp \
-navmesh/CCNavMeshUtils.cpp \
 ../external/ConvertUTF/ConvertUTFWrapper.cpp \
 ../external/ConvertUTF/ConvertUTF.c \
 ../external/tinyxml2/tinyxml2.cpp \
@@ -243,7 +238,6 @@ LOCAL_STATIC_LIBRARIES += cocos_jpeg_static
 LOCAL_STATIC_LIBRARIES += cocos_tiff_static
 LOCAL_STATIC_LIBRARIES += cocos_webp_static
 LOCAL_STATIC_LIBRARIES += cocos_zlib_static
-LOCAL_STATIC_LIBRARIES += recast_static
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dxandroid_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cpufeatures
@@ -291,7 +285,6 @@ $(call import-module,editor-support/spine)
 $(call import-module,network)
 $(call import-module,ui)
 $(call import-module,extensions)
-$(call import-module,recast)
 # $(call import-module,curl/prebuilt/android)
 $(call import-module,websockets/prebuilt/android)
 $(call import-module,flatbuffers)

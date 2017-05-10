@@ -191,7 +191,6 @@
         "link_libs" : {
             "base" : [
                 "libcocos2d.lib", "libSpine.lib",
-                "librecast.lib",
             ],
             "lua" : [
                 "libluacocos2d", "libsimulator"

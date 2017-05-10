@@ -1354,21 +1354,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\audio\winrt\AudioSourceReader.h">
       <Filter>audio</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMesh.h">
-      <Filter>navmesh</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshAgent.h">
-      <Filter>navmesh</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshDebugDraw.h">
-      <Filter>navmesh</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshObstacle.h">
-      <Filter>navmesh</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshUtils.h">
-      <Filter>navmesh</Filter>
-    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\base\CCNinePatchImageParser.h">
       <Filter>base</Filter>
     </ClInclude>
@@ -2660,21 +2645,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\audio\winrt\AudioSourceReader.cpp">
       <Filter>audio</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMesh.cpp">
-      <Filter>navmesh</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshAgent.cpp">
-      <Filter>navmesh</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshDebugDraw.cpp">
-      <Filter>navmesh</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshObstacle.cpp">
-      <Filter>navmesh</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\navmesh\CCNavMeshUtils.cpp">
-      <Filter>navmesh</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\base\CCNinePatchImageParser.cpp">
       <Filter>base</Filter>
     </ClCompile>
@@ -2840,9 +2810,6 @@
     </Filter>
     <Filter Include="audio">
       <UniqueIdentifier>{f1c7e21a-6d78-44ba-9480-d7ba197c7b42}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="navmesh">
-      <UniqueIdentifier>{9a25af30-04d1-41a7-9e55-e34db6b712cd}</UniqueIdentifier>
     </Filter>
     <Filter Include="vr">
       <UniqueIdentifier>{485c9ff1-3f65-46dc-a4ee-4eeb3f6d31f1}</UniqueIdentifier>

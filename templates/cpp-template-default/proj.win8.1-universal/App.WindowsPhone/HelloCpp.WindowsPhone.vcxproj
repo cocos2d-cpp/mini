@@ -148,9 +148,6 @@
     <ProjectReference Include="..\..\cocos2d\cocos\editor-support\spine\proj.win8.1-universal\libSpine.WindowsPhone\libSpine.WindowsPhone.vcxproj">
       <Project>{cc1da216-a80d-4be4-b309-acb6af313aff}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\cocos2d\external\recast\proj.win8.1-universal\librecast.WindowsPhone\librecast.WindowsPhone.vcxproj">
-      <Project>{d3bcfc1a-94bd-43b7-9c15-3f48ac6a9fac}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,8 +13,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-empty-test", "..\tests\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-tests", "..\tests\cpp-tests\proj.win10\cpp-tests.vcxproj", "{C1307B42-D00A-4B88-BCDD-0A16A81FF4C1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librecast", "..\external\recast\proj.win10\librecast.vcxproj", "{F551524D-8A70-4B2F-A7C2-28AE61150022}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM

@@ -37,14 +37,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloCpp.Windows", "..\test
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloCpp.WindowsPhone", "..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.WindowsPhone\HelloCpp.WindowsPhone.vcxproj", "{396FE85E-BB05-4B92-BCCB-F89AED4EA41A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "librecast", "librecast", "{F07894BD-4919-4C5F-9CCD-1B8168466573}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librecast.Shared", "..\external\recast\proj.win8.1-universal\librecast.Shared\librecast.Shared.vcxitems", "{F39A11FB-0D36-4B0A-91F1-345F1F0C9AA9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librecast.Windows", "..\external\recast\proj.win8.1-universal\librecast.Windows\librecast.Windows.vcxproj", "{19E35654-A3EC-48FA-BB21-082A2356C87C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librecast.WindowsPhone", "..\external\recast\proj.win8.1-universal\librecast.WindowsPhone\librecast.WindowsPhone.vcxproj", "{D3BCFC1A-94BD-43B7-9C15-3F48AC6A9FAC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libjscocos2d", "libjscocos2d", "{E9FB34D8-21AA-4D22-B21F-7136946535A2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjscocos2d.Shared", "..\cocos\scripting\js-bindings\proj.win8.1-universal\libjscocos2d\libjscocos2d.Shared\libjscocos2d.Shared.vcxitems", "{BEA66276-51DD-4C53-92A8-F3D1FEA50892}"
@@ -67,11 +59,9 @@ Global
 		..\tests\js-tests\project\proj.win8.1-universal\App.Shared\js-tests.Shared.vcxitems*{94874b5b-398f-448a-a366-35a35dc1db9c}*SharedItemsImports = 4
 		..\cocos\2d\libcocos2d_8_1\libcocos2d_8_1\libcocos2d_8_1.Shared\libcocos2d_8_1.Shared.vcxitems*{9335005f-678e-4e8e-9b84-50037216aec8}*SharedItemsImports = 4
 		..\tests\cpp-tests\proj.win8.1-universal\cpp-tests.Shared\cpp-tests.Shared.vcxitems*{15247c71-5289-4913-b88f-e253cc353720}*SharedItemsImports = 4
-		..\external\recast\proj.win8.1-universal\librecast.Shared\librecast.Shared.vcxitems*{19e35654-a3ec-48fa-bb21-082a2356c87c}*SharedItemsImports = 4
 		..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.Shared\HelloCpp.Shared.vcxitems*{a3ad93e4-0b2f-4c58-9181-69bed2e42e3e}*SharedItemsImports = 9
 		..\tests\js-tests\project\proj.win8.1-universal\App.Shared\js-tests.Shared.vcxitems*{70914fc8-7709-4cd6-b86b-c63fde5478db}*SharedItemsImports = 4
 		..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems*{cc1da216-a80d-4be4-b309-acb6af313aff}*SharedItemsImports = 4
-		..\external\recast\proj.win8.1-universal\librecast.Shared\librecast.Shared.vcxitems*{f39a11fb-0d36-4b0a-91f1-345f1f0c9aa9}*SharedItemsImports = 9
 		..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.Shared\HelloCpp.Shared.vcxitems*{79a8fcda-4b12-4dd1-b676-ff148d651638}*SharedItemsImports = 4
 		..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems*{adafd00d-a0d6-46ef-9f0b-ea2880bfe1de}*SharedItemsImports = 9
 		..\tests\cpp-tests\proj.win8.1-universal\cpp-tests.Shared\cpp-tests.Shared.vcxitems*{be3a1791-5bce-4cea-92cd-0e2d86dde27a}*SharedItemsImports = 9
@@ -82,7 +72,6 @@ Global
 		..\cocos\2d\libcocos2d_8_1\libcocos2d_8_1\libcocos2d_8_1.Shared\libcocos2d_8_1.Shared.vcxitems*{22f3b9df-1209-4574-8331-003966f562bf}*SharedItemsImports = 4
 		..\cocos\editor-support\spine\proj.win8.1-universal\libSpine.Shared\libSpine.Shared.vcxitems*{f3550fe0-c795-44f6-8feb-093eb68143ae}*SharedItemsImports = 4
 		..\tests\cpp-tests\proj.win8.1-universal\cpp-tests.Shared\cpp-tests.Shared.vcxitems*{f2bae06b-caae-43ee-b21b-57fa48db04fa}*SharedItemsImports = 4
-		..\external\recast\proj.win8.1-universal\librecast.Shared\librecast.Shared.vcxitems*{d3bcfc1a-94bd-43b7-9c15-3f48ac6a9fac}*SharedItemsImports = 4
 		..\tests\cpp-empty-test\proj.win8.1-universal\HelloCpp.Shared\HelloCpp.Shared.vcxitems*{396fe85e-bb05-4b92-bccb-f89aed4ea41a}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

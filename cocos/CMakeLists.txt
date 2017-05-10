@@ -36,7 +36,6 @@ include(2d/CMakeLists.txt)
 include(3d/CMakeLists.txt)
 include(platform/CMakeLists.txt)
 include(math/CMakeLists.txt)
-include(navmesh/CMakeLists.txt)
 include(renderer/CMakeLists.txt)
 include(vr/CMakeLists.txt)
 include(base/CMakeLists.txt)
@@ -57,7 +56,6 @@ set(COCOS_SRC cocos2d.cpp
     ${COCOS_3D_SRC}
     ${COCOS_PLATFORM_SRC}
     ${COCOS_MATH_SRC}
-    ${COCOS_NAVMESH_SRC}
     ${COCOS_RENDERER_SRC}
     ${COCOS_VR_SRC}
     ${COCOS_BASE_SRC}
@@ -138,10 +136,6 @@ if(USE_WEBP)
   cocos_use_pkg(cocos2d WEBP)
 else()
   add_definitions(-DCC_USE_WEBP=0)
-endif()
-
-if(USE_RECAST)
-  cocos_use_pkg(cocos2d RECAST)
 endif()
 
 if(ANDROID)

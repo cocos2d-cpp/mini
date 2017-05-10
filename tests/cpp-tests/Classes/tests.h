@@ -51,7 +51,6 @@
 #include "MenuTest/MenuTest.h"
 #include "MotionStreakTest/MotionStreakTest.h"
 #include "MutiTouchTest/MutiTouchTest.h"
-#include "NavMeshTest/NavMeshTest.h"
 #include "NewEventDispatcherTest/NewEventDispatcherTest.h"
 #include "NewRendererTest/NewRendererTest.h"
 #include "NodeTest/NodeTest.h"

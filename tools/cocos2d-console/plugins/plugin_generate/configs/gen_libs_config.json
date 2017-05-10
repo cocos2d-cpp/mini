@@ -17,10 +17,10 @@
     "vs_projs_info" : {
         "tools/simulator/frameworks/runtime-src/proj.win32/simulator.sln" : {
             "build_targets" : [
-                "libluacocos2d", "libjscocos2d", "libsimulator"
+                "libsimulator"
             ],
             "rename_targets" : [
-                "libSpine", "librecast",
+                "libSpine",
                 "libcocos2d", "libluacocos2d", "libjscocos2d", 
                 "libsimulator"
             ]
@@ -30,7 +30,6 @@
         "cocos/Android.mk",
         "cocos/audio/android/Android.mk",
         "cocos/storage/local-storage/Android.mk",
-        "external/recast/Android.mk",
         "external/flatbuffers/Android.mk",
         "extensions/Android.mk",
         "cocos/3d/Android.mk",

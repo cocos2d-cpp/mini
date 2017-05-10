@@ -472,7 +472,6 @@
 		507B41291C31BEA60067B53E /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35C7A18CECF1400F37B72 /* Icon-152.png */; };
 		507B412A1C31BEA60067B53E /* effect2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CB718CED84500F37B72 /* effect2.ogg */; };
 		507B412B1C31BEA60067B53E /* ActionTimeline in Resources */ = {isa = PBXBuildFile; fileRef = 38FA2E75194AECF800FF2BE4 /* ActionTimeline */; };
-		507B412C1C31BEA60067B53E /* NavMesh in Resources */ = {isa = PBXBuildFile; fileRef = B61E90CA1B12B74B00BE69EA /* NavMesh */; };
 		507B412D1C31BEA60067B53E /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35C8218CECF1400F37B72 /* Icon-80.png */; };
 		507B412E1C31BEA60067B53E /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CB918CED84500F37B72 /* fileLookup.plist */; };
 		507B412F1C31BEA60067B53E /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B1F3319EF9CF8000A1F82 /* Default-736h@3x.png */; };
@@ -585,7 +584,6 @@
 		507B41E81C31BEA60067B53E /* controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC359A018CECF0B00F37B72 /* controller.cpp */; };
 		507B41E91C31BEA60067B53E /* CCControlSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A6D18CECF0B00F37B72 /* CCControlSceneManager.cpp */; };
 		507B41EC1C31BEA60067B53E /* Bug-CCDrawNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94D793D51B4B7A3600F60F10 /* Bug-CCDrawNode.cpp */; };
-		507B41F01C31BEA60067B53E /* NavMeshTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */; };
 		507B41F11C31BEA60067B53E /* LightTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C039D719C95D83007207DC /* LightTest.cpp */; };
 		507B41F41C31BEA60067B53E /* Bug-422.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3597D18CECF0B00F37B72 /* Bug-422.cpp */; };
 		507B41F61C31BEA60067B53E /* HttpClientTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A7E18CECF0B00F37B72 /* HttpClientTest.cpp */; };
@@ -711,16 +709,12 @@
 		B603F1B51AC8FBFB00A9579C /* TerrainTest in Resources */ = {isa = PBXBuildFile; fileRef = B603F1B31AC8FBFB00A9579C /* TerrainTest */; };
 		B609E67319C18DAD003D0074 /* BillBoardTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B609E67119C18DAD003D0074 /* BillBoardTest.cpp */; };
 		B609E67419C18DAD003D0074 /* BillBoardTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B609E67119C18DAD003D0074 /* BillBoardTest.cpp */; };
-		B61E90CB1B12B74B00BE69EA /* NavMesh in Resources */ = {isa = PBXBuildFile; fileRef = B61E90CA1B12B74B00BE69EA /* NavMesh */; };
-		B61E90CC1B12B74B00BE69EA /* NavMesh in Resources */ = {isa = PBXBuildFile; fileRef = B61E90CA1B12B74B00BE69EA /* NavMesh */; };
 		B639932E1A490EC700B07923 /* Particle3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B639932C1A490EC700B07923 /* Particle3DTest.cpp */; };
 		B639932F1A490EC700B07923 /* Particle3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B639932C1A490EC700B07923 /* Particle3DTest.cpp */; };
 		B63993311A49359F00B07923 /* Particle3D in Resources */ = {isa = PBXBuildFile; fileRef = B63993301A49359F00B07923 /* Particle3D */; };
 		B63993321A49359F00B07923 /* Particle3D in Resources */ = {isa = PBXBuildFile; fileRef = B63993301A49359F00B07923 /* Particle3D */; };
 		B6C039D919C95D83007207DC /* LightTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C039D719C95D83007207DC /* LightTest.cpp */; };
 		B6C039DA19C95D83007207DC /* LightTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C039D719C95D83007207DC /* LightTest.cpp */; };
-		B6DD2FFC1B04979C00E47F5F /* NavMeshTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */; };
-		B6DD2FFD1B04979C00E47F5F /* NavMeshTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */; };
 		C04F935A1941B05400E9FEAB /* TileMapTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C04F93581941B05400E9FEAB /* TileMapTest2.cpp */; };
 		C04F935B1941B05400E9FEAB /* TileMapTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C04F93581941B05400E9FEAB /* TileMapTest2.cpp */; };
 		C08689C118D370C90093E810 /* background.caf in Resources */ = {isa = PBXBuildFile; fileRef = C08689C018D370C90093E810 /* background.caf */; };
@@ -1443,14 +1437,11 @@
 		B603F1B31AC8FBFB00A9579C /* TerrainTest */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TerrainTest; path = "../tests/cpp-tests/Resources/TerrainTest"; sourceTree = "<group>"; };
 		B609E67119C18DAD003D0074 /* BillBoardTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BillBoardTest.cpp; path = BillBoardTest/BillBoardTest.cpp; sourceTree = "<group>"; };
 		B609E67219C18DAD003D0074 /* BillBoardTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BillBoardTest.h; path = BillBoardTest/BillBoardTest.h; sourceTree = "<group>"; };
-		B61E90CA1B12B74B00BE69EA /* NavMesh */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NavMesh; path = "../tests/cpp-tests/Resources/NavMesh"; sourceTree = "<group>"; };
 		B639932C1A490EC700B07923 /* Particle3DTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle3DTest.cpp; path = Particle3DTest/Particle3DTest.cpp; sourceTree = "<group>"; };
 		B639932D1A490EC700B07923 /* Particle3DTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle3DTest.h; path = Particle3DTest/Particle3DTest.h; sourceTree = "<group>"; };
 		B63993301A49359F00B07923 /* Particle3D */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particle3D; path = "../tests/cpp-tests/Resources/Particle3D"; sourceTree = "<group>"; };
 		B6C039D719C95D83007207DC /* LightTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightTest.cpp; path = LightTest/LightTest.cpp; sourceTree = "<group>"; };
 		B6C039D819C95D83007207DC /* LightTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightTest.h; path = LightTest/LightTest.h; sourceTree = "<group>"; };
-		B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NavMeshTest.cpp; path = NavMeshTest/NavMeshTest.cpp; sourceTree = "<group>"; };
-		B6DD2FFB1B04979C00E47F5F /* NavMeshTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavMeshTest.h; path = NavMeshTest/NavMeshTest.h; sourceTree = "<group>"; };
 		C04F93581941B05400E9FEAB /* TileMapTest2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileMapTest2.cpp; sourceTree = "<group>"; };
 		C04F93591941B05400E9FEAB /* TileMapTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileMapTest2.h; sourceTree = "<group>"; };
 		C08689C018D370C90093E810 /* background.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = background.caf; path = "../tests/cpp-tests/Resources/background.caf"; sourceTree = "<group>"; };
@@ -1873,7 +1864,6 @@
 				53367D531DC22891005862DE /* WindowTest */,
 				504C94991D1C51BE00E4E9B3 /* VRTest */,
 				50921EAC1B746D5F00C085CC /* DownloaderTest */,
-				B6DD2FF91B04972B00E47F5F /* NavMeshTest */,
 				5046AB471AF2A8D80060550B /* MaterialSystemTest */,
 				6886696E1AE8E8A000C2CFD9 /* SpritePolygonTest */,
 				B603F1AC1AC8EA2E00A9579C /* TerrainTest */,
@@ -2658,7 +2648,6 @@
 			isa = PBXGroup;
 			children = (
 				460629771CDB4DBA00B44058 /* ccs-res */,
-				B61E90CA1B12B74B00BE69EA /* NavMesh */,
 				5046AB5A1AF2C4180060550B /* Materials */,
 				B603F1B31AC8FBFB00A9579C /* TerrainTest */,
 				B63993301A49359F00B07923 /* Particle3D */,
@@ -3006,15 +2995,6 @@
 				B6C039D819C95D83007207DC /* LightTest.h */,
 			);
 			name = LightTest;
-			sourceTree = "<group>";
-		};
-		B6DD2FF91B04972B00E47F5F /* NavMeshTest */ = {
-			isa = PBXGroup;
-			children = (
-				B6DD2FFA1B04979C00E47F5F /* NavMeshTest.cpp */,
-				B6DD2FFB1B04979C00E47F5F /* NavMeshTest.h */,
-			);
-			name = NavMeshTest;
 			sourceTree = "<group>";
 		};
 		D0FD03611A3B543700825BB5 /* AllocatorTest */ = {
@@ -3405,7 +3385,6 @@
 				1AC35CDE18CED84500F37B72 /* components in Resources */,
 				1AC35D0818CED84500F37B72 /* TileMaps in Resources */,
 				1AC35CE218CED84500F37B72 /* effect1.raw in Resources */,
-				B61E90CB1B12B74B00BE69EA /* NavMesh in Resources */,
 				1AC35CF218CED84500F37B72 /* Hello.png in Resources */,
 				1AC35CA518CECF1E00F37B72 /* Icon.icns in Resources */,
 				5046AB5B1AF2C4180060550B /* Materials in Resources */,
@@ -3501,7 +3480,6 @@
 				507B41291C31BEA60067B53E /* Icon-152.png in Resources */,
 				507B412A1C31BEA60067B53E /* effect2.ogg in Resources */,
 				507B412B1C31BEA60067B53E /* ActionTimeline in Resources */,
-				507B412C1C31BEA60067B53E /* NavMesh in Resources */,
 				507B412D1C31BEA60067B53E /* Icon-80.png in Resources */,
 				507B412E1C31BEA60067B53E /* fileLookup.plist in Resources */,
 				507B412F1C31BEA60067B53E /* Default-736h@3x.png in Resources */,
@@ -3603,7 +3581,6 @@
 				1AC35C8F18CECF1400F37B72 /* Icon-152.png in Resources */,
 				1AC35CE718CED84500F37B72 /* effect2.ogg in Resources */,
 				38FA2E77194AECF800FF2BE4 /* ActionTimeline in Resources */,
-				B61E90CC1B12B74B00BE69EA /* NavMesh in Resources */,
 				1AC35C9718CECF1400F37B72 /* Icon-80.png in Resources */,
 				1AC35CEB18CED84500F37B72 /* fileLookup.plist in Resources */,
 				527B1F3519EF9CF8000A1F82 /* Default-736h@3x.png in Resources */,
@@ -3757,7 +3734,6 @@
 				1AC35B2B18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
 				1AC35BE718CECF0C00F37B72 /* CCControlScene.cpp in Sources */,
 				B609E67319C18DAD003D0074 /* BillBoardTest.cpp in Sources */,
-				B6DD2FFC1B04979C00E47F5F /* NavMeshTest.cpp in Sources */,
 				D0FD03641A3B546400825BB5 /* AllocatorTest.cpp in Sources */,
 				1AC35B5D18CECF0C00F37B72 /* CurrentLanguageTest.cpp in Sources */,
 				1AC35B3B18CECF0C00F37B72 /* Bug-350.cpp in Sources */,
@@ -3932,7 +3908,6 @@
 				507B41E81C31BEA60067B53E /* controller.cpp in Sources */,
 				507B41E91C31BEA60067B53E /* CCControlSceneManager.cpp in Sources */,
 				507B41EC1C31BEA60067B53E /* Bug-CCDrawNode.cpp in Sources */,
-				507B41F01C31BEA60067B53E /* NavMeshTest.cpp in Sources */,
 				507B41F11C31BEA60067B53E /* LightTest.cpp in Sources */,
 				507B41F41C31BEA60067B53E /* Bug-422.cpp in Sources */,
 				507B41F61C31BEA60067B53E /* HttpClientTest.cpp in Sources */,
@@ -4073,7 +4048,6 @@
 				1AC35B5A18CECF0C00F37B72 /* controller.cpp in Sources */,
 				1AC35BEA18CECF0C00F37B72 /* CCControlSceneManager.cpp in Sources */,
 				94D793DA1B4B7A3600F60F10 /* Bug-CCDrawNode.cpp in Sources */,
-				B6DD2FFD1B04979C00E47F5F /* NavMeshTest.cpp in Sources */,
 				B6C039DA19C95D83007207DC /* LightTest.cpp in Sources */,
 				1AC35B3E18CECF0C00F37B72 /* Bug-422.cpp in Sources */,
 				1AC35BF618CECF0C00F37B72 /* HttpClientTest.cpp in Sources */,
