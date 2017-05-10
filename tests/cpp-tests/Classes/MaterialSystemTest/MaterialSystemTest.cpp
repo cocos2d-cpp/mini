@@ -35,7 +35,6 @@
 #include "base/ccUTF8.h"
 #include "renderer/CCMaterial.h"
 #include "renderer/CCRenderer.h"
-#include "spine/spine-cocos2dx.h"
 #include "ui/UISlider.h"
 
 #include <ctime>
@@ -488,15 +487,6 @@ void Material_invalidate::onEnter()
         std::make_unique<RepeatForever>(
             std::make_unique<RotateBy>(5, Vec3(0,360,0))
         ));
-
-    // SPINE
-    auto skeletonNode = spine::SkeletonAnimation::createWithJsonFile("spine/goblins.json", "spine/goblins.atlas", 1.5f);
-    skeletonNode->setAnimation(0, "walk", true);
-    skeletonNode->setSkin("goblin");
-
-    skeletonNode->setScale(0.25);
-    skeletonNode->setPositionNormalized(Vec2(0.6f,0.3f));
-    this->addChild(skeletonNode);
 }
 
 std::string Material_invalidate::subtitle() const
@@ -558,15 +548,6 @@ void Material_renderState::onEnter()
         std::make_unique<RepeatForever>(
             std::make_unique<RotateBy>(5, Vec3(0,360,0))
         ));
-
-    // SPINE
-    auto skeletonNode = spine::SkeletonAnimation::createWithJsonFile("spine/goblins.json", "spine/goblins.atlas", 1.5f);
-    skeletonNode->setAnimation(0, "walk", true);
-    skeletonNode->setSkin("goblin");
-
-    skeletonNode->setScale(0.25);
-    skeletonNode->setPositionNormalized(Vec2(0.6f,0.3f));
-    this->addChild(skeletonNode);
 
     _stateBlock.setDepthTest(false);
     _stateBlock.setDepthWrite(false);

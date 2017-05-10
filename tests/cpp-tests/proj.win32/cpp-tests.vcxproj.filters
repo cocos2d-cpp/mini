@@ -157,9 +157,6 @@
     <Filter Include="Classes\FileUtilsTest">
       <UniqueIdentifier>{a4c2111f-cf9f-492c-884d-3de24715adce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\SpineTest">
-      <UniqueIdentifier>{60df7835-5770-44bb-b5c7-24c9aa34da88}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\TexturePackerEncryptionTest">
       <UniqueIdentifier>{4031c3bb-97f8-4b43-91e5-48dd94ca2d24}</UniqueIdentifier>
     </Filter>
@@ -219,9 +216,6 @@
     </Filter>
     <Filter Include="Classes\MaterialSystemTest">
       <UniqueIdentifier>{4fd79779-ff32-4400-aa05-af4fd7f0f4a0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Scene3DTest">
-      <UniqueIdentifier>{f7e74952-eece-467a-b27a-2e92db013997}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\DownloaderTest">
       <UniqueIdentifier>{3442fab7-30f3-4bbc-8b7c-5821011d4935}</UniqueIdentifier>
@@ -438,9 +432,6 @@
     <ClCompile Include="..\Classes\FileUtilsTest\FileUtilsTest.cpp">
       <Filter>Classes\FileUtilsTest</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\SpineTest\SpineTest.cpp">
-      <Filter>Classes\SpineTest</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\TexturePackerEncryptionTest\TextureAtlasEncryptionTest.cpp">
       <Filter>Classes\TexturePackerEncryptionTest</Filter>
     </ClCompile>
@@ -524,9 +515,6 @@
     </ClCompile>
     <ClCompile Include="..\Classes\MaterialSystemTest\MaterialSystemTest.cpp">
       <Filter>Classes\MaterialSystemTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Scene3DTest\Scene3DTest.cpp">
-      <Filter>Classes\Scene3DTest</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\BugsTest\Bug-CCDrawNode.cpp">
       <Filter>Classes\BugsTest</Filter>
@@ -765,9 +753,6 @@
     <ClInclude Include="..\Classes\FileUtilsTest\FileUtilsTest.h">
       <Filter>Classes\FileUtilsTest</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\SpineTest\SpineTest.h">
-      <Filter>Classes\SpineTest</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\TexturePackerEncryptionTest\TextureAtlasEncryptionTest.h">
       <Filter>Classes\TexturePackerEncryptionTest</Filter>
     </ClInclude>
@@ -848,9 +833,6 @@
     </ClInclude>
     <ClInclude Include="..\Classes\MaterialSystemTest\MaterialSystemTest.h">
       <Filter>Classes\MaterialSystemTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Scene3DTest\Scene3DTest.h">
-      <Filter>Classes\Scene3DTest</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\BugsTest\Bug-CCDrawNode.h">
       <Filter>Classes\BugsTest</Filter>

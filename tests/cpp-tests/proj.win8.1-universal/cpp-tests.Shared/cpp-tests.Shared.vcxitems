@@ -100,12 +100,10 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ReleasePoolTest\ReleasePoolTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\RenderTextureTest\RenderTextureTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\RotateWorldTest\RotateWorldTest.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Scene3DTest\Scene3DTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\SceneTest\SceneTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\SchedulerTest\SchedulerTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest2.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\SpineTest\SpineTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Sprite3DTest\DrawNode3D.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Sprite3DTest\Sprite3DTest.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\SpritePolygonTest\SpritePolygonTest.cpp" />
@@ -213,14 +211,12 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ReleasePoolTest\ReleasePoolTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\RenderTextureTest\RenderTextureTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\RotateWorldTest\RotateWorldTest.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Scene3DTest\Scene3DTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\SceneTest\SceneTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\SchedulerTest\SchedulerTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\shaderTest.psh.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest.vsh.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest2.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\SpineTest\SpineTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Sprite3DTest\DrawNode3D.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Sprite3DTest\Sprite3DTest.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\SpritePolygonTest\SpritePolygonTest.h" />

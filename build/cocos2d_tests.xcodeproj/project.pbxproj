@@ -251,8 +251,6 @@
 		1AC35C4A18CECF0C00F37B72 /* ShaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AED18CECF0C00F37B72 /* ShaderTest.cpp */; };
 		1AC35C4B18CECF0C00F37B72 /* ShaderTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AEF18CECF0C00F37B72 /* ShaderTest2.cpp */; };
 		1AC35C4C18CECF0C00F37B72 /* ShaderTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AEF18CECF0C00F37B72 /* ShaderTest2.cpp */; };
-		1AC35C4D18CECF0C00F37B72 /* SpineTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF218CECF0C00F37B72 /* SpineTest.cpp */; };
-		1AC35C4E18CECF0C00F37B72 /* SpineTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF218CECF0C00F37B72 /* SpineTest.cpp */; };
 		1AC35C4F18CECF0C00F37B72 /* SpriteTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF518CECF0C00F37B72 /* SpriteTest.cpp */; };
 		1AC35C5018CECF0C00F37B72 /* SpriteTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF518CECF0C00F37B72 /* SpriteTest.cpp */; };
 		1AC35C5118CECF0C00F37B72 /* testBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF718CECF0C00F37B72 /* testBasic.cpp */; };
@@ -346,8 +344,6 @@
 		1AC35D0118CED84500F37B72 /* pew-pew-lei.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC418CED84500F37B72 /* pew-pew-lei.wav */; };
 		1AC35D0418CED84500F37B72 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC618CED84500F37B72 /* Shaders */; };
 		1AC35D0518CED84500F37B72 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC618CED84500F37B72 /* Shaders */; };
-		1AC35D0618CED84500F37B72 /* spine in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC718CED84500F37B72 /* spine */; };
-		1AC35D0718CED84500F37B72 /* spine in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC718CED84500F37B72 /* spine */; };
 		1AC35D0818CED84500F37B72 /* TileMaps in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC818CED84500F37B72 /* TileMaps */; };
 		1AC35D0918CED84500F37B72 /* TileMaps in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC818CED84500F37B72 /* TileMaps */; };
 		1AC35D0A18CED84500F37B72 /* zwoptex in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC918CED84500F37B72 /* zwoptex */; };
@@ -477,7 +473,6 @@
 		507B412F1C31BEA60067B53E /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B1F3319EF9CF8000A1F82 /* Default-736h@3x.png */; };
 		507B41301C31BEA60067B53E /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B1F3219EF9CF8000A1F82 /* Default-667h@2x.png */; };
 		507B41311C31BEA60067B53E /* music.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC218CED84500F37B72 /* music.mid */; };
-		507B41321C31BEA60067B53E /* spine in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CC718CED84500F37B72 /* spine */; };
 		507B41331C31BEA60067B53E /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35C7818CECF1400F37B72 /* Icon-120.png */; };
 		507B41341C31BEA60067B53E /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35C7F18CECF1400F37B72 /* Icon-58.png */; };
 		507B41351C31BEA60067B53E /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AC35CAC18CED84500F37B72 /* background.mp3 */; };
@@ -489,7 +484,6 @@
 		507B413F1C31BEA60067B53E /* Bug-886.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598618CECF0B00F37B72 /* Bug-886.cpp */; };
 		507B41401C31BEA60067B53E /* CCControlButtonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A6318CECF0B00F37B72 /* CCControlButtonTest.cpp */; };
 		507B41411C31BEA60067B53E /* CCControlSliderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A7018CECF0B00F37B72 /* CCControlSliderTest.cpp */; };
-		507B41431C31BEA60067B53E /* SpineTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF218CECF0C00F37B72 /* SpineTest.cpp */; };
 		507B41451C31BEA60067B53E /* NewRendererTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AB618CECF0C00F37B72 /* NewRendererTest.cpp */; };
 		507B41461C31BEA60067B53E /* DrawNode3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEECAE1995247000429821 /* DrawNode3D.cpp */; };
 		507B414A1C31BEA60067B53E /* WebSocketTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35A8218CECF0B00F37B72 /* WebSocketTest.cpp */; };
@@ -515,7 +509,6 @@
 		507B416E1C31BEA60067B53E /* Bug-914.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598A18CECF0B00F37B72 /* Bug-914.cpp */; };
 		507B416F1C31BEA60067B53E /* EffectsAdvancedTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC359AF18CECF0B00F37B72 /* EffectsAdvancedTest.cpp */; };
 		507B41701C31BEA60067B53E /* Paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35B0D18CECF0C00F37B72 /* Paddle.cpp */; };
-		507B41731C31BEA60067B53E /* Scene3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BD49FC1AFAFEE50046CCE3 /* Scene3DTest.cpp */; };
 		507B41741C31BEA60067B53E /* OpenURLTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5030C3319D059DA000E78E7 /* OpenURLTest.cpp */; };
 		507B41751C31BEA60067B53E /* BugsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3598C18CECF0B00F37B72 /* BugsTest.cpp */; };
 		507B41761C31BEA60067B53E /* testBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC35AF718CECF0C00F37B72 /* testBasic.cpp */; };
@@ -697,8 +690,6 @@
 		A07A52BF1783AF210073F6A7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07A52B91783AE900073F6A7 /* OpenGLES.framework */; };
 		A07A52C01783AF250073F6A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07A52B71783AE6D0073F6A7 /* UIKit.framework */; };
 		A07A52C31783B02C0073F6A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07A52C11783B01F0073F6A7 /* AVFoundation.framework */; };
-		A0BD49FE1AFAFEE50046CCE3 /* Scene3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BD49FC1AFAFEE50046CCE3 /* Scene3DTest.cpp */; };
-		A0BD49FF1AFAFEE50046CCE3 /* Scene3DTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BD49FC1AFAFEE50046CCE3 /* Scene3DTest.cpp */; };
 		A5030C3519D059DA000E78E7 /* OpenURLTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5030C3319D059DA000E78E7 /* OpenURLTest.cpp */; };
 		A5030C3619D059DA000E78E7 /* OpenURLTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5030C3319D059DA000E78E7 /* OpenURLTest.cpp */; };
 		B2507B6B192589AF00FA4972 /* Shaders3D in Resources */ = {isa = PBXBuildFile; fileRef = B2507B6A192589AF00FA4972 /* Shaders3D */; };
@@ -1236,8 +1227,6 @@
 		1AC35AEE18CECF0C00F37B72 /* ShaderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTest.h; sourceTree = "<group>"; };
 		1AC35AEF18CECF0C00F37B72 /* ShaderTest2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderTest2.cpp; sourceTree = "<group>"; };
 		1AC35AF018CECF0C00F37B72 /* ShaderTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTest2.h; sourceTree = "<group>"; };
-		1AC35AF218CECF0C00F37B72 /* SpineTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpineTest.cpp; sourceTree = "<group>"; };
-		1AC35AF318CECF0C00F37B72 /* SpineTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpineTest.h; sourceTree = "<group>"; };
 		1AC35AF518CECF0C00F37B72 /* SpriteTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = SpriteTest.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		1AC35AF618CECF0C00F37B72 /* SpriteTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteTest.h; sourceTree = "<group>"; };
 		1AC35AF718CECF0C00F37B72 /* testBasic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testBasic.cpp; sourceTree = "<group>"; };
@@ -1316,7 +1305,6 @@
 		1AC35CC318CED84500F37B72 /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particles; path = "../tests/cpp-tests/Resources/Particles"; sourceTree = "<group>"; };
 		1AC35CC418CED84500F37B72 /* pew-pew-lei.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pew-pew-lei.wav"; path = "../tests/cpp-tests/Resources/pew-pew-lei.wav"; sourceTree = "<group>"; };
 		1AC35CC618CED84500F37B72 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders; path = "../tests/cpp-tests/Resources/Shaders"; sourceTree = "<group>"; };
-		1AC35CC718CED84500F37B72 /* spine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = spine; path = "../tests/cpp-tests/Resources/spine"; sourceTree = "<group>"; };
 		1AC35CC818CED84500F37B72 /* TileMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TileMaps; path = "../tests/cpp-tests/Resources/TileMaps"; sourceTree = "<group>"; };
 		1AC35CC918CED84500F37B72 /* zwoptex */ = {isa = PBXFileReference; lastKnownFileType = folder; name = zwoptex; path = "../tests/cpp-tests/Resources/zwoptex"; sourceTree = "<group>"; };
 		1AC35D0C18CED89100F37B72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1427,8 +1415,6 @@
 		A07A52B91783AE900073F6A7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		A07A52BB1783AEB80073F6A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		A07A52C11783B01F0073F6A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		A0BD49FC1AFAFEE50046CCE3 /* Scene3DTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene3DTest.cpp; sourceTree = "<group>"; };
-		A0BD49FD1AFAFEE50046CCE3 /* Scene3DTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene3DTest.h; sourceTree = "<group>"; };
 		A5030C3319D059DA000E78E7 /* OpenURLTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenURLTest.cpp; path = OpenURLTest/OpenURLTest.cpp; sourceTree = "<group>"; };
 		A5030C3419D059DA000E78E7 /* OpenURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenURLTest.h; path = OpenURLTest/OpenURLTest.h; sourceTree = "<group>"; };
 		B2507B6A192589AF00FA4972 /* Shaders3D */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders3D; path = "../tests/cpp-tests/Resources/Shaders3D"; sourceTree = "<group>"; };
@@ -1912,11 +1898,9 @@
 				1AC35ADD18CECF0C00F37B72 /* ReleasePoolTest */,
 				1AC35AE018CECF0C00F37B72 /* RenderTextureTest */,
 				1AC35AE318CECF0C00F37B72 /* RotateWorldTest */,
-				A0BD49FB1AFAFEE50046CCE3 /* Scene3DTest */,
 				1AC35AE618CECF0C00F37B72 /* SceneTest */,
 				1AC35AE918CECF0C00F37B72 /* SchedulerTest */,
 				1AC35AEC18CECF0C00F37B72 /* ShaderTest */,
-				1AC35AF118CECF0C00F37B72 /* SpineTest */,
 				3E92EA7D1921A0C60094CD21 /* Sprite3DTest */,
 				1AC35AF418CECF0C00F37B72 /* SpriteTest */,
 				1AC35AF718CECF0C00F37B72 /* testBasic.cpp */,
@@ -2468,15 +2452,6 @@
 			path = ShaderTest;
 			sourceTree = "<group>";
 		};
-		1AC35AF118CECF0C00F37B72 /* SpineTest */ = {
-			isa = PBXGroup;
-			children = (
-				1AC35AF218CECF0C00F37B72 /* SpineTest.cpp */,
-				1AC35AF318CECF0C00F37B72 /* SpineTest.h */,
-			);
-			path = SpineTest;
-			sourceTree = "<group>";
-		};
 		1AC35AF418CECF0C00F37B72 /* SpriteTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -2668,7 +2643,6 @@
 				1AC35CC118CED84500F37B72 /* Misc */,
 				1AC35CC318CED84500F37B72 /* Particles */,
 				1AC35CC618CED84500F37B72 /* Shaders */,
-				1AC35CC718CED84500F37B72 /* spine */,
 				1AC35CC818CED84500F37B72 /* TileMaps */,
 				1AC35CC918CED84500F37B72 /* zwoptex */,
 				C08689C018D370C90093E810 /* background.caf */,
@@ -2941,15 +2915,6 @@
 				688669701AE8E8B500C2CFD9 /* SpritePolygonTest.h */,
 			);
 			path = SpritePolygonTest;
-			sourceTree = "<group>";
-		};
-		A0BD49FB1AFAFEE50046CCE3 /* Scene3DTest */ = {
-			isa = PBXGroup;
-			children = (
-				A0BD49FC1AFAFEE50046CCE3 /* Scene3DTest.cpp */,
-				A0BD49FD1AFAFEE50046CCE3 /* Scene3DTest.h */,
-			);
-			path = Scene3DTest;
 			sourceTree = "<group>";
 		};
 		A5030C3219D059AB000E78E7 /* OpenURLTest */ = {
@@ -3379,7 +3344,6 @@
 				15B3709319EE5D1000ABE682 /* Manifests in Resources */,
 				3E2F27BA19CFF52300E7C490 /* audio in Resources */,
 				B2507B6B192589AF00FA4972 /* Shaders3D in Resources */,
-				1AC35D0618CED84500F37B72 /* spine in Resources */,
 				3E2F27BB19CFF52A00E7C490 /* background.wav in Resources */,
 				1AC35CE818CED84500F37B72 /* extensions in Resources */,
 				1AC35CDE18CED84500F37B72 /* components in Resources */,
@@ -3485,7 +3449,6 @@
 				507B412F1C31BEA60067B53E /* Default-736h@3x.png in Resources */,
 				507B41301C31BEA60067B53E /* Default-667h@2x.png in Resources */,
 				507B41311C31BEA60067B53E /* music.mid in Resources */,
-				507B41321C31BEA60067B53E /* spine in Resources */,
 				507B41331C31BEA60067B53E /* Icon-120.png in Resources */,
 				507B41341C31BEA60067B53E /* Icon-58.png in Resources */,
 				507B41351C31BEA60067B53E /* background.mp3 in Resources */,
@@ -3586,7 +3549,6 @@
 				527B1F3519EF9CF8000A1F82 /* Default-736h@3x.png in Resources */,
 				527B1F3419EF9CF8000A1F82 /* Default-667h@2x.png in Resources */,
 				1AC35CFD18CED84500F37B72 /* music.mid in Resources */,
-				1AC35D0718CED84500F37B72 /* spine in Resources */,
 				1AC35C8D18CECF1400F37B72 /* Icon-120.png in Resources */,
 				1AC35C9418CECF1400F37B72 /* Icon-58.png in Resources */,
 				1AC35CD118CED84500F37B72 /* background.mp3 in Resources */,
@@ -3681,7 +3643,6 @@
 				1AC35B4518CECF0C00F37B72 /* Bug-886.cpp in Sources */,
 				1AC35BE118CECF0C00F37B72 /* CCControlButtonTest.cpp in Sources */,
 				1AC35BEB18CECF0C00F37B72 /* CCControlSliderTest.cpp in Sources */,
-				1AC35C4D18CECF0C00F37B72 /* SpineTest.cpp in Sources */,
 				3E92EA821921A1400094CD21 /* Sprite3DTest.cpp in Sources */,
 				1AC35C1D18CECF0C00F37B72 /* NewRendererTest.cpp in Sources */,
 				50921EAF1B746D5F00C085CC /* DownloaderTest.cpp in Sources */,
@@ -3747,7 +3708,6 @@
 				1AC35C1118CECF0C00F37B72 /* LabelTestNew.cpp in Sources */,
 				1AC35B5718CECF0C00F37B72 /* ConsoleTest.cpp in Sources */,
 				1AC35C0918CECF0C00F37B72 /* IntervalTest.cpp in Sources */,
-				A0BD49FE1AFAFEE50046CCE3 /* Scene3DTest.cpp in Sources */,
 				5EBEECB01995247000429821 /* DrawNode3D.cpp in Sources */,
 				1AC35BED18CECF0C00F37B72 /* CCControlStepperTest.cpp in Sources */,
 				1AC35C5918CECF0C00F37B72 /* TextureAtlasEncryptionTest.cpp in Sources */,
@@ -3811,7 +3771,6 @@
 				507B413F1C31BEA60067B53E /* Bug-886.cpp in Sources */,
 				507B41401C31BEA60067B53E /* CCControlButtonTest.cpp in Sources */,
 				507B41411C31BEA60067B53E /* CCControlSliderTest.cpp in Sources */,
-				507B41431C31BEA60067B53E /* SpineTest.cpp in Sources */,
 				507B41451C31BEA60067B53E /* NewRendererTest.cpp in Sources */,
 				507B41461C31BEA60067B53E /* DrawNode3D.cpp in Sources */,
 				507B414A1C31BEA60067B53E /* WebSocketTest.cpp in Sources */,
@@ -3837,7 +3796,6 @@
 				507B416E1C31BEA60067B53E /* Bug-914.cpp in Sources */,
 				507B416F1C31BEA60067B53E /* EffectsAdvancedTest.cpp in Sources */,
 				507B41701C31BEA60067B53E /* Paddle.cpp in Sources */,
-				507B41731C31BEA60067B53E /* Scene3DTest.cpp in Sources */,
 				507B41741C31BEA60067B53E /* OpenURLTest.cpp in Sources */,
 				507B41751C31BEA60067B53E /* BugsTest.cpp in Sources */,
 				507B41761C31BEA60067B53E /* testBasic.cpp in Sources */,
@@ -3948,7 +3906,6 @@
 				1AC35B4618CECF0C00F37B72 /* Bug-886.cpp in Sources */,
 				1AC35BE218CECF0C00F37B72 /* CCControlButtonTest.cpp in Sources */,
 				1AC35BEC18CECF0C00F37B72 /* CCControlSliderTest.cpp in Sources */,
-				1AC35C4E18CECF0C00F37B72 /* SpineTest.cpp in Sources */,
 				1AC35C1E18CECF0C00F37B72 /* NewRendererTest.cpp in Sources */,
 				463D7E7D1D227C6A00EA6BD1 /* Bug-14327.cpp in Sources */,
 				463D7E7F1D227CAB00EA6BD1 /* Bug-15776.cpp in Sources */,
@@ -3976,7 +3933,6 @@
 				1AC35B4A18CECF0C00F37B72 /* Bug-914.cpp in Sources */,
 				1AC35B6418CECF0C00F37B72 /* EffectsAdvancedTest.cpp in Sources */,
 				1AC35C6018CECF0C00F37B72 /* Paddle.cpp in Sources */,
-				A0BD49FF1AFAFEE50046CCE3 /* Scene3DTest.cpp in Sources */,
 				A5030C3619D059DA000E78E7 /* OpenURLTest.cpp in Sources */,
 				1AC35B4C18CECF0C00F37B72 /* BugsTest.cpp in Sources */,
 				1AC35C5218CECF0C00F37B72 /* testBasic.cpp in Sources */,
@@ -4636,7 +4592,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocos2d-x.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../extensions $(SRCROOT)/../external";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../extensions $(SRCROOT)/../external";
 			};
 			name = Debug;
 		};
@@ -4662,7 +4618,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocos2d-x.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../extensions $(SRCROOT)/../external";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../extensions $(SRCROOT)/../external";
 			};
 			name = Release;
 		};

@@ -27,9 +27,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\editor-support\spine\proj.win8.1-universal\libSpine.Windows\libSpine.Windows.vcxproj">
-      <Project>{f3550fe0-c795-44f6-8feb-093eb68143ae}</Project>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9335005f-678e-4e8e-9b84-50037216aec8}</ProjectGuid>
@@ -153,7 +150,7 @@
       <CompileAsWinRT>true</CompileAsWinRT>
       <AdditionalOptions>/Zm384 /bigobj %(AdditionalOptions)</AdditionalOptions>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -175,7 +172,7 @@
       <CompileAsWinRT>true</CompileAsWinRT>
       <AdditionalOptions>/Zm384 /bigobj %(AdditionalOptions)</AdditionalOptions>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -196,7 +193,7 @@
       <CompileAsWinRT>true</CompileAsWinRT>
       <AdditionalOptions>/Zm384 /bigobj %(AdditionalOptions)</AdditionalOptions>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -218,7 +215,7 @@
       <CompileAsWinRT>true</CompileAsWinRT>
       <AdditionalOptions>/Zm384 /bigobj %(AdditionalOptions)</AdditionalOptions>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\OggDecoder\include;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -239,7 +236,7 @@
       <CompileAsWinRT>true</CompileAsWinRT>
       <AdditionalOptions>/Zm384 /bigobj %(AdditionalOptions)</AdditionalOptions>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -261,7 +258,7 @@
       <CompileAsWinRT>true</CompileAsWinRT>
       <AdditionalOptions>/Zm384 /bigobj %(AdditionalOptions)</AdditionalOptions>
       <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <AdditionalIncludeDirectories>$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\platform\win8.1-universal;$(EngineRoot)external\winrt_8.1-specific\zlib\include;$(EngineRoot)external\freetype2\include\winrt_8.1\freetype2;$(EngineRoot)external\websockets\include\winrt_8.1;$(EngineRoot)external\curl\include\winrt_8.1;$(EngineRoot)external\tiff\include\winrt_8.1;$(EngineRoot)external\jpeg\include\winrt_8.1;$(EngineRoot)external\png\include\winrt_8.1;$(EngineRoot)external\protobuf-lite\src;$(EngineRoot)external\protobuf-lite\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USRDLL;_LIB;COCOS2DXWIN32_EXPORTS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>

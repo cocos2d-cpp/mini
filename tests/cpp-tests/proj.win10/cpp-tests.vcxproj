@@ -315,14 +315,12 @@
     <ClInclude Include="..\Classes\ReleasePoolTest\ReleasePoolTest.h" />
     <ClInclude Include="..\Classes\RenderTextureTest\RenderTextureTest.h" />
     <ClInclude Include="..\Classes\RotateWorldTest\RotateWorldTest.h" />
-    <ClInclude Include="..\Classes\Scene3DTest\Scene3DTest.h" />
     <ClInclude Include="..\Classes\SceneTest\SceneTest.h" />
     <ClInclude Include="..\Classes\SchedulerTest\SchedulerTest.h" />
     <ClInclude Include="..\Classes\ShaderTest\ShaderTest.h" />
     <ClInclude Include="..\Classes\ShaderTest\shaderTest.psh.h" />
     <ClInclude Include="..\Classes\ShaderTest\ShaderTest.vsh.h" />
     <ClInclude Include="..\Classes\ShaderTest\ShaderTest2.h" />
-    <ClInclude Include="..\Classes\SpineTest\SpineTest.h" />
     <ClInclude Include="..\Classes\Sprite3DTest\DrawNode3D.h" />
     <ClInclude Include="..\Classes\Sprite3DTest\Sprite3DTest.h" />
     <ClInclude Include="..\Classes\SpritePolygonTest\SpritePolygonTest.h" />
@@ -452,12 +450,10 @@
     <ClCompile Include="..\Classes\ReleasePoolTest\ReleasePoolTest.cpp" />
     <ClCompile Include="..\Classes\RenderTextureTest\RenderTextureTest.cpp" />
     <ClCompile Include="..\Classes\RotateWorldTest\RotateWorldTest.cpp" />
-    <ClCompile Include="..\Classes\Scene3DTest\Scene3DTest.cpp" />
     <ClCompile Include="..\Classes\SceneTest\SceneTest.cpp" />
     <ClCompile Include="..\Classes\SchedulerTest\SchedulerTest.cpp" />
     <ClCompile Include="..\Classes\ShaderTest\ShaderTest.cpp" />
     <ClCompile Include="..\Classes\ShaderTest\ShaderTest2.cpp" />
-    <ClCompile Include="..\Classes\SpineTest\SpineTest.cpp" />
     <ClCompile Include="..\Classes\Sprite3DTest\DrawNode3D.cpp" />
     <ClCompile Include="..\Classes\Sprite3DTest\Sprite3DTest.cpp" />
     <ClCompile Include="..\Classes\SpritePolygonTest\SpritePolygonTest.cpp" />
@@ -488,9 +484,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\cocos\2d\libcocos2d_win10\libcocos2d.vcxproj">
       <Project>{07c2895d-720c-487d-b7b4-12c293ea533f}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\cocos\editor-support\spine\proj.win10\libSpine.vcxproj">
-      <Project>{4b3ba10a-941f-4e08-8a50-8a7fcb822bb8}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

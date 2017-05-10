@@ -1130,15 +1130,6 @@
 		5020A2131D49912500E80C72 /* SlotData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1461D49912500E80C72 /* SlotData.h */; };
 		5020A2141D49912500E80C72 /* SlotData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1461D49912500E80C72 /* SlotData.h */; };
 		5020A2151D49912500E80C72 /* SlotData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1461D49912500E80C72 /* SlotData.h */; };
-		5020A2161D49912500E80C72 /* spine-cocos2dx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5020A1471D49912500E80C72 /* spine-cocos2dx.cpp */; };
-		5020A2171D49912500E80C72 /* spine-cocos2dx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5020A1471D49912500E80C72 /* spine-cocos2dx.cpp */; };
-		5020A2181D49912500E80C72 /* spine-cocos2dx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5020A1471D49912500E80C72 /* spine-cocos2dx.cpp */; };
-		5020A2191D49912500E80C72 /* spine-cocos2dx.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1481D49912500E80C72 /* spine-cocos2dx.h */; };
-		5020A21A1D49912500E80C72 /* spine-cocos2dx.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1481D49912500E80C72 /* spine-cocos2dx.h */; };
-		5020A21B1D49912500E80C72 /* spine-cocos2dx.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1481D49912500E80C72 /* spine-cocos2dx.h */; };
-		5020A21C1D49912500E80C72 /* spine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1491D49912500E80C72 /* spine.h */; };
-		5020A21D1D49912500E80C72 /* spine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1491D49912500E80C72 /* spine.h */; };
-		5020A21E1D49912500E80C72 /* spine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020A1491D49912500E80C72 /* spine.h */; };
 		5020A21F1D49912500E80C72 /* TransformConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = 5020A14A1D49912500E80C72 /* TransformConstraint.c */; };
 		5020A2201D49912500E80C72 /* TransformConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = 5020A14A1D49912500E80C72 /* TransformConstraint.c */; };
 		5020A2211D49912500E80C72 /* TransformConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = 5020A14A1D49912500E80C72 /* TransformConstraint.c */; };
@@ -4676,9 +4667,6 @@
 		5020A1441D49912500E80C72 /* Slot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slot.h; sourceTree = "<group>"; };
 		5020A1451D49912500E80C72 /* SlotData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlotData.c; sourceTree = "<group>"; };
 		5020A1461D49912500E80C72 /* SlotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotData.h; sourceTree = "<group>"; };
-		5020A1471D49912500E80C72 /* spine-cocos2dx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "spine-cocos2dx.cpp"; sourceTree = "<group>"; };
-		5020A1481D49912500E80C72 /* spine-cocos2dx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "spine-cocos2dx.h"; sourceTree = "<group>"; };
-		5020A1491D49912500E80C72 /* spine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spine.h; sourceTree = "<group>"; };
 		5020A14A1D49912500E80C72 /* TransformConstraint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TransformConstraint.c; sourceTree = "<group>"; };
 		5020A14B1D49912500E80C72 /* TransformConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformConstraint.h; sourceTree = "<group>"; };
 		5020A14C1D49912500E80C72 /* TransformConstraintData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TransformConstraintData.c; sourceTree = "<group>"; };
@@ -5543,7 +5531,6 @@
 				B29594B81926D61F003EEF37 /* 3d */,
 				46A15FD01807A56F005B8026 /* audio */,
 				1A5700A2180BC5E60088DEC7 /* base */,
-				1AD71CF7180E26E600808F54 /* editor-support */,
 				46A167981807AF4D005B8026 /* extensions */,
 				1A57033E180BD0490088DEC7 /* external */,
 				1551A341158F2AB200E66CFE /* Frameworks */,
@@ -6330,100 +6317,6 @@
 			);
 			name = ConvertUTF;
 			path = ../external/ConvertUTF;
-			sourceTree = "<group>";
-		};
-		1AD71CF7180E26E600808F54 /* editor-support */ = {
-			isa = PBXGroup;
-			children = (
-				1AD71D7C180E26E600808F54 /* spine */,
-			);
-			name = "editor-support";
-			path = "../cocos/editor-support";
-			sourceTree = "<group>";
-		};
-		1AD71D7C180E26E600808F54 /* spine */ = {
-			isa = PBXGroup;
-			children = (
-				503341961D9DC7B400770EC7 /* kvec.h */,
-				503341971D9DC7B400770EC7 /* SkeletonBinary.c */,
-				503341981D9DC7B400770EC7 /* SkeletonBinary.h */,
-				5020A1051D49912500E80C72 /* Animation.c */,
-				5020A1061D49912500E80C72 /* Animation.h */,
-				5020A1071D49912500E80C72 /* AnimationState.c */,
-				5020A1081D49912500E80C72 /* AnimationState.h */,
-				5020A1091D49912500E80C72 /* AnimationStateData.c */,
-				5020A10A1D49912500E80C72 /* AnimationStateData.h */,
-				5020A10B1D49912500E80C72 /* Atlas.c */,
-				5020A10C1D49912500E80C72 /* Atlas.h */,
-				5020A10D1D49912500E80C72 /* AtlasAttachmentLoader.c */,
-				5020A10E1D49912500E80C72 /* AtlasAttachmentLoader.h */,
-				5020A10F1D49912500E80C72 /* Attachment.c */,
-				5020A1101D49912500E80C72 /* Attachment.h */,
-				5020A1111D49912500E80C72 /* AttachmentLoader.c */,
-				5020A1121D49912500E80C72 /* AttachmentLoader.h */,
-				5020A1131D49912500E80C72 /* AttachmentVertices.cpp */,
-				5020A1141D49912500E80C72 /* AttachmentVertices.h */,
-				5020A1151D49912500E80C72 /* Bone.c */,
-				5020A1161D49912500E80C72 /* Bone.h */,
-				5020A1171D49912500E80C72 /* BoneData.c */,
-				5020A1181D49912500E80C72 /* BoneData.h */,
-				5020A1191D49912500E80C72 /* BoundingBoxAttachment.c */,
-				5020A11A1D49912500E80C72 /* BoundingBoxAttachment.h */,
-				5020A11B1D49912500E80C72 /* Cocos2dAttachmentLoader.cpp */,
-				5020A11C1D49912500E80C72 /* Cocos2dAttachmentLoader.h */,
-				5020A11D1D49912500E80C72 /* Event.c */,
-				5020A11E1D49912500E80C72 /* Event.h */,
-				5020A11F1D49912500E80C72 /* EventData.c */,
-				5020A1201D49912500E80C72 /* EventData.h */,
-				5020A1211D49912500E80C72 /* extension.c */,
-				5020A1221D49912500E80C72 /* extension.h */,
-				5020A1231D49912500E80C72 /* IkConstraint.c */,
-				5020A1241D49912500E80C72 /* IkConstraint.h */,
-				5020A1251D49912500E80C72 /* IkConstraintData.c */,
-				5020A1261D49912500E80C72 /* IkConstraintData.h */,
-				5020A1271D49912500E80C72 /* Json.c */,
-				5020A1281D49912500E80C72 /* Json.h */,
-				5020A1291D49912500E80C72 /* MeshAttachment.c */,
-				5020A12A1D49912500E80C72 /* MeshAttachment.h */,
-				5020A12B1D49912500E80C72 /* PathAttachment.c */,
-				5020A12C1D49912500E80C72 /* PathAttachment.h */,
-				5020A12D1D49912500E80C72 /* PathConstraint.c */,
-				5020A12E1D49912500E80C72 /* PathConstraint.h */,
-				5020A12F1D49912500E80C72 /* PathConstraintData.c */,
-				5020A1301D49912500E80C72 /* PathConstraintData.h */,
-				5020A1311D49912500E80C72 /* RegionAttachment.c */,
-				5020A1321D49912500E80C72 /* RegionAttachment.h */,
-				5020A1331D49912500E80C72 /* Skeleton.c */,
-				5020A1341D49912500E80C72 /* Skeleton.h */,
-				5020A1351D49912500E80C72 /* SkeletonAnimation.cpp */,
-				5020A1361D49912500E80C72 /* SkeletonAnimation.h */,
-				5020A1371D49912500E80C72 /* SkeletonBatch.cpp */,
-				5020A1381D49912500E80C72 /* SkeletonBatch.h */,
-				5020A1391D49912500E80C72 /* SkeletonBounds.c */,
-				5020A13A1D49912500E80C72 /* SkeletonBounds.h */,
-				5020A13B1D49912500E80C72 /* SkeletonData.c */,
-				5020A13C1D49912500E80C72 /* SkeletonData.h */,
-				5020A13D1D49912500E80C72 /* SkeletonJson.c */,
-				5020A13E1D49912500E80C72 /* SkeletonJson.h */,
-				5020A13F1D49912500E80C72 /* SkeletonRenderer.cpp */,
-				5020A1401D49912500E80C72 /* SkeletonRenderer.h */,
-				5020A1411D49912500E80C72 /* Skin.c */,
-				5020A1421D49912500E80C72 /* Skin.h */,
-				5020A1431D49912500E80C72 /* Slot.c */,
-				5020A1441D49912500E80C72 /* Slot.h */,
-				5020A1451D49912500E80C72 /* SlotData.c */,
-				5020A1461D49912500E80C72 /* SlotData.h */,
-				5020A1471D49912500E80C72 /* spine-cocos2dx.cpp */,
-				5020A1481D49912500E80C72 /* spine-cocos2dx.h */,
-				5020A1491D49912500E80C72 /* spine.h */,
-				5020A14A1D49912500E80C72 /* TransformConstraint.c */,
-				5020A14B1D49912500E80C72 /* TransformConstraint.h */,
-				5020A14C1D49912500E80C72 /* TransformConstraintData.c */,
-				5020A14D1D49912500E80C72 /* TransformConstraintData.h */,
-				5020A14E1D49912500E80C72 /* VertexAttachment.c */,
-				5020A14F1D49912500E80C72 /* VertexAttachment.h */,
-			);
-			path = spine;
 			sourceTree = "<group>";
 		};
 		1AD71EF8180E28C400808F54 /* json */ = {
@@ -8143,7 +8036,6 @@
 				15AE181819AAD2F700C27E9E /* CCAttachNode.h in Headers */,
 				B6CAB4CB1AF9AA1A00B9B856 /* SpuCollisionShapes.h in Headers */,
 				1A12775B18DFCC540005F345 /* CCTweenFunction.h in Headers */,
-				5020A2191D49912500E80C72 /* spine-cocos2dx.h in Headers */,
 				1A5702CA180BCE370088DEC7 /* CCTextFieldTTF.h in Headers */,
 				15EFA213198A2BB5000C57D3 /* CCProtectedNode.h in Headers */,
 				5020A1951D49912500E80C72 /* Cocos2dAttachmentLoader.h in Headers */,
@@ -8220,7 +8112,6 @@
 				1A570356180BD0B00088DEC7 /* ioapi.h in Headers */,
 				15AE1BA219AADFDF00C27E9E /* UILayoutParameter.h in Headers */,
 				50ABBE331925AB6F00A911A9 /* CCConfiguration.h in Headers */,
-				5020A21C1D49912500E80C72 /* spine.h in Headers */,
 				B665E2101AA80A6500DDB1C5 /* CCPUBaseForceAffector.h in Headers */,
 				B6CAB4D51AF9AA1A00B9B856 /* SpuGatheringCollisionTask.h in Headers */,
 				15AE183219AAD2F700C27E9E /* CCOBB.h in Headers */,
@@ -8581,7 +8472,6 @@
 				507B3E011C31BDD30067B53E /* CCControlHuePicker.h in Headers */,
 				507B3E021C31BDD30067B53E /* CCPUOnRandomObserverTranslator.h in Headers */,
 				507B3E031C31BDD30067B53E /* CCPUObserver.h in Headers */,
-				5020A21B1D49912500E80C72 /* spine-cocos2dx.h in Headers */,
 				507B3E041C31BDD30067B53E /* CCBSequenceProperty.h in Headers */,
 				507B3E051C31BDD30067B53E /* CCPUBoxColliderTranslator.h in Headers */,
 				507B3E061C31BDD30067B53E /* BoneNodeReader.h in Headers */,
@@ -8659,7 +8549,6 @@
 				507B3E5B1C31BDD30067B53E /* CCScrollView.h in Headers */,
 				507B3E5C1C31BDD30067B53E /* CCFontAtlasCache.h in Headers */,
 				507B3E5D1C31BDD30067B53E /* CCPUSineForceAffector.h in Headers */,
-				5020A21E1D49912500E80C72 /* spine.h in Headers */,
 				507B3E5E1C31BDD30067B53E /* UserCameraReader.h in Headers */,
 				5020A1E51D49912500E80C72 /* SkeletonAnimation.h in Headers */,
 				5020A1BB1D49912500E80C72 /* Json.h in Headers */,
@@ -9521,7 +9410,6 @@
 				15B3708B19EE414C00ABE682 /* Manifest.h in Headers */,
 				15FB209A1AE7C57D00C31518 /* sweep.h in Headers */,
 				1A570213180BCBF40088DEC7 /* CCProgressTimer.h in Headers */,
-				5020A21A1D49912500E80C72 /* spine-cocos2dx.h in Headers */,
 				1A570217180BCBF40088DEC7 /* CCRenderTexture.h in Headers */,
 				B603F1AB1AC8EA0900A9579C /* CCTerrain.h in Headers */,
 				B6CAB5461AF9AA1A00B9B856 /* MiniCLTask.h in Headers */,
@@ -9678,7 +9566,6 @@
 				B665E3591AA80A6500DDB1C5 /* CCPUOnQuotaObserverTranslator.h in Headers */,
 				50ABBEC81925AB6F00A911A9 /* etc1.h in Headers */,
 				50ABBDB01925AB4100A911A9 /* CCRenderer.h in Headers */,
-				5020A21D1D49912500E80C72 /* spine.h in Headers */,
 				B6CAB3421AF9AA1A00B9B856 /* gim_bitset.h in Headers */,
 				B29594B71926D5EC003EEF37 /* CCMeshCommand.h in Headers */,
 				3E6176771960F89B00DE83F5 /* CCEventListenerController.h in Headers */,
@@ -10424,7 +10311,6 @@
 				299754F4193EC95400A54AC3 /* ObjectFactory.cpp in Sources */,
 				15AE1A7E19AAD40300C27E9E /* b2DistanceJoint.cpp in Sources */,
 				B665E40E1AA80A6600DDB1C5 /* CCPUTechniqueTranslator.cpp in Sources */,
-				5020A2161D49912500E80C72 /* spine-cocos2dx.cpp in Sources */,
 				B6CAB4BF1AF9AA1A00B9B856 /* SpuLibspe2Support.cpp in Sources */,
 				B665E21E1AA80A6500DDB1C5 /* CCPUBehaviourManager.cpp in Sources */,
 				15AE1BA119AADFDF00C27E9E /* UILayoutParameter.cpp in Sources */,
@@ -10555,7 +10441,6 @@
 				507B3A131C31BDD30067B53E /* CCScale9SpriteLoader.cpp in Sources */,
 				507B3A141C31BDD30067B53E /* TriggerMng.cpp in Sources */,
 				507B3A161C31BDD30067B53E /* gim_memory.cpp in Sources */,
-				5020A2181D49912500E80C72 /* spine-cocos2dx.cpp in Sources */,
 				507B3A181C31BDD30067B53E /* CocosDenshion.m in Sources */,
 				507B3A191C31BDD30067B53E /* CCPUBaseCollider.cpp in Sources */,
 				507B3A1C1C31BDD30067B53E /* CCAction.cpp in Sources */,
@@ -11670,7 +11555,6 @@
 				85B3743B1B204B9400C488D6 /* clipper.cpp in Sources */,
 				B665E2BB1AA80A6500DDB1C5 /* CCPUForceFieldAffectorTranslator.cpp in Sources */,
 				15AE180919AAD2F700C27E9E /* CCAABB.cpp in Sources */,
-				5020A2171D49912500E80C72 /* spine-cocos2dx.cpp in Sources */,
 				15AE1AA719AAD40300C27E9E /* b2Island.cpp in Sources */,
 				B665E23F1AA80A6500DDB1C5 /* CCPUCircleEmitterTranslator.cpp in Sources */,
 				3E6176741960F89B00DE83F5 /* CCEventController.cpp in Sources */,
@@ -11783,7 +11667,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../external $(SRCROOT)/../extensions $(SRCROOT)/../external/poly2tri $(SRCROOT)/../external/poly2tri/common $(SRCROOT)/../external/poly2tri/sweep";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../external $(SRCROOT)/../extensions $(SRCROOT)/../external/poly2tri $(SRCROOT)/../external/poly2tri/common $(SRCROOT)/../external/poly2tri/sweep";
 			};
 			name = Debug;
 		};
@@ -11826,7 +11710,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../cocos/editor-support $(SRCROOT)/../external $(SRCROOT)/../extensions $(SRCROOT)/../external/poly2tri $(SRCROOT)/../external/poly2tri/common $(SRCROOT)/../external/poly2tri/sweep";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/.. $(SRCROOT)/../cocos $(SRCROOT)/../external $(SRCROOT)/../extensions $(SRCROOT)/../external/poly2tri $(SRCROOT)/../external/poly2tri/common $(SRCROOT)/../external/poly2tri/sweep";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

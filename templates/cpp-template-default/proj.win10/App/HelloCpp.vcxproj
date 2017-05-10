@@ -268,9 +268,6 @@
     <ProjectReference Include="..\..\cocos2d\cocos\2d\libcocos2d_win10\libcocos2d.vcxproj">
       <Project>{07c2895d-720c-487d-b7b4-12c293ea533f}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\cocos2d\cocos\editor-support\spine\proj.win10\libSpine.vcxproj">
-      <Project>{4b3ba10a-941f-4e08-8a50-8a7fcb822bb8}</Project>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="WindowsMobile, Version=10.0.10240.0" />

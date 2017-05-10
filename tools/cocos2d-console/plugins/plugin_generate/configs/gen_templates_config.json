@@ -190,7 +190,7 @@
         ],
         "link_libs" : {
             "base" : [
-                "libcocos2d.lib", "libSpine.lib",
+                "libcocos2d.lib"
             ],
             "lua" : [
                 "libluacocos2d", "libsimulator"

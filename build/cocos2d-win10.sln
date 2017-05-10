@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{17093B03-00CA-402F-981A-D8C84B2922B5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libSpine", "..\cocos\editor-support\spine\proj.win10\libSpine.vcxproj", "{4B3BA10A-941F-4E08-8A50-8A7FCB822BB8}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcocos2d", "..\cocos\2d\libcocos2d_win10\libcocos2d.vcxproj", "{07C2895D-720C-487D-B7B4-12C293EA533F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-empty-test", "..\tests\cpp-empty-test\proj.win10\cpp-empty-test.vcxproj", "{87ED86E7-A850-433F-88D5-D5F65CFF7BF5}"

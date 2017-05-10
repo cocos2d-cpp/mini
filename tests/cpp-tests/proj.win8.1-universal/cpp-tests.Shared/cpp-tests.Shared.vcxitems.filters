@@ -225,9 +225,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest2.h">
       <Filter>Classes\ShaderTest</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\SpineTest\SpineTest.h">
-      <Filter>Classes\SpineTest</Filter>
-    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Sprite3DTest\DrawNode3D.h">
       <Filter>Classes\Sprite3DTest</Filter>
     </ClInclude>
@@ -303,9 +300,6 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\NewAudioEngineTest\NewAudioEngineTest.cpp">
       <Filter>Classes\NewAudioEngineTest</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Scene3DTest\Scene3DTest.cpp">
-      <Filter>Classes\Scene3DTest</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\BugsTest\Bug-CCDrawNode.cpp">
       <Filter>Classes\BugsTest</Filter>
@@ -541,9 +535,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ShaderTest\ShaderTest2.cpp">
       <Filter>Classes\ShaderTest</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\SpineTest\SpineTest.cpp">
-      <Filter>Classes\SpineTest</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\Sprite3DTest\DrawNode3D.cpp">
       <Filter>Classes\Sprite3DTest</Filter>
     </ClCompile>
@@ -763,9 +754,6 @@
     <Filter Include="Classes\ShaderTest">
       <UniqueIdentifier>{f12b586c-8ad5-4a75-a643-5c4c1b89bfa0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\SpineTest">
-      <UniqueIdentifier>{4e6fd0ff-c790-4ae5-8bff-888f40ee9659}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Sprite3DTest">
       <UniqueIdentifier>{f1d5116f-a7fe-49fb-b3bd-6de0f2dabc9b}</UniqueIdentifier>
     </Filter>
@@ -826,9 +814,6 @@
     <Filter Include="Classes\MaterialSystemTest">
       <UniqueIdentifier>{9113774a-5e49-433b-b851-11533bc178ec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Scene3DTest">
-      <UniqueIdentifier>{77f319c0-fd62-4505-b872-a2fd52375636}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\DownloaderTest">
       <UniqueIdentifier>{3f798ee7-4d68-4949-8f23-072dd022efd5}</UniqueIdentifier>
     </Filter>
@@ -858,9 +843,6 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\NewAudioEngineTest\NewAudioEngineTest.h">
       <Filter>Classes\NewAudioEngineTest</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\Scene3DTest\Scene3DTest.h">
-      <Filter>Classes\Scene3DTest</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\BugsTest\Bug-CCDrawNode.h">
       <Filter>Classes\BugsTest</Filter>

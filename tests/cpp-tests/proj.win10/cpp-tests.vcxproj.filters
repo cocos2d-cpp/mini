@@ -137,9 +137,6 @@
     <Filter Include="Classes\ShaderTest">
       <UniqueIdentifier>{d93b735e-696c-43b7-9a79-993ca680b953}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\SpineTest">
-      <UniqueIdentifier>{19e37819-45ae-474d-86d9-46104d51e247}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Sprite3DTest">
       <UniqueIdentifier>{aa8d908d-05dd-4dd3-9cd7-1a381e167ba8}</UniqueIdentifier>
     </Filter>
@@ -223,9 +220,6 @@
     </Filter>
     <Filter Include="Classes\SpritePolygonTest">
       <UniqueIdentifier>{f10b76ee-8c87-4b9f-b8af-ace7a38bb6f2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Classes\Scene3DTest">
-      <UniqueIdentifier>{568809dd-eb65-4bb2-90d2-251313e5b67e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\MaterialSystemTest">
       <UniqueIdentifier>{1830aea4-07f5-466e-928c-a67a02083535}</UniqueIdentifier>
@@ -485,9 +479,6 @@
     <ClCompile Include="..\Classes\ShaderTest\ShaderTest2.cpp">
       <Filter>Classes\ShaderTest</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\SpineTest\SpineTest.cpp">
-      <Filter>Classes\SpineTest</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Sprite3DTest\DrawNode3D.cpp">
       <Filter>Classes\Sprite3DTest</Filter>
     </ClCompile>
@@ -548,9 +539,6 @@
     <ClCompile Include="..\..\..\cocos\platform\win8.1-universal\OpenGLESPage.xaml.cpp" />
     <ClCompile Include="..\Classes\SpritePolygonTest\SpritePolygonTest.cpp">
       <Filter>Classes\SpritePolygonTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\Scene3DTest\Scene3DTest.cpp">
-      <Filter>Classes\Scene3DTest</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\MaterialSystemTest\MaterialSystemTest.cpp">
       <Filter>Classes\MaterialSystemTest</Filter>
@@ -985,9 +973,6 @@
     <ClInclude Include="..\Classes\ShaderTest\ShaderTest2.h">
       <Filter>Classes\ShaderTest</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\SpineTest\SpineTest.h">
-      <Filter>Classes\SpineTest</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Sprite3DTest\DrawNode3D.h">
       <Filter>Classes\Sprite3DTest</Filter>
     </ClInclude>
@@ -1048,9 +1033,6 @@
     <ClInclude Include="..\..\..\cocos\platform\win8.1-universal\OpenGLESPage.xaml.h" />
     <ClInclude Include="..\Classes\SpritePolygonTest\SpritePolygonTest.h">
       <Filter>Classes\SpritePolygonTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Scene3DTest\Scene3DTest.h">
-      <Filter>Classes\Scene3DTest</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\MaterialSystemTest\MaterialSystemTest.h">
       <Filter>Classes\MaterialSystemTest</Filter>

@@ -49,7 +49,6 @@
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/ui"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/network"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/audio/include"/>
-									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/editor-support"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/extensions"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/external"/>
 								</option>
@@ -126,7 +125,6 @@
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/ui"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/network"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/audio/include"/>
-									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/cocos/editor-support"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/extensions"/>
 									<listOptionValue builtIn="false" value="${ProjDirPath}/../cocos2d/external"/>
 								</option>

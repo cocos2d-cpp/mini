@@ -66,8 +66,6 @@ public:
         addTest("Node: Particle3D (PU)", [](){return new Particle3DTests(); });
         addTest("Node: RenderTexture", [](){return new RenderTextureTests(); });
         addTest("Node: Scene", [](){return new SceneTests(); });
-        addTest("Node: Scene3D", [](){return new (std::nothrow) Scene3DTests(); });
-        addTest("Node: Spine", [](){return new SpineTests(); });
         addTest("Node: Sprite", [](){return new SpriteTests(); });
         addTest("Node: Sprite3D", [](){  return new Sprite3DTests(); });
         addTest("Node: SpritePolygon", [](){return new (std::nothrow) SpritePolygonTest(); });

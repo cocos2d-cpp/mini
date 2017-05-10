@@ -921,7 +921,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../../ $(SRCROOT)/../../../../../cocos $(SRCROOT)/../../../../../cocos/base $(SRCROOT)/../../../../../cocos/math/kazmath $(SRCROOT)/../../../../../cocos/2d $(SRCROOT)/../../../../../cocos/ui $(SRCROOT)/../../../../../cocos/network $(SRCROOT)/../../../../../cocos/audio/include $(SRCROOT)/../../../../../cocos/editor-support $(SRCROOT)/../../../../../extensions $(SRCROOT)/../../../../../external $(SRCROOT)/../../../../../external/tinyxml2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../../ $(SRCROOT)/../../../../../cocos $(SRCROOT)/../../../../../cocos/base $(SRCROOT)/../../../../../cocos/math/kazmath $(SRCROOT)/../../../../../cocos/2d $(SRCROOT)/../../../../../cocos/ui $(SRCROOT)/../../../../../cocos/network $(SRCROOT)/../../../../../cocos/audio/include $(SRCROOT)/../../../../../extensions $(SRCROOT)/../../../../../external $(SRCROOT)/../../../../../external/tinyxml2";
 				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 			};
 			name = Debug;
@@ -946,7 +946,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../../ $(SRCROOT)/../../../../../cocos $(SRCROOT)/../../../../../cocos/base $(SRCROOT)/../../../../../cocos/math/kazmath $(SRCROOT)/../../../../../cocos/2d $(SRCROOT)/../../../../../cocos/ui $(SRCROOT)/../../../../../cocos/network $(SRCROOT)/../../../../../cocos/audio/include $(SRCROOT)/../../../../../cocos/editor-support $(SRCROOT)/../../../../../extensions";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../../ $(SRCROOT)/../../../../../cocos $(SRCROOT)/../../../../../cocos/base $(SRCROOT)/../../../../../cocos/math/kazmath $(SRCROOT)/../../../../../cocos/2d $(SRCROOT)/../../../../../cocos/ui $(SRCROOT)/../../../../../cocos/network $(SRCROOT)/../../../../../cocos/audio/include $(SRCROOT)/../../../../../extensions";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 			};

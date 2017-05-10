@@ -20,7 +20,6 @@
                 "libsimulator"
             ],
             "rename_targets" : [
-                "libSpine",
                 "libcocos2d", "libluacocos2d", "libjscocos2d", 
                 "libsimulator"
             ]
@@ -36,7 +35,6 @@
         "cocos/ui/Android.mk",
         "cocos/network/Android.mk",
         "cocos/platform/android/Android.mk",
-        "cocos/editor-support/spine/Android.mk",
         "tools/simulator/libsimulator/proj.android/Android.mk"
     ],
     "support_vs_versions" : [ 2015, 2013 ]
