@@ -82,15 +82,6 @@ macro (BuildModules)
 	cocos_find_package(WEBSOCKETS WEBSOCKETS REQUIRED)
 	cocos_find_package(CURL CURL REQUIRED)
 
-	# flatbuffers
-	if(USE_PREBUILT_LIBS OR USE_SOURCES_EXTERNAL)
-	  add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/flatbuffers)
-	  set(FLATBUFFERS_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/external)
-	  message(STATUS "Flatbuffers include dirs: ${FLATBUFFERS_INCLUDE_DIRS}")
-	else()
-	  cocos_find_package(flatbuffers flatbuffers REQUIRED)
-	endif()
-
 	# xxhash
 	if(USE_PREBUILT_LIBS OR USE_SOURCES_EXTERNAL)
 	  add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/xxhash)

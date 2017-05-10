@@ -227,12 +227,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\external\ConvertUTF\ConvertUTFWrapper.cpp" />
     <ClCompile Include="..\..\..\external\edtaa3func\edtaa3func.cpp" />
-    <ClCompile Include="..\..\..\external\flatbuffers\idl_gen_cpp.cpp" />
-    <ClCompile Include="..\..\..\external\flatbuffers\idl_gen_fbs.cpp" />
-    <ClCompile Include="..\..\..\external\flatbuffers\idl_gen_general.cpp" />
-    <ClCompile Include="..\..\..\external\flatbuffers\idl_gen_go.cpp" />
-    <ClCompile Include="..\..\..\external\flatbuffers\idl_gen_text.cpp" />
-    <ClCompile Include="..\..\..\external\flatbuffers\idl_parser.cpp" />
     <ClCompile Include="..\..\..\external\poly2tri\common\shapes.cc" />
     <ClCompile Include="..\..\..\external\poly2tri\sweep\advancing_front.cc" />
     <ClCompile Include="..\..\..\external\poly2tri\sweep\cdt.cc" />
@@ -787,9 +781,6 @@
     <ClInclude Include="..\..\..\external\clipper\clipper.hpp" />
     <ClInclude Include="..\..\..\external\ConvertUTF\ConvertUTF.h" />
     <ClInclude Include="..\..\..\external\edtaa3func\edtaa3func.h" />
-    <ClInclude Include="..\..\..\external\flatbuffers\flatbuffers.h" />
-    <ClInclude Include="..\..\..\external\flatbuffers\idl.h" />
-    <ClInclude Include="..\..\..\external\flatbuffers\util.h" />
     <ClInclude Include="..\..\..\external\poly2tri\common\shapes.h" />
     <ClInclude Include="..\..\..\external\poly2tri\common\utils.h" />
     <ClInclude Include="..\..\..\external\poly2tri\poly2tri.h" />

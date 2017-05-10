@@ -190,9 +190,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\clipper\clipper.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\ConvertUTF\ConvertUTF.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\edtaa3func\edtaa3func.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\flatbuffers.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\util.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\poly2tri\common\shapes.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\poly2tri\common\utils.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\poly2tri\poly2tri.h" />
@@ -663,12 +660,6 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\ConvertUTF\ConvertUTFWrapper.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\edtaa3func\edtaa3func.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl_gen_cpp.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl_gen_fbs.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl_gen_general.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl_gen_go.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl_gen_text.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\flatbuffers\idl_parser.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\poly2tri\common\shapes.cc" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\poly2tri\sweep\advancing_front.cc" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\external\poly2tri\sweep\cdt.cc" />

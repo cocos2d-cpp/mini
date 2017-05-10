@@ -29,7 +29,6 @@
         "cocos/Android.mk",
         "cocos/audio/android/Android.mk",
         "cocos/storage/local-storage/Android.mk",
-        "external/flatbuffers/Android.mk",
         "extensions/Android.mk",
         "cocos/3d/Android.mk",
         "cocos/ui/Android.mk",

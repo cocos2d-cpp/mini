@@ -9,7 +9,6 @@
 # ::
 #
 #   XXHASH_LIBRARIES, the library to link against
-#   XXHASH_FOUND, the libraries needed to use flatbuffers
 #   XXHASH_INCLUDE_DIRS, where to find headers.
 #
 
