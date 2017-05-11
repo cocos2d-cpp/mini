@@ -513,9 +513,9 @@ void GLViewImpl::pollEvents()
     glfwPollEvents();
 }
 
-void GLViewImpl::enableRetina(bool)
-{
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
+void GLViewImpl::enableRetina(bool enabled)
+{
     _isRetinaEnabled = enabled;
     if (_isRetinaEnabled)
     {
@@ -526,9 +526,12 @@ void GLViewImpl::enableRetina(bool)
         _retinaFactor = 2;
     }
     updateFrameSize();
-#endif
 }
-
+#else
+void GLViewImpl::enableRetina(bool)
+{
+}
+#endif
 
 void GLViewImpl::setIMEKeyboardState(bool /*bOpen*/)
 {

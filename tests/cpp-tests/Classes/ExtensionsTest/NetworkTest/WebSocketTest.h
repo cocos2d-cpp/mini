@@ -12,6 +12,7 @@
 #include "extensions/cocos-ext.h"
 #include "network/WebSocket.h"
 #include "BaseTest.h"
+#include "2d/CCMenu.h"
 
 DEFINE_TEST_SUITE(WebSocketTests);
 

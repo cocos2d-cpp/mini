@@ -43,7 +43,7 @@ using namespace cocos2d::experimental;
 
 static ALCdevice *s_ALDevice = nullptr;
 static ALCcontext *s_ALContext = nullptr;
-static const TimedJob::id_t UPDATE_JOB_ID = 0;
+static const TimedJob::id_type UPDATE_JOB_ID = 0;
 
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
 @interface AudioEngineSessionHandler : NSObject
@@ -342,7 +342,7 @@ int AudioEngineImpl::play2d(const std::string &filePath ,bool loop ,float volume
     
     if (_lazyInitLoop) {
         _lazyInitLoop = false;
-        _scheduler.schedule(
+        _scheduler->schedule(
             TimedJob(this, &AudioEngineImpl::update, UPDATE_JOB_ID)
                 .delay(.05f)
                 .interval(.05f)

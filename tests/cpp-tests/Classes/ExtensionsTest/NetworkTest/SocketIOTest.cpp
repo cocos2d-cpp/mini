@@ -26,6 +26,10 @@
 
 #include "SocketIOTest.h"
 #include "../ExtensionsTest.h"
+#include "base/CCDirector.h"
+#include "2d/CCMenu.h"
+#include "2d/CCMenuItem.h"
+#include <sstream>
 
 using namespace cocos2d;
 using namespace cocos2d::extension;
@@ -116,7 +120,7 @@ void SocketIOTest::testevent(SIOClient *client, const std::string& data) {
 
     CCLOGINFO("SocketIOTest::testevent called with data: %s", data.c_str());
 
-	std::stringstream s;
+	std::ostringstream s;
 	s << client->getTag() << " received event testevent with data: " << data.c_str();
 
 	_sioClientStatus->setString(s.str().c_str());
@@ -127,7 +131,7 @@ void SocketIOTest::echotest(SIOClient *client, const std::string& data) {
 
     CCLOGINFO("SocketIOTest::echotest called with data: %s", data.c_str());
 
-	std::stringstream s;
+	std::ostringstream s;
 	s << client->getTag() << " received event echotest with data: " << data.c_str();
 
 	_sioClientStatus->setString(s.str().c_str());

@@ -63,7 +63,7 @@ inline bool _compare(Node const* t, std::unique_ptr<Action> const& a)
     return t < a->getTarget();
 }
 
-size_t count_matching(auto const& vec, auto const& v, auto match_cmp)
+auto count_matching = [](auto const& vec, auto const& v, auto match_cmp) -> size_t
 {
     size_t rv = 0;
 
@@ -76,9 +76,9 @@ size_t count_matching(auto const& vec, auto const& v, auto match_cmp)
     }
 
     return rv;
-}
+};
 
-auto stop_matching(auto const& vec, auto const& v, auto match_cmp)
+auto stop_matching = [](auto const& vec, auto const& v, auto match_cmp) -> size_t
 {
     size_t rv = 0;
     auto lb = std::lower_bound(vec.begin(), vec.end(), v,
@@ -94,7 +94,7 @@ auto stop_matching(auto const& vec, auto const& v, auto match_cmp)
     }
 
     return rv;
-}
+};
 
 } // unnamed namespace
 

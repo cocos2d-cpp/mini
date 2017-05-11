@@ -77,13 +77,13 @@ const Controller::KeyStatus& Controller::getKeyStatus(int keyCode)
 void Controller::onConnected()
 {
     _connectEvent->setConnectStatus(true);
-    _director->getEventDispatcher()->dispatchEvent(_connectEvent);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(_connectEvent);
 }
 
 void Controller::onDisconnected()
 {
     _connectEvent->setConnectStatus(false);
-    _director->getEventDispatcher()->dispatchEvent(_connectEvent);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(_connectEvent);
 
     delete this;
 }
@@ -96,7 +96,7 @@ void Controller::onButtonEvent(int keyCode, bool isPressed, float value, bool is
     _allKeyStatus[keyCode].isAnalog = isAnalog;
 
     _keyEvent->setKeyCode(keyCode);
-    _director->getEventDispatcher()->dispatchEvent(_keyEvent);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(_keyEvent);
 }
 
 void Controller::onAxisEvent(int axisCode, float value, bool isAnalog)
@@ -106,7 +106,7 @@ void Controller::onAxisEvent(int axisCode, float value, bool isAnalog)
     _allKeyStatus[axisCode].isAnalog = isAnalog;
 
     _axisEvent->setKeyCode(axisCode);
-    _director->getEventDispatcher()->dispatchEvent(_axisEvent);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(_axisEvent);
 }
 
 } // namespace cocos2d
