@@ -31,6 +31,10 @@ THE SOFTWARE.
 
 #include <vector>
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
+    typedef void* id;
+#endif /* (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) */
+
 /** There are some Resolution Policy for Adapt to the screen. */
 enum class ResolutionPolicy
 {
