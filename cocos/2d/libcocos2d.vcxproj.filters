@@ -130,9 +130,6 @@
     <Filter Include="external\clipper">
       <UniqueIdentifier>{ff65e340-b79d-4f87-9b4c-ed46bda5d20f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="vr">
-      <UniqueIdentifier>{5cbd879f-02ae-4f28-af33-2c4f980dd6f0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\external\xxhash\xxhash.c">
@@ -1371,18 +1368,6 @@
     </ClCompile>
     <ClCompile Include="..\ui\UITabControl.cpp">
       <Filter>ui\UIWidgets</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vr\CCVRDistortion.cpp">
-      <Filter>vr</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vr\CCVRDistortionMesh.cpp">
-      <Filter>vr</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vr\CCVRGenericHeadTracker.cpp">
-      <Filter>vr</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vr\CCVRGenericRenderer.cpp">
-      <Filter>vr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2718,21 +2703,6 @@
     </ClInclude>
     <ClInclude Include="..\network\CCDownloader-curl.h">
       <Filter>network\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vr\CCVRProtocol.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vr\CCVRDistortion.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vr\CCVRDistortionMesh.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vr\CCVRGenericHeadTracker.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vr\CCVRGenericRenderer.h">
-      <Filter>vr</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

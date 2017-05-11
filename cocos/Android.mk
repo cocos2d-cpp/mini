@@ -182,10 +182,6 @@ renderer/CCVertexIndexData.cpp \
 renderer/ccGLStateCache.cpp \
 renderer/CCFrameBuffer.cpp \
 renderer/ccShaders.cpp \
-vr/CCVRDistortion.cpp \
-vr/CCVRDistortionMesh.cpp \
-vr/CCVRGenericRenderer.cpp \
-vr/CCVRGenericHeadTracker.cpp \
 ../external/ConvertUTF/ConvertUTFWrapper.cpp \
 ../external/ConvertUTF/ConvertUTF.c \
 ../external/tinyxml2/tinyxml2.cpp \

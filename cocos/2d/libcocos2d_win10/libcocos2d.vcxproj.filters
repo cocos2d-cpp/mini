@@ -122,9 +122,6 @@
     <Filter Include="external\clipper">
       <UniqueIdentifier>{e3a5fe25-a92e-4c98-9026-782b2b5b1388}</UniqueIdentifier>
     </Filter>
-    <Filter Include="vr">
-      <UniqueIdentifier>{757d4df8-a9d6-430f-9a7a-80170d9ca6fb}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\cocos2d.cpp" />
@@ -1416,18 +1413,6 @@
     </ClCompile>
     <ClCompile Include="..\..\ui\UIEditBox\UIEditBoxImpl-common.cpp">
       <Filter>ui\UIWidgets\EditBox</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vr\CCVRDistortion.cpp">
-      <Filter>vr</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vr\CCVRDistortionMesh.cpp">
-      <Filter>vr</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vr\CCVRGenericHeadTracker.cpp">
-      <Filter>vr</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vr\CCVRGenericRenderer.cpp">
-      <Filter>vr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2827,18 +2812,6 @@
     </ClInclude>
     <ClInclude Include="..\..\ui\UIEditBox\UIEditBoxImpl-common.h">
       <Filter>ui\UIWidgets\EditBox</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vr\CCVRDistortion.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vr\CCVRDistortionMesh.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vr\CCVRGenericHeadTracker.h">
-      <Filter>vr</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vr\CCVRGenericRenderer.h">
-      <Filter>vr</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

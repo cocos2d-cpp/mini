@@ -277,9 +277,6 @@ THE SOFTWARE.
 #include "3d/CCSprite3DMaterial.h"
 #include "3d/CCTerrain.h"
 
-// vr
-#include "vr/CCVRGenericRenderer.h"
-
 namespace cocos2d {
 
 CC_DLL const char* cocos2dVersion();

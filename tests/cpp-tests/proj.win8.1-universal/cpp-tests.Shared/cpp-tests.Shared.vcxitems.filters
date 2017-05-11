@@ -317,9 +317,6 @@
       <Filter>Classes\DownloaderTest</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\SpriteFrameCacheTest\SpriteFrameCacheTest.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\VRTest\VRTest.cpp">
-      <Filter>Classes\VRTests</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ActionManagerTest\ActionManagerTest.cpp">
@@ -817,9 +814,6 @@
     <Filter Include="Classes\DownloaderTest">
       <UniqueIdentifier>{3f798ee7-4d68-4949-8f23-072dd022efd5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\VRTests">
-      <UniqueIdentifier>{9f993b49-f2da-4359-a39d-c1015673f22a}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)..\..\..\..\cocos\platform\win8.1-universal\OpenGLESPage.xaml" />
@@ -860,8 +854,5 @@
       <Filter>Classes\DownloaderTest</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\SpriteFrameCacheTest\SpriteFrameCacheTest.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\VRTest\VRTest.h">
-      <Filter>Classes\VRTests</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

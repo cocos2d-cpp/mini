@@ -104,10 +104,6 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     _testController = TestController::getInstance();
 
-    // To enable built-in VR, use this line.
-//    auto vrImpl = new VRGenericRenderer;
-//    glview->setVR(vrImpl);
-
     return true;
 }
 

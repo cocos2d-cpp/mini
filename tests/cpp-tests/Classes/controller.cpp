@@ -91,7 +91,6 @@ public:
         addTest("URL Open Test", []() { return new OpenURLTests(); });
         addTest("UserDefault", []() { return new UserDefaultTests(); });
         addTest("Vibrate", []() { return new VibrateTests(); });
-        addTest("VR Test", []() { return new VRTests(); });
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC || CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 || CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
         addTest("Window Test", []() { return new WindowTests(); });
 #endif

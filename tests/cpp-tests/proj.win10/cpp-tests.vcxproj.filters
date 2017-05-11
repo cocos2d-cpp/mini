@@ -230,9 +230,6 @@
     <Filter Include="Classes\DownloaderTest">
       <UniqueIdentifier>{a6b76076-ceeb-43e6-9005-1656c65778b6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\VRTests">
-      <UniqueIdentifier>{848aacea-a328-4797-9119-403b3c94d3d7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml" />
