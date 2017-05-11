@@ -2378,8 +2378,6 @@
         "external/xxhash/CMakeLists.txt", 
         "external/xxhash/xxhash.c", 
         "external/xxhash/xxhash.h", 
-        "external/xxtea/xxtea.cpp", 
-        "external/xxtea/xxtea.h", 
         "external/zlib/include/zconf.h", 
         "external/zlib/include/zlib.h", 
         "external/zlib/prebuilt/android/Android.mk", 
