@@ -50,7 +50,6 @@
 #include "base/CCEventCustom.h"
 #include "base/CCEventDispatcher.h"
 #include "base/CCEventListenerCustom.h"
-#include "extensions/Particle3D/PU/CCPUParticleSystem3D.h"
 #include "platform/CCFileUtils.h"
 #include "renderer/CCGLProgramCache.h"
 #include "renderer/CCTextureCube.h"
@@ -87,7 +86,6 @@ Sprite3DTests::Sprite3DTests()
     ADD_TEST_CASE(Issue9767);
     ADD_TEST_CASE(Sprite3DClippingTest);
     ADD_TEST_CASE(Sprite3DTestMeshLight);
-    ADD_TEST_CASE(Animate3DCallbackTest);
     ADD_TEST_CASE(CameraBackgroundClearTest);
     ADD_TEST_CASE(Sprite3DVertexColorTest);
     ADD_TEST_CASE(MotionStreak3DTest);
@@ -2311,74 +2309,6 @@ std::string Sprite3DClippingTest::title() const
 }
 
 std::string Sprite3DClippingTest::subtitle() const
-{
-    return "";
-}
-
-Animate3DCallbackTest::Animate3DCallbackTest()
-{
-    FileUtils::getInstance()->addSearchPath("Particle3D/materials");
-    FileUtils::getInstance()->addSearchPath("Particle3D/scripts");
-    
-    auto s = Director::getInstance()->getWinSize();
-    _sprite3d = Sprite3D::create("Sprite3DTest/ReskinGirl.c3b");
-    _sprite3d->setPosition(Vec2(s.width / 2.0f, s.height / 3.0f));
-    _sprite3d->setScale(3.0f);
-    _sprite3d->setRotation3D(Vec3(0.0f, 90.0f, 0.0f));
-    this->addChild(_sprite3d);
-    
-    _sprite3d->getMeshByName("Girl_UpperBody02")->setVisible(false);
-    _sprite3d->getMeshByName("Girl_LowerBody02")->setVisible(false);
-    _sprite3d->getMeshByName("Girl_Shoes02")->setVisible(false);
-    _sprite3d->getMeshByName("Girl_Hair02")->setVisible(false);
-    
-    
-    auto rootps = PUParticleSystem3D::create("explosionSystem.pu");
-    rootps->stopParticleSystem();
-    rootps->setScale(4.0f);
-    this->addChild(rootps, 0, 100);
-
-    auto animation = Animation3D::create("Sprite3DTest/ReskinGirl.c3b");
-    if (animation)
-    {
-        auto animate = std::make_unique<Animate3D>(animation);
-
-        ValueMap valuemap0;
-        animate->setKeyFrameUserInfo(275, valuemap0);
-
-        _sprite3d->runAction(
-            std::make_unique<RepeatForever>(
-                std::move(animate)
-            ));
-
-        auto listener = EventListenerCustom::create(Animate3DDisplayedNotification, [&](EventCustom* event)
-        {
-            auto info = (Animate3D::Animate3DDisplayedEventInfo*)event->getUserData();
-            auto node = getChildByTag(100);
-            if (node)
-            {
-                auto mat = _sprite3d->getNodeToWorldTransform() * _sprite3d->getSkeleton()->getBoneByName("Bip01 R Hand")->getWorldMat();
-                node->setPosition3D(Vec3(mat.m[12] + 100, mat.m[13], mat.m[14]));
-                ((PUParticleSystem3D*)node)->startParticleSystem();
-            }
-                
-            
-            cocos2d::log("frame %d", info->frame);
-        });
-        Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(listener, -1);
-    }
-}
-
-Animate3DCallbackTest::~Animate3DCallbackTest()
-{
-}
-
-std::string Animate3DCallbackTest::title() const
-{
-    return "Testing Animate3D Callback";
-}
-
-std::string Animate3DCallbackTest::subtitle() const
 {
     return "";
 }

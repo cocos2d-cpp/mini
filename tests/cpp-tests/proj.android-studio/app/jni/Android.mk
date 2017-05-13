@@ -79,7 +79,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../../Classes/NodeTest/NodeTest.cpp \
 ../../../Classes/OpenURLTest/OpenURLTest.cpp \
 ../../../Classes/ParallaxTest/ParallaxTest.cpp \
-../../../Classes/Particle3DTest/Particle3DTest.cpp \
 ../../../Classes/ParticleTest/ParticleTest.cpp \
 ../../../Classes/ReleasePoolTest/ReleasePoolTest.cpp \
 ../../../Classes/RenderTextureTest/RenderTextureTest.cpp \
@@ -92,7 +91,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../../Classes/Sprite3DTest/Sprite3DTest.cpp \
 ../../../Classes/SpritePolygonTest/SpritePolygonTest.cpp \
 ../../../Classes/SpriteTest/SpriteTest.cpp \
-../../../Classes/TerrainTest/TerrainTest.cpp \
 ../../../Classes/TextInputTest/TextInputTest.cpp \
 ../../../Classes/Texture2dTest/Texture2dTest.cpp \
 ../../../Classes/TextureCacheTest/TextureCacheTest.cpp \

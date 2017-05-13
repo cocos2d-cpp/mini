@@ -63,13 +63,11 @@ public:
         addTest("Node: Node", [](){return new CocosNodeTests(); });
         addTest("Node: Parallax", [](){return new ParallaxTests(); });
         addTest("Node: Particles", [](){return new ParticleTests(); });
-        addTest("Node: Particle3D (PU)", [](){return new Particle3DTests(); });
         addTest("Node: RenderTexture", [](){return new RenderTextureTests(); });
         addTest("Node: Scene", [](){return new SceneTests(); });
         addTest("Node: Sprite", [](){return new SpriteTests(); });
         addTest("Node: Sprite3D", [](){  return new Sprite3DTests(); });
         addTest("Node: SpritePolygon", [](){return new (std::nothrow) SpritePolygonTest(); });
-        addTest("Node: Terrain", [](){  return new TerrainTests(); });
         addTest("Node: TileMap", [](){return new TileMapTests(); });
         addTest("Node: FastTileMap", [](){return new FastTileMapTests(); });
         addTest("Node: Text Input", [](){return new TextInputTests(); });
