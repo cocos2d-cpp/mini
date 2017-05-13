@@ -29,7 +29,6 @@ public:
         addTest("Allocator - Basic", [](){return new (std::nothrow) AllocatorTests(); });
         addTest("Audio - CocosDenshion", []() { return new (std::nothrow) CocosDenshionTests(); });
         addTest("Audio - NewAudioEngine", []() { return new (std::nothrow) AudioEngineTests(); });
-        addTest("Bugs", []() { return new BugsTests(); });
         addTest("Click and Move", [](){return new ClickAndMoveTest(); });
         addTest("Configuration", []() { return new ConfigurationTests(); });
         addTest("Console", []() { return new ConsoleTests(); });
@@ -50,14 +49,11 @@ public:
         addTest("JNIHelper", []() { return new JNITests(); });
 #endif
         addTest("Material System", [](){return new MaterialSystemTest(); });
-        addTest("Node: BillBoard Test", [](){  return new BillBoardTests(); });
-        addTest("Node: Camera 3D Test", [](){  return new Camera3DTests(); });
         addTest("Node: Clipping", []() { return new ClippingNodeTests(); });
         addTest("Node: Draw", [](){return new DrawNodeTests(); });
         addTest("Node: Label - New API", [](){return new NewLabelTests(); });
         addTest("Node: Label - Old API", [](){return new LabelTests(); });
         addTest("Node: Layer", [](){return new LayerTests(); });
-        addTest("Node: Light", [](){return new LightTests(); });
         addTest("Node: Menu", [](){return new MenuTests(); });
         addTest("Node: MotionStreak", [](){return new MotionStreakTests(); });
         addTest("Node: Node", [](){return new CocosNodeTests(); });
@@ -66,7 +62,6 @@ public:
         addTest("Node: RenderTexture", [](){return new RenderTextureTests(); });
         addTest("Node: Scene", [](){return new SceneTests(); });
         addTest("Node: Sprite", [](){return new SpriteTests(); });
-        addTest("Node: Sprite3D", [](){  return new Sprite3DTests(); });
         addTest("Node: SpritePolygon", [](){return new (std::nothrow) SpritePolygonTest(); });
         addTest("Node: TileMap", [](){return new TileMapTests(); });
         addTest("Node: FastTileMap", [](){return new FastTileMapTests(); });

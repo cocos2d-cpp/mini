@@ -33,7 +33,6 @@ if(WINDOWS)
 endif()
 
 include(2d/CMakeLists.txt)
-include(3d/CMakeLists.txt)
 include(platform/CMakeLists.txt)
 include(math/CMakeLists.txt)
 include(renderer/CMakeLists.txt)

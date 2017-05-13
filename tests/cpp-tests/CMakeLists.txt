@@ -39,24 +39,6 @@ set(TESTS_SRC
   Classes/AllocatorTest/AllocatorTest.cpp
   Classes/AppDelegate.cpp
   Classes/BaseTest.cpp
-  Classes/BillBoardTest/BillBoardTest.cpp
-  Classes/BugsTest/Bug-CCDrawNode.cpp
-  Classes/BugsTest/Bug-1159.cpp
-  Classes/BugsTest/Bug-1174.cpp
-  Classes/BugsTest/Bug-350.cpp
-  Classes/BugsTest/Bug-422.cpp
-  Classes/BugsTest/Bug-458/Bug-458.cpp
-  Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp
-  Classes/BugsTest/Bug-624.cpp
-  Classes/BugsTest/Bug-886.cpp
-  Classes/BugsTest/Bug-899.cpp
-  Classes/BugsTest/Bug-914.cpp
-  Classes/BugsTest/Bug-12847.cpp
-  Classes/BugsTest/Bug-15594.cpp
-  Classes/BugsTest/Bug-15776.cpp
-  Classes/BugsTest/Bug-Child.cpp
-  Classes/BugsTest/BugsTest.cpp
-  Classes/Camera3DTest/Camera3DTest.cpp
   Classes/ClickAndMoveTest/ClickAndMoveTest.cpp
   Classes/ClippingNodeTest/ClippingNodeTest.cpp
   Classes/CocosDenshionTest/CocosDenshionTest.cpp
@@ -88,7 +70,6 @@ set(TESTS_SRC
   Classes/LabelTest/LabelTest.cpp
   Classes/LabelTest/LabelTestNew.cpp
   Classes/LayerTest/LayerTest.cpp
-  Classes/LightTest/LightTest.cpp
   Classes/MaterialSystemTest/MaterialSystemTest
   Classes/MenuTest/MenuTest.cpp
   Classes/MotionStreakTest/MotionStreakTest.cpp
@@ -107,8 +88,6 @@ set(TESTS_SRC
   Classes/SchedulerTest/SchedulerTest.cpp
   Classes/ShaderTest/ShaderTest.cpp
   Classes/ShaderTest/ShaderTest2.cpp
-  Classes/Sprite3DTest/DrawNode3D.cpp
-  Classes/Sprite3DTest/Sprite3DTest.cpp
   Classes/SpritePolygonTest/SpritePolygonTest.cpp
   Classes/SpriteTest/SpriteTest.cpp
   Classes/TextInputTest/TextInputTest.cpp

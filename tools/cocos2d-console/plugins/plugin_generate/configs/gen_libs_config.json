@@ -30,7 +30,6 @@
         "cocos/audio/android/Android.mk",
         "cocos/storage/local-storage/Android.mk",
         "extensions/Android.mk",
-        "cocos/3d/Android.mk",
         "cocos/ui/Android.mk",
         "cocos/network/Android.mk",
         "cocos/platform/android/Android.mk",

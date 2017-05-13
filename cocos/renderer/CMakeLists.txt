@@ -22,7 +22,6 @@ set(COCOS_RENDERER_SRC
   renderer/CCTextureCache.cpp
   renderer/CCTextureCube.cpp
   renderer/CCTrianglesCommand.cpp
-  renderer/CCVertexAttribBinding.cpp
   renderer/CCVertexIndexBuffer.cpp
   renderer/CCVertexIndexData.cpp
   renderer/ccGLStateCache.cpp

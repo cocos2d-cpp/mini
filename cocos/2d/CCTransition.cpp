@@ -196,6 +196,11 @@ void TransitionScene::cleanup()
         _outScene->cleanup();
 }
 
+std::unique_ptr<ActionInterval> TransitionScene::easeActionWithAction(std::unique_ptr<ActionInterval> action)
+{
+    return action;
+}
+
 //
 // Oriented Transition
 //

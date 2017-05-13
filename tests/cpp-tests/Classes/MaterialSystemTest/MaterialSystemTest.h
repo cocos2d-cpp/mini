@@ -40,36 +40,6 @@ public:
     virtual std::string title() const override;
 };
 
-class Material_Sprite3DTest : public MaterialSystemBaseTest
-{
-public:
-    static Material_Sprite3DTest* create()
-    {
-        auto ret = new Material_Sprite3DTest;
-        ret->init();
-        ret->autorelease();
-        return ret;
-    }
-
-    virtual void onEnter() override;
-    virtual std::string subtitle() const override;
-};
-
-class Material_MultipleSprite3D : public MaterialSystemBaseTest
-{
-public:
-    static Material_MultipleSprite3D* create()
-    {
-        auto ret = new Material_MultipleSprite3D;
-        ret->init();
-        ret->autorelease();
-        return ret;
-    }
-
-    virtual void onEnter() override;
-    virtual std::string subtitle() const override;
-};
-
 class Material_2DEffects : public MaterialSystemBaseTest
 {
 public:
@@ -107,42 +77,6 @@ private:
     EffectAutoBindingResolver *_resolver;
 };
 
-class Material_setTechnique : public MaterialSystemBaseTest
-{
-public:
-    static Material_setTechnique* create()
-    {
-        auto ret = new Material_setTechnique;
-        ret->init();
-        ret->autorelease();
-        return ret;
-    }
-
-    virtual void onEnter() override;
-    virtual std::string subtitle() const override;
-
-private:
-    void changeMaterial(float dt);
-
-    cocos2d::Sprite3D* _sprite;
-    int _techniqueState;
-};
-
-class Material_clone : public MaterialSystemBaseTest
-{
-public:
-    static Material_clone* create()
-    {
-        auto ret = new Material_clone;
-        ret->init();
-        ret->autorelease();
-        return ret;
-    }
-
-    virtual void onEnter() override;
-    virtual std::string subtitle() const override;
-};
-
 class Material_parsePerformance : public MaterialSystemBaseTest
 {
 public:
@@ -160,44 +94,4 @@ public:
 protected:
     unsigned int _maxParsingCoumt;
 };
-
-class Material_invalidate : public MaterialSystemBaseTest
-{
-public:
-    static Material_invalidate* create()
-    {
-        auto ret = new Material_invalidate;
-        ret->init();
-        ret->autorelease();
-        return ret;
-    }
-
-    virtual void onEnter() override;
-    virtual std::string subtitle() const override;
-
-    virtual void draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags) override;
-
-    cocos2d::CustomCommand _customCommand;
-};
-
-class Material_renderState : public MaterialSystemBaseTest
-{
-public:
-    static Material_renderState* create()
-    {
-        auto ret = new Material_renderState;
-        ret->init();
-        ret->autorelease();
-        return ret;
-    }
-
-    virtual void onEnter() override;
-    virtual std::string subtitle() const override;
-
-    virtual void draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags) override;
-
-    cocos2d::RenderState::StateBlock _stateBlock;
-    cocos2d::CustomCommand _customCommand;
-};
-
 

@@ -29,7 +29,6 @@
 #include "2d/CCLabel.h"
 #include "2d/CCLight.h"
 #include "2d/CCSprite.h"
-#include "3d/CCSprite3D.h"
 #include "base/CCDirector.h"
 #include "base/CCProperties.h"
 #include "base/ccUTF8.h"
@@ -50,69 +49,12 @@ MaterialSystemTest::MaterialSystemTest()
 {
     ADD_TEST_CASE(Material_2DEffects);
     ADD_TEST_CASE(Material_AutoBindings);
-    ADD_TEST_CASE(Material_setTechnique);
-    ADD_TEST_CASE(Material_clone);
-    ADD_TEST_CASE(Material_MultipleSprite3D);
-    ADD_TEST_CASE(Material_Sprite3DTest);
     ADD_TEST_CASE(Material_parsePerformance);
-    ADD_TEST_CASE(Material_invalidate);
-    ADD_TEST_CASE(Material_renderState);
 }
 
 std::string MaterialSystemBaseTest::title() const
 {
     return "Material System";
-}
-
-// MARK: Tests start here
-
-void Material_Sprite3DTest::onEnter()
-{
-    MaterialSystemBaseTest::onEnter();
-
-    auto sprite = Sprite3D::create("Sprite3DTest/boss1.obj");
-    sprite->setScale(8.f);
-    sprite->setTexture("Sprite3DTest/boss.png");
-    this->addChild(sprite);
-    sprite->setPositionNormalized(Vec2(0.5,0.5));
-}
-
-std::string Material_Sprite3DTest::subtitle() const
-{
-    return "Material System on Sprite3D";
-}
-
-void Material_MultipleSprite3D::onEnter()
-{
-    MaterialSystemBaseTest::onEnter();
-
-    const char* names[] = {
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-        "Sprite3DTest/ReskinGirl.c3b",
-    };
-
-    const int totalNames = sizeof(names) / sizeof(names[0]);
-
-    auto size = Director::getInstance()->getWinSize();
-
-    for(int i=0;i<totalNames;i++)
-    {
-        auto sprite = Sprite3D::create(names[i]);
-        this->addChild(sprite);
-        sprite->setPosition(Vec2((size.width/(totalNames+1))*(i+1), size.height/4));
-        sprite->setScale(3);
-    }
-}
-
-std::string Material_MultipleSprite3D::subtitle() const
-{
-    return "Sprites with multiple meshes";
 }
 
 //
@@ -258,131 +200,6 @@ std::string Material_AutoBindings::subtitle() const
 //
 //
 //
-void Material_setTechnique::onEnter()
-{
-    MaterialSystemBaseTest::onEnter();
-
-    auto sprite = Sprite3D::create("Sprite3DTest/boss1.obj");
-    sprite->setScale(6);
-    this->addChild(sprite);
-    sprite->setPositionNormalized(Vec2(0.5,0.5));
-    _sprite = sprite;
-
-
-    auto mat = to_retaining_shared_ptr(
-        Material::createWithFilename("Materials/3d_effects.material")
-    );
-    sprite->setMaterial(mat);
-
-    // lights
-    auto light1 = AmbientLight::create(Color3B::RED);
-    addChild(light1);
-
-    auto light2 = DirectionLight::create(Vec3(-1,1,0), Color3B::GREEN);
-    addChild(light2);
-
-    Director::getInstance()->getScheduler().schedule(
-        TimedJob(this, &Material_setTechnique::changeMaterial, 0)
-            .delay(1.0f)
-            .interval(1.0f)
-            .paused(isPaused())
-    );
-    _techniqueState = 0;
-
-    sprite->runAction(
-        std::make_unique<RepeatForever>(
-            std::make_unique<RotateBy>(5, Vec3(30,60,270))
-        ));
-}
-
-std::string Material_setTechnique::subtitle() const
-{
-    return "Testing setTechnique()";
-}
-
-void Material_setTechnique::changeMaterial(float)
-{
-    // get it from Mesh 0
-    switch (_techniqueState)
-    {
-        case 0:
-            _sprite->getMaterial(0)->setTechnique("lit");
-            break;
-        case 1:
-            _sprite->getMaterial(0)->setTechnique("normal");
-            break;
-        case 2:
-            _sprite->getMaterial(0)->setTechnique("outline");
-            break;
-        default:
-            break;
-    }
-
-    _techniqueState++;
-    if (_techniqueState>2)
-        _techniqueState = 0;
-}
-
-//
-//
-//
-void Material_clone::onEnter()
-{
-    MaterialSystemBaseTest::onEnter();
-
-    auto sprite = Sprite3D::create("Sprite3DTest/boss1.obj");
-    sprite->setScale(3);
-    this->addChild(sprite);
-    sprite->setPositionNormalized(Vec2(0.25, 0.5));
-
-    auto mat = to_retaining_shared_ptr(
-        Material::createWithFilename("Materials/3d_effects.material")
-    );
-    sprite->setMaterial(mat);
-
-    auto repeat1 = std::make_unique<RepeatForever>(std::make_unique<RotateBy>(5, Vec3(360,240,120)));
-    auto repeat2 = std::unique_ptr<RepeatForever>( repeat1->clone() );
-    auto repeat3 = std::unique_ptr<RepeatForever>( repeat1->clone() );
-
-
-    sprite->runAction( std::move(repeat1) );
-
-    // sprite 2... using same material
-    auto sprite2 = Sprite3D::create("Sprite3DTest/boss1.obj");
-    sprite2->setScale(3);
-    this->addChild(sprite2);
-    sprite2->setPositionNormalized(Vec2(0.5, 0.5));
-    sprite2->setMaterial(mat);
-    sprite2->runAction( std::move(repeat2) );
-
-    // sprite 3... using cloned material
-    auto sprite3 = Sprite3D::create("Sprite3DTest/boss1.obj");
-    sprite3->setScale(3);
-    this->addChild(sprite3);
-    sprite3->setPositionNormalized(Vec2(0.75, 0.5));
-    auto mat2 = to_retaining_shared_ptr(
-        mat->clone()
-    );
-    sprite3->setMaterial(mat2);
-    sprite3->runAction( std::move(repeat3) );
-
-    // testing clone
-    // should affect both sprite 1 and sprite 2
-    mat->setTechnique("outline");
-
-    // should affect only sprite 3
-//    mat2->setTechnique("normal");
-
-}
-
-std::string Material_clone::subtitle() const
-{
-    return "Testing material->clone()";
-}
-
-//
-//
-//
 const int SHOW_LEBAL_TAG = 114;
 
 void Material_parsePerformance::onEnter()
@@ -467,115 +284,6 @@ void Material_parsePerformance::parsingTesting(unsigned int count)
 std::string Material_parsePerformance::subtitle() const
 {
     return "Testing parsing performance";
-}
-
-//
-//
-//
-void Material_invalidate::onEnter()
-{
-    MaterialSystemBaseTest::onEnter();
-
-    // ORC
-    auto sprite = Sprite3D::create("Sprite3DTest/orc.c3b");
-    sprite->setScale(5);
-    sprite->setRotation3D(Vec3(0,180,0));
-    addChild(sprite);
-    sprite->setPositionNormalized(Vec2(0.3f,0.3f));
-
-    sprite->runAction(
-        std::make_unique<RepeatForever>(
-            std::make_unique<RotateBy>(5, Vec3(0,360,0))
-        ));
-}
-
-std::string Material_invalidate::subtitle() const
-{
-    return "Testing RenderState::StateBlock::invalidate()";
-}
-
-void Material_invalidate::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags)
-{
-    _customCommand.init(_globalZOrder, transform, flags);
-    _customCommand.func = []() {
-        glDisable(GL_DEPTH_TEST);
-        CHECK_GL_ERROR_DEBUG();
-
-        glDepthMask(false);
-        CHECK_GL_ERROR_DEBUG();
-
-        glEnable(GL_CULL_FACE);
-        CHECK_GL_ERROR_DEBUG();
-
-        glCullFace((GLenum)GL_FRONT);
-        CHECK_GL_ERROR_DEBUG();
-
-        glFrontFace((GLenum)GL_CW);
-        CHECK_GL_ERROR_DEBUG();
-
-        glDisable(GL_BLEND);
-        CHECK_GL_ERROR_DEBUG();
-
-        // a non-optimal way is to pass all bits, but that would be very inefficient
-//        RenderState::StateBlock::invalidate(RenderState::StateBlock::RS_ALL_ONES);
-
-        RenderState::StateBlock::invalidate(RenderState::StateBlock::RS_DEPTH_TEST |
-                                            RenderState::StateBlock::RS_DEPTH_WRITE |
-                                            RenderState::StateBlock::RS_CULL_FACE |
-                                            RenderState::StateBlock::RS_CULL_FACE_SIDE |
-                                            RenderState::StateBlock::RS_FRONT_FACE |
-                                            RenderState::StateBlock::RS_BLEND);
-    };
-
-    renderer->addCommand(&_customCommand);
-}
-
-//
-//
-//
-void Material_renderState::onEnter()
-{
-    MaterialSystemBaseTest::onEnter();
-
-    // ORC
-    auto sprite = Sprite3D::create("Sprite3DTest/orc.c3b");
-    sprite->setScale(5);
-    sprite->setRotation3D(Vec3(0,180,0));
-    addChild(sprite);
-    sprite->setPositionNormalized(Vec2(0.3f,0.3f));
-
-    sprite->runAction(
-        std::make_unique<RepeatForever>(
-            std::make_unique<RotateBy>(5, Vec3(0,360,0))
-        ));
-
-    _stateBlock.setDepthTest(false);
-    _stateBlock.setDepthWrite(false);
-    _stateBlock.setCullFace(true);
-    _stateBlock.setCullFaceSide(RenderState::CULL_FACE_SIDE_FRONT);
-    _stateBlock.setFrontFace(RenderState::FRONT_FACE_CW);
-    _stateBlock.setBlend(false);
-}
-
-std::string Material_renderState::subtitle() const
-{
-    return "You should see a Spine animation on the right";
-}
-
-void Material_renderState::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags)
-{
-    _customCommand.init(_globalZOrder, transform, flags);
-    _customCommand.func = [this]() {
-
-        this->_stateBlock.bind();
-
-        // should do something...
-        // and after that, restore
-
-        this->_stateBlock.restore(0);
-    };
-    
-    renderer->addCommand(&_customCommand);
 }
 
 // MARK: Helper functions

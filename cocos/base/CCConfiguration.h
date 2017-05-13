@@ -32,7 +32,6 @@ THE SOFTWARE.
 #include "base/CCRef.h"
 #include "base/CCValue.h"
 #include "platform/CCGL.h"
-#include "3d/CCAnimate3D.h"
 
 /**
  * @addtogroup base
@@ -187,7 +186,7 @@ public:
     int getMaxSupportSpotLightInShader() const;
 
     /** get 3d animate quality*/
-    Animate3DQuality getAnimate3DQuality() const;
+    int getAnimate3DQuality() const;
     
     /** Returns whether or not an OpenGL is supported. 
      *
@@ -241,36 +240,34 @@ private:
 	static std::string     s_configfile;
     
 protected:
-    GLint           _maxTextureSize;
-    GLint           _maxModelviewStackDepth;
-    bool            _supportsPVRTC;
-    bool            _supportsETC1;
-    bool            _supportsS3TC;
-    bool            _supportsATITC;
-    bool            _supportsNPOT;
-    bool            _supportsBGRA8888;
-    bool            _supportsDiscardFramebuffer;
-    bool            _supportsShareableVAO;
-    bool            _supportsOESMapBuffer;
-    bool            _supportsOESDepth24;
-    bool            _supportsOESPackedDepthStencil;
+    GLint        _maxTextureSize;
+    GLint        _maxModelviewStackDepth;
+    bool         _supportsPVRTC;
+    bool         _supportsETC1;
+    bool         _supportsS3TC;
+    bool         _supportsATITC;
+    bool         _supportsNPOT;
+    bool         _supportsBGRA8888;
+    bool         _supportsDiscardFramebuffer;
+    bool         _supportsShareableVAO;
+    bool         _supportsOESMapBuffer;
+    bool         _supportsOESDepth24;
+    bool         _supportsOESPackedDepthStencil;
     
-    GLint           _maxSamplesAllowed;
-    GLint           _maxTextureUnits;
-    char *          _glExtensions;
-    int             _maxDirLightInShader; //max support directional light in shader
-    int             _maxPointLightInShader; // max support point light in shader
-    int             _maxSpotLightInShader; // max support spot light in shader
-    Animate3DQuality  _animate3DQuality; // animate 3d quality
+    GLint        _maxSamplesAllowed;
+    GLint        _maxTextureUnits;
+    char*        _glExtensions;
+    int          _maxDirLightInShader; //max support directional light in shader
+    int          _maxPointLightInShader; // max support point light in shader
+    int          _maxSpotLightInShader; // max support spot light in shader
+    int          _animate3DQuality; // animate 3d quality
 	
-	ValueMap        _valueDict;
+	ValueMap     _valueDict;
     
-    EventCustom*    _loadedEvent;
+    EventCustom* _loadedEvent;
 };
 
 
 } // namespace cocos2d
-// end of base group
-/// @}
 
 #endif // __CCCONFIGURATION_H__

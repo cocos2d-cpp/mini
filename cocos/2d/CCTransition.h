@@ -92,7 +92,7 @@ public:
 
     /** Returns the ease action that will be performed on a linear action.
     */
-    virtual std::unique_ptr<ActionInterval> easeActionWithAction(std::unique_ptr<ActionInterval> action) { return action; } // = 0;
+    virtual std::unique_ptr<ActionInterval> easeActionWithAction(std::unique_ptr<ActionInterval> action);
 
 protected:
     TransitionScene();
