@@ -28,7 +28,6 @@
     "android_mks" : [
         "cocos/Android.mk",
         "cocos/audio/android/Android.mk",
-        "cocos/storage/local-storage/Android.mk",
         "extensions/Android.mk",
         "cocos/ui/Android.mk",
         "cocos/network/Android.mk",

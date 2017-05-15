@@ -40,7 +40,6 @@ include(base/CMakeLists.txt)
 include(ui/CMakeLists.txt)
 include(network/CMakeLists.txt)
 include(audio/CMakeLists.txt)
-include(storage/CMakeLists.txt)
 
 include(../extensions/CMakeLists.txt)
 
