@@ -3,6 +3,7 @@
 
 #include "2d/CCParticleExamples.h"
 #include "base/CCDirector.h"
+#include "base/CCEventDispatcher.h"
 #include "base/CCScheduler.h"
 #include "renderer/CCTextureCache.h"
 

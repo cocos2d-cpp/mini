@@ -28,6 +28,8 @@
 #include "2d/CCMenu.h"
 #include "2d/CCMenuItem.h"
 #include "base/CCDirector.h"
+#include "base/CCEventDispatcher.h"
+#include "platform/CCFileUtils.h"
 #include "renderer/CCGLProgram.h"
 #include "renderer/CCRenderer.h"
 #include "renderer/ccShaders.h"

@@ -29,6 +29,7 @@
 #include "base/CCConfiguration.h"
 #include "base/CCDirector.h"
 #include "extensions/cocos-ext.h"
+#include "platform/CCFileUtils.h"
 #include "platform/CCGLView.h"
 
 using namespace cocos2d;

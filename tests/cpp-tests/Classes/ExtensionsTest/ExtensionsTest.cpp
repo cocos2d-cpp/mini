@@ -1,6 +1,5 @@
 #include "ExtensionsTest.h"
 #include "../testResource.h"
-#include "AssetsManagerExTest/AssetsManagerExTest.h"
 #include "ControlExtensionTest/CCControlSceneManager.h"
 #if (CC_TARGET_PLATFORM != CC_PLATFORM_EMSCRIPTEN) && (CC_TARGET_PLATFORM != CC_PLATFORM_NACL)
 #include "NetworkTest/HttpClientTest.h"
@@ -14,7 +13,6 @@
 
 ExtensionsTests::ExtensionsTests()
 {
-    addTest("AssetsManagerExTest", [](){ return new (std::nothrow) AssetsManagerExTests; });
     addTest("CCControlButtonTest", [](){ return new (std::nothrow) ControlTests; });
 #if (CC_TARGET_PLATFORM != CC_PLATFORM_EMSCRIPTEN) && (CC_TARGET_PLATFORM != CC_PLATFORM_NACL)
     addTest("HttpClientTest", [](){ return new (std::nothrow) HttpClientTests; });

@@ -27,7 +27,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../../Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp \
 ../../../Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp \
 ../../../Classes/EffectsTest/EffectsTest.cpp \
-../../../Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp \
 ../../../Classes/ExtensionsTest/ControlExtensionTest/CCControlButtonTest/CCControlButtonTest.cpp \
 ../../../Classes/ExtensionsTest/ControlExtensionTest/CCControlColourPicker/CCControlColourPickerTest.cpp \
 ../../../Classes/ExtensionsTest/ControlExtensionTest/CCControlPotentiometerTest/CCControlPotentiometerTest.cpp \
