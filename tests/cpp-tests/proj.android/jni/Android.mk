@@ -23,7 +23,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../Classes/ConsoleTest/ConsoleTest.cpp \
 ../../Classes/CurlTest/CurlTest.cpp \
 ../../Classes/CurrentLanguageTest/CurrentLanguageTest.cpp \
-../../Classes/DownloaderTest/DownloaderTest.cpp \
 ../../Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp \
 ../../Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp \
 ../../Classes/EffectsTest/EffectsTest.cpp \
@@ -36,9 +35,6 @@ LOCAL_SRC_FILES := main.cpp \
 ../../Classes/ExtensionsTest/ControlExtensionTest/CCControlStepperTest/CCControlStepperTest.cpp \
 ../../Classes/ExtensionsTest/ControlExtensionTest/CCControlSwitchTest/CCControlSwitchTest.cpp \
 ../../Classes/ExtensionsTest/ExtensionsTest.cpp \
-../../Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp \
-../../Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp \
-../../Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp \
 ../../Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp \
 ../../Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp \
 ../../Classes/FileUtilsTest/FileUtilsTest.cpp \

@@ -39,15 +39,7 @@
 #include <io.h>
 #include <WS2tcpip.h>
 #include <Winsock2.h>
-#if defined(__MINGW32__)
-#include "platform/win32/inet_pton_mingw.h"
-#endif
 #define bzero(a, b) memset(a, 0, b);
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
-#include "platform/winrt/inet_ntop_winrt.h"
-#include "platform/winrt/inet_pton_winrt.h"
-#include "platform/winrt/CCWinRTUtils.h"
-#endif
 #else
 #include <netdb.h>
 #include <unistd.h>

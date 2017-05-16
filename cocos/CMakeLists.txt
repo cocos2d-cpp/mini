@@ -38,7 +38,6 @@ include(math/CMakeLists.txt)
 include(renderer/CMakeLists.txt)
 include(base/CMakeLists.txt)
 include(ui/CMakeLists.txt)
-include(network/CMakeLists.txt)
 include(audio/CMakeLists.txt)
 
 include(../extensions/CMakeLists.txt)
