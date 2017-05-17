@@ -27,7 +27,7 @@
 #define __CCTABLEVIEWCELL_H__
 
 #include "2d/CCNode.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 /**
  * @addtogroup ui
@@ -40,7 +40,7 @@ namespace extension {
 /**
  * Abstract class for SWTableView cell node
  */
-class CC_EX_DLL TableViewCell: public Node
+class CC_DLL TableViewCell: public Node
 {
 public:
     static TableViewCell* create()

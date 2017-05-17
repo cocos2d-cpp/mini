@@ -31,7 +31,7 @@
 #define __CCINVOCATION_H__
 
 #include "base/CCRef.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 #include "CCControl.h"
 
 namespace cocos2d {
@@ -46,7 +46,7 @@ namespace extension {
 
 #define cccontrol_selector(_SELECTOR) static_cast<cocos2d::extension::Control::Handler>(&_SELECTOR)
 
-class CC_EX_DLL Invocation : public Ref
+class CC_DLL Invocation : public Ref
 {
 public:
     /**

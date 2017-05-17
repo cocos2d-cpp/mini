@@ -28,7 +28,7 @@
 #include "2d/CCLayer.h"
 #include "base/CCEventListenerTouch.h"
 #include "2d/CCActionTween.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 /**
  * @addtogroup ui
@@ -40,7 +40,7 @@ namespace extension {
 
 class ScrollView;
 
-class CC_EX_DLL ScrollViewDelegate
+class CC_DLL ScrollViewDelegate
 {
 public:
     virtual ~ScrollViewDelegate() {}
@@ -53,7 +53,7 @@ public:
  * ScrollView support for cocos2d-x.
  * It provides scroll view functionalities to cocos2d projects natively.
  */
-class CC_EX_DLL  ScrollView : public Layer, public ActionTweenDelegate
+class CC_DLL  ScrollView : public Layer, public ActionTweenDelegate
 {
 public:
     enum class Direction

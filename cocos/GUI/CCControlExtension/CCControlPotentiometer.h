@@ -27,7 +27,7 @@
 
 #include "CCControl.h"
 #include "2d/CCProgressTimer.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 namespace cocos2d {
 namespace extension {
@@ -40,7 +40,7 @@ namespace extension {
  */
 
 /** @class ControlPotentiometer Potentiometer control for Cocos2D. */
-class CC_EX_DLL ControlPotentiometer : public Control
+class CC_DLL ControlPotentiometer : public Control
 {
 public:
     ControlPotentiometer(const char* backgroundFile, const char* progressFile, const char* thumbFile);

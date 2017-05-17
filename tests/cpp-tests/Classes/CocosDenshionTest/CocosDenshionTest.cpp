@@ -207,7 +207,7 @@ private:
 
     bool init()
     {
-        _slider = extension::ControlSlider::create("extensions/sliderTrack.png","extensions/sliderProgress.png" ,"extensions/sliderThumb.png");
+        _slider = extension::ControlSlider::create("GUI/sliderTrack.png","GUI/sliderProgress.png" ,"GUI/sliderThumb.png");
         _slider->setScale(0.5);
         if (_direction == Vertical)
             _slider->setRotation(-90.0);

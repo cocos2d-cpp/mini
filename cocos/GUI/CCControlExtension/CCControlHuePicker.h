@@ -35,7 +35,7 @@
 
 #include "CCControl.h"
 #include "CCInvocation.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 namespace cocos2d {
 namespace extension {
@@ -47,7 +47,7 @@ namespace extension {
  * @{
  */
 
-class CC_EX_DLL ControlHuePicker : public Control
+class CC_DLL ControlHuePicker : public Control
 {
 public:
     static ControlHuePicker* create(Node* target, Vec2 pos);

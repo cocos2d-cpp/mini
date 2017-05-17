@@ -53,7 +53,7 @@ namespace extension {
  */
 
 /** @class ControlButton Button control for Cocos2D. */
-class CC_EX_DLL ControlButton : public Control
+class CC_DLL ControlButton : public Control
 {        
 public:
     static ControlButton* create();

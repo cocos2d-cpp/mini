@@ -29,7 +29,7 @@ macro (SetCompilerOptions)
 	if(WINDOWS)
 
 	  if(BUILD_SHARED_LIBS)
-	    add_definitions(-D_USRDLL -D_EXPORT_DLL_ -D_USEGUIDLL -D_USREXDLL -D_USRSTUDIODLL)
+	    add_definitions(-D_USRDLL -D_EXPORT_DLL_ -D_USEGUIDLL -D_USRSTUDIODLL)
 	  else()
 	    add_definitions(-DCC_STATIC)
 	  endif()

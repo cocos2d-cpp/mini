@@ -30,7 +30,7 @@
 
 #include "CCControl.h"
 #include "2d/CCLabel.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 namespace cocos2d {
 namespace extension {
@@ -42,7 +42,7 @@ namespace extension {
  * @{
  */
 
-class CC_EX_DLL ControlStepper : public Control
+class CC_DLL ControlStepper : public Control
 {
 public:
     enum class Part

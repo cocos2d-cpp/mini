@@ -35,7 +35,7 @@
 
 #include "CCControl.h"
 #include "CCInvocation.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 namespace cocos2d {
 namespace extension {
@@ -47,7 +47,7 @@ namespace extension {
  * @{
  */
 
-class CC_EX_DLL ControlSaturationBrightnessPicker : public Control
+class CC_DLL ControlSaturationBrightnessPicker : public Control
 {
     /** Contains the receiver's current saturation value. */
     CC_SYNTHESIZE_READONLY(float, _saturation, Saturation);

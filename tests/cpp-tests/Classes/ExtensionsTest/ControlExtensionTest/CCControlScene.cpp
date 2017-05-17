@@ -35,12 +35,12 @@ bool ControlScene::init()
     if (TestCase::init())
     {    
         // Add the generated background
-        auto background = Sprite::create("extensions/background.png");
+        auto background = Sprite::create("GUI/background.png");
         background->setPosition(VisibleRect::center());
         addChild(background);
         
         // Add the ribbon
-        auto ribbon = ui::Scale9Sprite::create("extensions/ribbon.png", Rect(1, 1, 48, 55));
+        auto ribbon = ui::Scale9Sprite::create("GUI/ribbon.png", Rect(1, 1, 48, 55));
         ribbon->setContentSize(Size(VisibleRect::getVisibleRect().size.width, 57));
         ribbon->setPosition(VisibleRect::center().x, VisibleRect::top().y - ribbon->getContentSize().height / 2.0f);
         addChild(ribbon);

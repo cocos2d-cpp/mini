@@ -834,7 +834,7 @@ void SchedulerDelayAndRepeat::update(float dt)
 
 ControlSlider* SchedulerSpeedup::sliderCtl()
 {
-    ControlSlider * slider = ControlSlider::create("extensions/sliderTrack2.png","extensions/sliderProgress2.png" ,"extensions/sliderThumb.png");
+    ControlSlider * slider = ControlSlider::create("GUI/sliderTrack2.png","GUI/sliderProgress2.png" ,"GUI/sliderThumb.png");
 
     slider->addTargetWithActionForControlEvents(this, cccontrol_selector(SchedulerSpeedup::sliderAction), Control::EventType::VALUE_CHANGED);
 

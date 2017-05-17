@@ -2102,8 +2102,8 @@ std::string LabelIssue9500Test::subtitle() const
 
 ControlStepper *LabelLayoutBaseTest::makeControlStepper()
 {
-    auto minusSprite       = Sprite::create("extensions/stepper-minus.png");
-    auto plusSprite        = Sprite::create("extensions/stepper-plus.png");
+    auto minusSprite       = Sprite::create("GUI/stepper-minus.png");
+    auto plusSprite        = Sprite::create("GUI/stepper-plus.png");
     
     return ControlStepper::create(minusSprite, plusSprite);
 }

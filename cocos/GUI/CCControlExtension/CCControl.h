@@ -32,7 +32,7 @@
 
 #include "CCControlUtils.h"
 #include "2d/CCLayer.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 namespace cocos2d {
 namespace extension {
@@ -63,11 +63,11 @@ class Invocation;
  *
  * To use the Control you have to subclass it.
  */
-class CC_EX_DLL Control : public Layer
+class CC_DLL Control : public Layer
 {
 public:
     /** Kinds of possible events for the control objects. */
-    enum class CC_EX_DLL EventType
+    enum class CC_DLL EventType
     {
         TOUCH_DOWN           = 1 << 0,    // A touch-down event in the control.
         DRAG_INSIDE          = 1 << 1,    // An event where a finger is dragged inside the bounds of the control.
@@ -262,7 +262,7 @@ private:
     const Control & operator=(const Control &) = delete;
 };
 
-CC_EX_DLL Control::EventType operator|(Control::EventType a, Control::EventType b);
+CC_DLL Control::EventType operator|(Control::EventType a, Control::EventType b);
 
 // end of GUI group
 /// @}

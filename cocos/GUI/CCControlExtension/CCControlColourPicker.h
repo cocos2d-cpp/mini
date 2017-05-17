@@ -37,7 +37,7 @@
 #include "CCControlUtils.h"
 #include "CCControlHuePicker.h"
 #include "CCControlSaturationBrightnessPicker.h"
-#include "extensions/ExtensionExport.h"
+#include "platform/CCPlatformDefine.h"
 
 namespace cocos2d {
 namespace extension {
@@ -49,7 +49,7 @@ namespace extension {
  * @{
  */
 
-class CC_EX_DLL ControlColourPicker: public Control
+class CC_DLL ControlColourPicker: public Control
 {
 public:
     static ControlColourPicker* create();

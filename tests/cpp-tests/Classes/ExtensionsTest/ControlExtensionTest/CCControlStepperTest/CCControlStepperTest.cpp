@@ -58,7 +58,7 @@ bool ControlStepperTest::init()
         double layer_width          = 0;
         
         // Add the black background for the text
-        auto background  = ui::Scale9Sprite::create("extensions/buttonBackground.png");
+        auto background  = ui::Scale9Sprite::create("GUI/buttonBackground.png");
         background->setContentSize(Size(100, 50));
         background->setPosition(layer_width + background->getContentSize().width / 2.0f, 0);
         layer->addChild(background);
@@ -90,8 +90,8 @@ bool ControlStepperTest::init()
 
 ControlStepper *ControlStepperTest::makeControlStepper()
 {
-    auto minusSprite       = Sprite::create("extensions/stepper-minus.png");
-    auto plusSprite        = Sprite::create("extensions/stepper-plus.png");
+    auto minusSprite       = Sprite::create("GUI/stepper-minus.png");
+    auto plusSprite        = Sprite::create("GUI/stepper-plus.png");
     
     return ControlStepper::create(minusSprite, plusSprite);
 }

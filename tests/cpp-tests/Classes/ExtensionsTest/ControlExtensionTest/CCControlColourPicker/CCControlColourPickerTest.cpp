@@ -38,7 +38,7 @@ bool ControlColourPickerTest::init()
         layer_width += colourPicker->getContentSize().width;
 
         // Add the black background for the text
-        auto background = ui::Scale9Sprite::create("extensions/buttonBackground.png");
+        auto background = ui::Scale9Sprite::create("GUI/buttonBackground.png");
         background->setContentSize(Size(150, 50));
         background->setPosition(layer_width + background->getContentSize().width / 2.0f, 0);
         layer->addChild(background);

@@ -469,7 +469,7 @@ void ShaderBlur::createSliderCtls()
     auto screenSize = Director::getInstance()->getWinSize();
     
     {
-        ControlSlider *slider = ControlSlider::create("extensions/sliderTrack.png","extensions/sliderProgress.png" ,"extensions/sliderThumb.png");
+        ControlSlider *slider = ControlSlider::create("GUI/sliderTrack.png","GUI/sliderProgress.png" ,"GUI/sliderThumb.png");
         slider->setAnchorPoint(Vec2(0.5f, 1.0f));
         slider->setMinimumValue(0.0f);
         slider->setMaximumValue(25.0f);
@@ -486,7 +486,7 @@ void ShaderBlur::createSliderCtls()
     }
     
     {
-        ControlSlider *slider = ControlSlider::create("extensions/sliderTrack.png","extensions/sliderProgress.png" ,"extensions/sliderThumb.png");
+        ControlSlider *slider = ControlSlider::create("GUI/sliderTrack.png","GUI/sliderProgress.png" ,"GUI/sliderThumb.png");
         slider->setAnchorPoint(Vec2(0.5f, 1.0f));
         slider->setMinimumValue(0.0f);
         slider->setMaximumValue(11.0f);

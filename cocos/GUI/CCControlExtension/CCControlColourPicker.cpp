@@ -53,10 +53,10 @@ bool ControlColourPicker::init()
     if (Control::init())
     {
         // Cache the sprites
-        _director->getSpriteFrameCache().addSpriteFramesWithFile("extensions/CCControlColourPickerSpriteSheet.plist");
+        _director->getSpriteFrameCache().addSpriteFramesWithFile("GUI/CCControlColourPickerSpriteSheet.plist");
         
         // Create the sprite batch node
-        SpriteBatchNode *spriteSheet  = SpriteBatchNode::create("extensions/CCControlColourPickerSpriteSheet.png");
+        SpriteBatchNode *spriteSheet  = SpriteBatchNode::create("GUI/CCControlColourPickerSpriteSheet.png");
         addChild(spriteSheet);
         
         // Init default color

@@ -53,7 +53,7 @@ bool ControlSwitchTest::init()
         double layer_width = 0;
         
         // Add the black background for the text
-        auto background = ui::Scale9Sprite::create("extensions/buttonBackground.png");
+        auto background = ui::Scale9Sprite::create("GUI/buttonBackground.png");
         background->setContentSize(Size(80, 50));
         background->setPosition(layer_width + background->getContentSize().width / 2.0f, 0);
         layer->addChild(background);
@@ -69,10 +69,10 @@ bool ControlSwitchTest::init()
         // Create the switch
         ControlSwitch *switchControl = ControlSwitch::create
             (
-                Sprite::create("extensions/switch-mask.png"),
-                Sprite::create("extensions/switch-on.png"),
-                Sprite::create("extensions/switch-off.png"),
-                Sprite::create("extensions/switch-thumb.png"),
+                Sprite::create("GUI/switch-mask.png"),
+                Sprite::create("GUI/switch-on.png"),
+                Sprite::create("GUI/switch-off.png"),
+                Sprite::create("GUI/switch-thumb.png"),
                 Label::createWithSystemFont("On", "Arial-BoldMT", 16),
                 Label::createWithSystemFont("Off", "Arial-BoldMT", 16)
             );

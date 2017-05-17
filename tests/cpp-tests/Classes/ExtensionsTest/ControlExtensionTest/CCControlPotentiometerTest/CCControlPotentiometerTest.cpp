@@ -56,7 +56,7 @@ bool ControlPotentiometerTest::init()
         double layer_width = 0;
         
         // Add the black background for the text
-        auto background  = ui::Scale9Sprite::create("extensions/buttonBackground.png");
+        auto background  = ui::Scale9Sprite::create("GUI/buttonBackground.png");
         background->setContentSize(Size(80, 50));
         background->setPosition(layer_width + background->getContentSize().width / 2.0f, 0);
         layer->addChild(background);
@@ -69,9 +69,9 @@ bool ControlPotentiometerTest::init()
         layer->addChild(_displayValueLabel);
 		
         // Add the slider
-        ControlPotentiometer *potentiometer = ControlPotentiometer::create("extensions/potentiometerTrack.png"
-                                                                                ,"extensions/potentiometerProgress.png"
-                                                                                ,"extensions/potentiometerButton.png");
+        ControlPotentiometer *potentiometer = ControlPotentiometer::create("GUI/potentiometerTrack.png"
+                                                                                ,"GUI/potentiometerProgress.png"
+                                                                                ,"GUI/potentiometerButton.png");
         potentiometer->setPosition(layer_width + 10 + potentiometer->getContentSize().width / 2, 0);
 
         // When the value of the slider will change, the given selector will be call
