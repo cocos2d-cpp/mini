@@ -1,9 +1,11 @@
 #ifndef _SHADER_TEST2_H_
 #define _SHADER_TEST2_H_
 
-#include "extensions/cocos-ext.h"
 #include "../BaseTest.h"
 
+namespace cocos2d {
+class Sprite;
+}
 
 DEFINE_TEST_SUITE(Shader2Tests);
 

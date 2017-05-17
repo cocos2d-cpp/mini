@@ -1,5 +1,5 @@
 #include "../CCControlScene.h"
-#include "extensions/cocos-ext.h"
+#include "GUI/CCControlExtension/CCControlExtensions.h"
 
 class ControlColourPickerTest : public ControlScene
 {

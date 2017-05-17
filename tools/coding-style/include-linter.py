@@ -48,9 +48,7 @@ class LintContext:
       'platform/win8.1-universal/Cocos2dRenderer.cpp',
       'platform/win8.1-universal/OpenGLES.cpp',
       'platform/win8.1-universal/OpenGLESPage.xaml.cpp',
-      'platform/win8.1-universal/OpenGLESPage.xaml.h',
-      'platform/win8.1-universal/pch.cpp',
-      'platform/winrt/pch.cpp'
+      'platform/win8.1-universal/OpenGLESPage.xaml.h'
     ]
     self.source_exts = ['.h','.hpp','.inl','.c','.cpp', '.m', '.mm']
     self.header_exts = ['.h','.hpp','.inl']

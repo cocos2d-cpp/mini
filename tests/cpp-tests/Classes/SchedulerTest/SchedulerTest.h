@@ -1,8 +1,8 @@
 #ifndef _SCHEDULER_TEST_H_
 #define _SCHEDULER_TEST_H_
 
-#include "extensions/cocos-ext.h"
 #include "../BaseTest.h"
+#include "GUI/CCControlExtension/CCControlExtensions.h"
 
 DEFINE_TEST_SUITE(SchedulerTests);
 

@@ -1,7 +1,6 @@
 #ifndef __TABLEVIEWTESTSCENE_H__
 #define __TABLEVIEWTESTSCENE_H__
 
-#include "extensions/cocos-ext.h"
 #include "BaseTest.h"
 
 DEFINE_TEST_SUITE(TableViewTests);

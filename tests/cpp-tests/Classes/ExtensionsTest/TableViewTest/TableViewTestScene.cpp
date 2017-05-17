@@ -2,6 +2,8 @@
 #include "CustomTableViewCell.h"
 #include "../ExtensionsTest.h"
 
+#include "2d/CCSprite.h"
+#include "2d/CCLabel.h"
 #include "base/CCDirector.h"
 #include "base/ccUTF8.h"
 
