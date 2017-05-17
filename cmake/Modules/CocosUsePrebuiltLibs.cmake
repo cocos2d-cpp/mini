@@ -2,9 +2,7 @@
 
 # START CONFIG
 
-set(_curl_inc curl/curl.h)
-# order: curl, ssl, crypto
-set(_curl_libs curl libcurl_imp libcurl ssl libeay32 ssleay32 crypto)
+set(ssl libeay32 ssleay32 crypto)
 
 set(_freetype2_prefix FREETYPE)
 set(_freetype2_inc ft2build.h freetype/freetype.h)
@@ -94,7 +92,6 @@ set(_fmod_inc fmod.hpp)
 set(_fmod_libs fmod fmod64 fmod fmod64)
 
 set(all_prebuilt_libs
-  curl
   freetype2
   jpeg
   png

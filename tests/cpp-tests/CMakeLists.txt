@@ -7,7 +7,6 @@ if(LINUX)
   endforeach()
 endif()
 cocos_find_package(FREETYPE FREETYPE REQUIRED)
-cocos_find_package(CURL CURL REQUIRED)
 
 if(WIN32)
   set(PLATFORM_SRC proj.win32/main.cpp)
@@ -44,7 +43,6 @@ set(TESTS_SRC
   Classes/CocosDenshionTest/CocosDenshionTest.cpp
   Classes/ConfigurationTest/ConfigurationTest.cpp
   Classes/ConsoleTest/ConsoleTest.cpp
-  Classes/CurlTest/CurlTest.cpp
   Classes/CurrentLanguageTest/CurrentLanguageTest.cpp
   Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp
   Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp
@@ -136,7 +134,7 @@ if(LINUX)
   endforeach()
 endif()
 
-foreach(pkg FREETYPE CURL)
+foreach(pkg FREETYPE)
   cocos_use_pkg(${APP_NAME} ${pkg})
 endforeach()
 

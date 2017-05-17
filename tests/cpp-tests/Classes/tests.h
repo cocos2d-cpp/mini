@@ -5,14 +5,6 @@
 #include "ClippingNodeTest/ClippingNodeTest.h"
 #endif
 #include "NewAudioEngineTest/NewAudioEngineTest.h"
-#if (CC_TARGET_PLATFORM != CC_PLATFORM_EMSCRIPEN)
-#if (CC_TARGET_PLATFORM != CC_PLATFORM_MARMALADE)
-// bada don't support libcurl
-#if (CC_TARGET_PLATFORM != CC_PLATFORM_BADA)
-#include "CurlTest/CurlTest.h"
-#endif
-#endif
-#endif
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #include "JNITest/JNITest.h"
 #endif

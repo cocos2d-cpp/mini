@@ -80,7 +80,6 @@ macro (BuildModules)
 	cocos_find_package(PNG PNG REQUIRED)
 	cocos_find_package(TIFF TIFF REQUIRED)
 	cocos_find_package(WEBSOCKETS WEBSOCKETS REQUIRED)
-	cocos_find_package(CURL CURL REQUIRED)
 
 	# xxhash
 	if(USE_PREBUILT_LIBS OR USE_SOURCES_EXTERNAL)

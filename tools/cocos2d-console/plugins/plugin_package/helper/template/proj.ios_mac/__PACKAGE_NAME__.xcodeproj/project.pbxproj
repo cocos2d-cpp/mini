@@ -275,7 +275,7 @@
 				);
 				PRODUCT_NAME = "__PACKAGE_NAME__ IOS";
 				SDKROOT = iphoneos8.1;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../frameworks/cocos2d-x/external/curl/include/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -291,7 +291,7 @@
 				);
 				PRODUCT_NAME = "__PACKAGE_NAME__ IOS";
 				SDKROOT = iphoneos8.1;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../frameworks/cocos2d-x/external/curl/include/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Release;
 		};
