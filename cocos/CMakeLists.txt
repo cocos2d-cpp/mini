@@ -40,7 +40,7 @@ include(base/CMakeLists.txt)
 include(ui/CMakeLists.txt)
 include(audio/CMakeLists.txt)
 
-include(../extensions/CMakeLists.txt)
+include(GUI/CMakeLists.txt)
 
 set(COCOS_SRC cocos2d.cpp
     ${COCOS_2D_SRC}

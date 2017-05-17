@@ -5,7 +5,7 @@
 #include "base/CCDirector.h"
 #include "base/CCEventDispatcher.h"
 #include "base/CCScheduler.h"
-#include "extensions/GUI/CCControlExtension/CCControlSlider.h"
+#include "GUI/CCControlExtension/CCControlSlider.h"
 
 // android effect only support ogg
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
