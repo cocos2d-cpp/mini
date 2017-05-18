@@ -45,9 +45,6 @@ endif(WINDOWS)
 set(_webp_inc decode.h)
 set(_webp_libs webp libwebp)
 
-set(_websockets_inc libwebsockets.h)
-set(_websockets_libs websockets libwebsockets)
-
 set(_glfw3_inc glfw3.h)
 if(WINDOWS)
     if (${MSVC_VERSION} STREQUAL "1900")
@@ -97,7 +94,6 @@ set(all_prebuilt_libs
   png
   tiff
   webp
-  websockets
 )
 
 
