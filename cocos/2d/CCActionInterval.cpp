@@ -35,6 +35,7 @@ THE SOFTWARE.
 #include "platform/CCStdC.h"
 
 #include <cstdarg>
+#include <cassert>
 
 namespace cocos2d {
 
@@ -128,7 +129,7 @@ Speed* Speed::clone() const
 
 void Speed::startWithTarget(Node* target)
 {
-    CC_ASSERT(target);
+    assert(target);
 
     Action::startWithTarget(target);
     _innerAction->startWithTarget(target);
@@ -163,7 +164,7 @@ Speed* Speed::reverse() const
 
 Sequence::Sequence(actions_container arrayOfActions)
 {
-    CC_ASSERT(! arrayOfActions.empty());
+    assert(! arrayOfActions.empty());
 
     auto count = arrayOfActions.size();
 
@@ -189,8 +190,8 @@ Sequence::Sequence(actions_container arrayOfActions)
 
 void Sequence::initWithTwoActions(std::unique_ptr<FiniteTimeAction> actionOne, std::unique_ptr<FiniteTimeAction> actionTwo)
 {
-    CC_ASSERT(actionOne);
-    CC_ASSERT(actionTwo);
+    assert(actionOne);
+    assert(actionTwo);
 
     float d = actionOne->getDuration() + actionTwo->getDuration();
     ActionInterval::initWithDuration(d);
@@ -210,7 +211,7 @@ Sequence* Sequence::clone() const
 
 void Sequence::startWithTarget(Node *target)
 {
-    CC_ASSERT(target);
+    assert(target);
 
     if (_duration > FLT_EPSILON)
         _split = _actions[0]->getDuration() / _duration;
@@ -441,7 +442,7 @@ void RepeatForever::at_stop()
 Spawn::Spawn(actions_container arrayOfActions)
     : ActionInterval(0.0f)
 {
-    CC_ASSERT(arrayOfActions.size());
+    assert(arrayOfActions.size());
 
     auto count = arrayOfActions.size();
     
@@ -466,8 +467,8 @@ Spawn::Spawn(actions_container arrayOfActions)
 void Spawn::initWithTwoActions(std::unique_ptr<FiniteTimeAction> action1,
                                std::unique_ptr<FiniteTimeAction> action2)
 {
-    CC_ASSERT(action1);
-    CC_ASSERT(action2);
+    assert(action1);
+    assert(action2);
 
     float d1 = action1->getDuration();
     float d2 = action2->getDuration();
@@ -497,7 +498,7 @@ Spawn* Spawn::clone() const
 
 void Spawn::startWithTarget(Node *target)
 {
-    CC_ASSERT(target);
+    assert(target);
     
     ActionInterval::startWithTarget(target);
     _one->startWithTarget(target);
@@ -592,7 +593,7 @@ void RotateTo::startWithTarget(Node *target)
 
 void RotateTo::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     if(_is3D)
     {
@@ -661,7 +662,7 @@ void RotateBy::startWithTarget(Node *target)
 
 void RotateBy::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     if(_is3D)
     {
@@ -722,7 +723,7 @@ MoveBy* MoveBy::reverse() const
 
 void MoveBy::step(float t)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
 #if CC_ENABLE_STACKABLE_ACTIONS
     Vec3 currentPos = getTarget()->getPosition3D();
@@ -888,7 +889,7 @@ ResizeTo::ResizeTo(float duration, const Size& final_size)
 
 ResizeTo* ResizeTo::reverse() const
 {
-    CC_ASSERT(false);
+    assert(false);
     return nullptr;
 }
 
@@ -944,7 +945,7 @@ ResizeBy* ResizeBy::reverse() const
 
 void ResizeBy::step(float t)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     getTarget()->setContentSize(_startSize + (_sizeDelta * t));
 }
@@ -977,7 +978,7 @@ void JumpBy::startWithTarget(Node *target)
 void JumpBy::step(float t)
 {
     // parabolic jump (since v0.8.2)
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     float frac = fmodf( t * _jumps, 1.0f );
     float y = _height * 4 * frac * (1 - frac);
@@ -1068,7 +1069,7 @@ BezierBy* BezierBy::clone() const
 
 void BezierBy::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     float xa = 0;
     float xb = _config.controlPoint_1.x;
@@ -1173,7 +1174,7 @@ void ScaleTo::startWithTarget(Node *target)
 
 void ScaleTo::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     getTarget()->setScaleX(_startScaleX + _deltaX * time);
     getTarget()->setScaleY(_startScaleY + _deltaY * time);
@@ -1216,7 +1217,7 @@ Blink::Blink(float duration, unsigned nBlinks)
 
 void Blink::at_stop()
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
     getTarget()->setVisible(_originalState);
 }
 
@@ -1233,8 +1234,8 @@ Blink* Blink::clone() const
 
 void Blink::step(float time)
 {
-    CC_ASSERT(getTarget());
-    CC_ASSERT(! isDone());
+    assert(getTarget());
+    assert(! isDone());
 
     float slice = 1.0f / _times;
     float m = fmodf(time, slice);
@@ -1269,7 +1270,7 @@ FadeTo* FadeTo::reverse() const
 
 void FadeTo::startWithTarget(Node *target)
 {
-    CC_ASSERT(target);
+    assert(target);
 
     ActionInterval::startWithTarget(target);
     _fromOpacity = target->getOpacity();
@@ -1277,7 +1278,7 @@ void FadeTo::startWithTarget(Node *target)
 
 void FadeTo::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
     getTarget()->setOpacity((GLubyte)(_fromOpacity + (_toOpacity - _fromOpacity) * time));
 }
 
@@ -1312,7 +1313,7 @@ FadeTo* FadeIn::reverse() const
 
 void FadeIn::startWithTarget(Node *target)
 {
-    CC_ASSERT(target);
+    assert(target);
 
     ActionInterval::startWithTarget(target);
     
@@ -1338,7 +1339,7 @@ FadeOut* FadeOut::clone() const
 
 void FadeOut::startWithTarget(Node *target)
 {
-    CC_ASSERT(target);
+    assert(target);
 
     ActionInterval::startWithTarget(target);
     
@@ -1390,7 +1391,7 @@ void TintTo::startWithTarget(Node *target)
 
 void TintTo::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     getTarget()->setColor(
         Color3B(
@@ -1421,7 +1422,7 @@ TintBy* TintBy::clone() const
 
 void TintBy::startWithTarget(Node *target)
 {
-    CC_ASSERT(target);
+    assert(target);
 
     ActionInterval::startWithTarget(target);
 
@@ -1433,7 +1434,7 @@ void TintBy::startWithTarget(Node *target)
 
 void TintBy::step(float time)
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     getTarget()->setColor(
         Color3B(
@@ -1509,7 +1510,8 @@ void ReverseTime::step(float time)
 
 ReverseTime* ReverseTime::reverse() const
 {
-    CC_ASSERT(false);
+    assert(false);
+    return nullptr;
 }
 
 // Animate
@@ -1570,7 +1572,7 @@ void Animate::startWithTarget(Node *target)
 
 void Animate::at_stop()
 {
-    CC_ASSERT(getTarget());
+    assert(getTarget());
 
     if (_animation->getRestoreOriginalFrame())
     {
@@ -1707,7 +1709,7 @@ ActionFloat::ActionFloat(float duration, float from, float to, std::function<voi
     , _to( to )
     , _callback( callback )
 {
-    CC_ASSERT(_callback);
+    assert(_callback);
 }
 
 ActionFloat* ActionFloat::clone() const

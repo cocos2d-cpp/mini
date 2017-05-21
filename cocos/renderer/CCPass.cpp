@@ -141,7 +141,7 @@ void Pass::bind(const Mat4& modelView)
     bind(modelView, true);
 }
 
-void Pass::bind(const Mat4& modelView, bool bindAttributes)
+void Pass::bind(const Mat4& modelView, bool /*bindAttributes*/)
 {
     auto glprogramstate = _glProgramState ? _glProgramState : getTarget()->getGLProgramState();
 
@@ -150,7 +150,6 @@ void Pass::bind(const Mat4& modelView, bool bindAttributes)
 
     //set render state
     RenderState::bind(this);
-
 }
 
 Node* Pass::getTarget() const

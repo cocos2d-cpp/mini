@@ -862,7 +862,6 @@ public:
     }
     virtual const children_container & getChildren() const
     {
-        
         return _children;
     }
     

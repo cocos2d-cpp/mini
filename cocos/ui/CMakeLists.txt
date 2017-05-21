@@ -23,12 +23,11 @@ elseif(LINUX)
 ELSEIF(ANDROID)
     set(COCOS_UI_SPECIFIC_SRC
         ui/UIEditBox/UIEditBoxImpl-android.cpp
-        ui/UIVideoPlayer-android.cpp
         ui/UIWebViewImpl-android.cpp
     )
 endif()
 
-#todo: android UIWebViewImpl and UIVideoPlayer
+#todo: android UIWebViewImpl
 # will add when doing android support
 
 set(COCOS_UI_SRC

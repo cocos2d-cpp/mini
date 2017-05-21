@@ -27,6 +27,7 @@ THE SOFTWARE.
 #include "platform/CCPlatformMacros.h" // CC_DEPRECATED_ATTRIBUTE
 
 #include <algorithm> // upper_bound
+#include <cassert>
 #include <cstdint>
 #include <functional>
 #include <limits>
@@ -77,7 +78,7 @@ public:
             : UpdateJobId{target, priority}
             , _callback([target](float dt){ target->update(dt); })
         {
-            CC_ASSERT(target);
+            assert(target);
         }
 
     UpdateJob(UpdateJob const&) = default;
@@ -167,8 +168,21 @@ public:
     static constexpr uint32_t FOREVER_BIT    = (uint32_t(1) << 29);
     static constexpr uint32_t REPEAT_BITMASK = (FOREVER_BIT | (FOREVER_BIT - 1));
 
-    static_assert(TO_DELETE_BIT > PAUSED_BIT);
-    static_assert(PAUSED_BIT    > FOREVER_BIT);
+    static_assert(!(TO_DELETE_BIT & PAUSED_BIT),
+                  "TO_DELETE_BIT and PAUSED_BIT must not overlap");
+    static_assert(!((TO_DELETE_BIT | PAUSED_BIT) & FOREVER_BIT),
+                  "TO_DELETE_BIT, PAUSED_BIT, and FOREVER_BIT must not overlap");
+    static_assert(!((TO_DELETE_BIT | PAUSED_BIT) & REPEAT_BITMASK),
+                  "TO_DELETE_BIT, PAUSED_BIT, and REPEAT_BITMASK must not overlap");
+    static_assert(FOREVER_BIT & REPEAT_BITMASK,
+                  "FOREVER_BIT and REPEAT_BITMASK must overlap");
+
+    static_assert((TO_DELETE_BIT | PAUSED_BIT) > REPEAT_BITMASK,
+                  "REPEAT_BITMASK must occupy least significant bits");
+
+    static_assert(!(FOREVER_BIT & (FOREVER_BIT - 1))
+                  && (FOREVER_BIT & ((REPEAT_BITMASK + 1) / 2)),
+                  "REPEAT_BITMASK must occupy the most significant bit in REPEAT_BITMASK");
 
 public:
 
@@ -176,8 +190,8 @@ public:
         : TimedJobId{target, id}
         , _callback(callback)
         {
-            CC_ASSERT(_target);
-            CC_ASSERT(_callback);
+            assert(_target);
+            assert(_callback);
         }
 
     template<typename T>
@@ -195,7 +209,7 @@ public:
 
     TimedJob & delay(float v)
     {
-        CC_ASSERT(v >= 0.0f);
+        assert(v >= 0.0f);
 
         if (v <= 0.0f)
             _leftover = -std::numeric_limits<float>::epsilon();
@@ -211,7 +225,7 @@ public:
     }
     TimedJob & repeat(uint32_t v)
     {
-        CC_ASSERT(v <= FOREVER_BIT);
+        assert(v <= FOREVER_BIT);
         _repeat = ((_repeat & ~REPEAT_BITMASK) | v);
         return *this;
     }
@@ -287,7 +301,7 @@ public:
     }
     void setSpeedup(float speedup)
     {
-        CC_ASSERT(speedup > std::numeric_limits<float>::epsilon());
+        assert(speedup > std::numeric_limits<float>::epsilon());
         _speedup = speedup;
     }
 

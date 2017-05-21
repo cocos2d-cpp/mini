@@ -27,7 +27,7 @@ THE SOFTWARE.
 #include "2d/CCAction.h"
 #include "base/CCDirector.h"
 
-#include <string>
+#include <sstream>
 
 namespace cocos2d {
 //
@@ -49,7 +49,9 @@ Action::~Action()
 
 std::string Action::description() const
 {
-    return "Action | Tag = " + std::to_string(_tag);
+    std::ostringstream os;
+    os << "Action | Tag = " << _tag;
+    return os.str();
 }
 
 void Action::startWithTarget(Node *aTarget)

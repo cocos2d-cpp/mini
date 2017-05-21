@@ -44,15 +44,6 @@ namespace extension {
 /* Define the button margin for Top/Bottom edge */
 #define ControlButtonMarginTB 2 // px
 
-
-/**
- * @addtogroup GUI
- * @{
- * @addtogroup control_extension
- * @{
- */
-
-/** @class ControlButton Button control for Cocos2D. */
 class CC_DLL ControlButton : public Control
 {        
 public:

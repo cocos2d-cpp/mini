@@ -24,21 +24,20 @@
 # ****************************************************************************/
 
 cmake_minimum_required(VERSION 3.1)
+
 # It ensures that when Find*.cmake files included from cmake's Modules dir
 # include another *.cmake file with relative path, that file will be included
 # also from cmake's Modules dir, to not clash with per-project files.
 cmake_policy(SET CMP0017 NEW)
 
-# Use new behaviour with cmake >= 3.1:
+# Use new behaviour available starting from cmake-3.1
 # Only interpret if() arguments as variables or keywords when unquoted.
-if(CMAKE_VERSION VERSION_GREATER 3.1)
-    cmake_policy(SET CMP0054 NEW)
-endif()
+cmake_policy(SET CMP0054 NEW)
 
-project (Cocos2d-X)
+project (cocos2d-cpp)
 
 # The version number
-set(COCOS2D_X_VERSION 3.13)
+set(COCOS2D_CPP_VERSION 3.13)
 
 # define some variables
 

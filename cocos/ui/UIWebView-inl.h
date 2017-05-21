@@ -169,7 +169,7 @@ namespace experimental{
 
         void WebView::copySpecialProperties(const Widget* model)
         {
-            WebView* webView = dynamic_cast<WebView*>(model);
+            auto webView = dynamic_cast<const WebView*>(model);
             if (webView)
             {
                 this->_impl = webView->_impl;
