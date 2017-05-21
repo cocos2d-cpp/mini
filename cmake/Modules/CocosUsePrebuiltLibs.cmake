@@ -2,8 +2,6 @@
 
 # START CONFIG
 
-set(ssl libeay32 ssleay32 crypto)
-
 set(_freetype2_prefix FREETYPE)
 set(_freetype2_inc ft2build.h freetype/freetype.h)
 set(_freetype2_inc_paths freetype2)
